@@ -77,8 +77,14 @@ def getFeaturePoints(polygon, dmin, amax): #obtem os featurePoints do poligono
             distBC = math.dist(polygon.exterior.coords[k], polygon.exterior.coords[k+1]) #distancia Pi e Pi+
             distAC = math.dist(polygon.exterior.coords[k-1], polygon.exterior.coords[k+1]) #distancia Pi- e Pi+
         valueABC = (pow(distBC,2) + pow(distAB,2) - pow(distAC,2)) / (2*distBC*distAB)
+        
+        if valueABC < -1.0: #para os casos tipo 1.0000002
+            valueABC = -1.0
+
         angleABCc = math.acos(valueABC) #arccos para calculo do angulo alpha´
-        angleABC = math.degrees(angleABCc)
+        #fazer print dos angulos para ver se ha negativos
+        angleABC = math.degrees(angleABCc) #150 < angleABC < 360-angleABC
+        #|| angleABC >= 360-angleABC
         if (distBC >= dmin and distBC <= dmax) and (distAB >= dmin and distAB <= dmax) and (angleABC <= amax): #se o ponto preencher todos os requisitos
             arrFeaturePoints.append(polygon.exterior.coords[k]) #e adicionado ao array de feature point
         arrFeaturePointsWithoutDuplicates = []
@@ -181,14 +187,16 @@ def divide_line_segment_trg(start_point, end_point, num_parts, arrPts, arrC): #f
     return arrC
 
 def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, pontos pol trg, arr de correspondencias 
-    print("CORRESPONDENCE BETWEEN ONLY FEATURE POINTS")
-    print("TARGET POINTS")
-    for point in polSrc.exterior.coords:
-        print(point)
-    print("SOURCE POINTS")
-    for point in polTrg.exterior.coords:
-        print(point)
-        
+    #print("CORRESPONDENCE BETWEEN ONLY FEATURE POINTS")
+    #print("TARGET POINTS")
+    #for point in polSrc.exterior.coords:
+        #print(point)
+    #print("SOURCE POINTS")
+    #for point in polTrg.exterior.coords:
+        #print(point)
+    print("PTS SRC", len(polSrc.exterior.coords))
+    print("PTS TRG", len(polTrg.exterior.coords))
+
     s = ""
     for corr in arrCorrFP:
         s = s + str(corr) #para cada correspondencia, concatena na mesma string
@@ -216,10 +224,10 @@ def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, 
             arrCorrFPtmp.remove(arrCorrFP[i]) #remove essa correspondencia, e os pontos passam a ser tratados como pontos normais (e nao FP)
 
     arrCorrFP = arrCorrFPtmp.copy() #o array de correspondencias passa a ser o tmp
-    for corr in arrCorrFP:
-        print(corr)
-    print(len(polSrc.exterior.coords))
-    print(len(polTrg.exterior.coords))
+    #for corr in arrCorrFP:
+        #print(corr)
+    #print(len(polSrc.exterior.coords))
+    #print(len(polTrg.exterior.coords))
 
     arrCorrP = [] #array onde vao ficar as correspondencias entre pontos
     
@@ -353,13 +361,14 @@ def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, 
                             corrIdx = int(i * fct)
                             arrCorrP.append([arrSrc[corrIdx],s])
 
-    print("CORRESPONDENCE BETWEEN ALL POINTS")
-    for corr in arrCorrP:
-        print(corr)
+    #print("CORRESPONDENCE BETWEEN ALL POINTS")
+    #for corr in arrCorrP:
+        #print(corr)
 
     return arrCorrP    
 
 def renderCorrespondences(arrOfCorrespondences):
+    #print("ARR CORR: ", arrOfCorrespondences)
     fig1, ax1 = plt.subplots()
     arrOfPoints = [[] for _ in range(len(arrOfCorrespondences))] #arrOfPoints e' um array tridimensional (transicao entre poligonos -> correspondencias -> pontos )
     #print(arrOfCorrespondences)
@@ -372,25 +381,30 @@ def renderCorrespondences(arrOfCorrespondences):
             pointDist =  math.dist(ptSrc, ptTrg) #calcula a diferenca entre o ponto atual e o proximo
             arr.append(ptSrc) #adiciona o ponto source
             for k in range(1, 31): #divide a diferenca em 30 partes, para fazer a interpolacao
-                if pointDist > 0.0:
-                    coordX = ptSrc[0] + (k * (ptTrg[0] - ptSrc[0]) / 31)
-                    coordY = ptSrc[1] + (k * (ptTrg[1] - ptSrc[1]) / 31)
-                    arr.append((coordX, coordY)) #adiciona os pontos intermedios
+                #if pointDist >= 0.0:
+                coordX = ptSrc[0] + (k * (ptTrg[0] - ptSrc[0]) / 31)
+                coordY = ptSrc[1] + (k * (ptTrg[1] - ptSrc[1]) / 31)
+                arr.append((coordX, coordY)) #adiciona os pontos intermedios
             arr.append(ptTrg) #adiciona o ponto target
             arrOfPoints[i].append(arr) #cada conjunto de pontos e' uma posicao no arrOfPoints
-
+    
     arrOfPointsForPolygon = []
     arrOfPolygons = []
+    
     for k in range(len(arrOfPoints)): #para cada conjunto de pontos entre poligonos
-        for j in range(len(arrOfPoints[0][0])): #para cada conjunto de pontos intermedios (sempre 32)
+        for j in range(len(arrOfPoints[0][0])): #para cada conjunto de pontos intermedios (sempre 32) 
             arrOfPointsForPolygon = [] #reset do array a cada novo poligono
             for i in range(len(arrOfPoints[k])): #acede a mesma posicao para todos os conjuntos, e os pontos que ai estao vao formar um poligono
+                #print("k,i,j", k,i,j)
+                #print(arrOfPoints[k][i][j])
                 arrOfPointsForPolygon.append(arrOfPoints[k][i][j]) #acede ao ponto j, da correspondencia i, na relacao entre poligonos k
+                #esta a quebrar aqui, na transicao do t7 para o t8
             poly = Polygon([p[0], p[1]] for p in arrOfPointsForPolygon) #para cada conjunto de pontos cria um poligono
             arrOfPolygons.append(poly) #acrescenta a um array de poligonos'''
+    print(i)
     
     source = arrOfPolygons[0]
-    target = arrOfPolygons[32]
+    target = arrOfPolygons[31]
     xxOuterSrc,yyOuterSrc = source.exterior.xy
     xxOuterTrg,yyOuterTrg = target.exterior.xy
 
@@ -399,8 +413,8 @@ def renderCorrespondences(arrOfCorrespondences):
         plt.plot(xxOuterSrc, yyOuterSrc, color="green") #e mostra no grafico
         plt.plot(xxOuterTrg, yyOuterTrg, color="red") #e mostra no grafico
         polyGPDSimp = gpd.GeoSeries(polygon) #transforma em gpd
-        polyGPDSimp.plot(ax=ax1, color="blue", alpha=0.5) #e mostra no grafico
-        plt.pause(0.1) #durante meio segundo
+        polyGPDSimp.plot(ax=ax1, color="blue") #e mostra no grafico (nao precisa do alpha)
+        plt.pause(0.2) #durante meio segundo
         cnt+=1
         if cnt%32==0:
             xxOuterSrc=xxOuterTrg
@@ -410,17 +424,35 @@ def renderCorrespondences(arrOfCorrespondences):
             else:
                 target = arrOfPolygons[-1]
             xxOuterTrg,yyOuterTrg = target.exterior.xy
-            plt.pause(1.1) #durante meio segundo
-            plt.clf() #apaga
-            ax1 = plt.gca()
-            
-    #plt.show()
+            plt.pause(1.2) #durante meio segundo
+        plt.clf() #apaga
+        ax1 = plt.gca() #para evitar o arrasto da imagem
 
+    '''
+    source = arrOfPolygons[0]
+    target = arrOfPolygons[31]
+
+    cnt=0    
+    for x, y in source.exterior.coords:
+        plt.scatter(x, y, color='green')
+
+    for x, y in target.exterior.coords:
+        plt.scatter(x, y, color='red')
+
+    source=target
+    print("ct#",cnt)
+    for corr in arrOfCorrespondences[0]:
+        line = sg.LineString(corr)
+        plt.plot(*line.xy, color="blue", alpha=0.5)
+    plt.show()
+    '''
 
 arrPontos = []
 #wktFiles = ["0.wkt", "1.wkt", "2.wkt","3.wkt","4.wkt","5.wkt","6.wkt","7.wkt","8.wkt","9.wkt"] #nao da pra testar por ter demasiados pontos e a distancia entre eles ser demasiado curta (1.0)
-wktFiles = ["simp0 (1).wkt","simp0 (2).wkt","simp0 (3).wkt","simp0 (4).wkt","simp0 (5).wkt","simp0 (6).wkt","simp0 (7).wkt","simp0 (8).wkt","simp0 (9).wkt"]
+#wktFiles = ["simp0 (1).wkt","simp0 (2).wkt","simp0 (3).wkt","simp0 (4).wkt","simp0 (5).wkt","simp0 (6).wkt","simp0 (7).wkt","simp0 (8).wkt","simp0 (9).wkt"]
 #wktFiles = ["test1.wkt", "test2.wkt", "test3.wkt"]
+wktFiles = ["t1.wkt","t2.wkt"]
+#wktFiles = ["t1.wkt","t2.wkt","t3.wkt","t4.wkt","t5.wkt","t6.wkt","t7.wkt","t8.wkt","t9.wkt","t10.wkt","t11.wkt","t12.wkt","t13.wkt"]
 
 arrRosSource = []
 arrRolSource = []
@@ -433,7 +465,13 @@ arrFPObjSource = []
 arrFPObjTarget = []
 correspondences = []
 correspondencesBetweenAllPoints = [] #correspondencias entre todos os pontos, nao so feature points
+minimoni = 12345678891
 
+# Open file for writing
+#f=open('output1_2b.txt', 'w')
+#for distancia in range(5,50, 5): #valores da distancia minima 
+#    for angulo in range(20,150, 5): #values do angulo 
+        #print("Distancia = ", distancia, "; angulo = ", angulo)
 for file in wktFiles:
     readWKT(file) #popula o array de poligonos (arrPolyWKT)
 
@@ -441,19 +479,9 @@ for pol in range(len(arrPolyWKT)-1):
     #print("########################################novo poligono")
     arrFPObjSource = [] #a cada poligono os feature points sao resetados
     arrFPObjTarget = []
-    featurePointsSource = getFeaturePoints(arrPolyWKT[pol], 10, 160) #array de feature points do poligono origem (5,180) para poligonos grandes
+    featurePointsSource = getFeaturePoints(arrPolyWKT[pol], 7, 100) #array de feature points do poligono origem (5,180) para poligonos grandes
     #print(featurePointsSource)
-    featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], 10, 160) #array de feature points do poligono destino
-    #apenas para efeitos de mostragem
-    '''arrPolyGPD[pol].plot(color="blue")
-    polyFP = Polygon([p[0], p[1]] for p in featurePointsSource)
-    polyFPs = gpd.GeoSeries(polyFP)
-    polyFPs.plot(color="red")
-    if pol == len(arrPolyWKT)-2:
-        #arrPolyGPD[pol+1].plot(color="blue")
-        polyFP = Polygon([p[0], p[1]] for p in featurePointsTarget)
-        polyFPt = gpd.GeoSeries(polyFP)
-        polyFPt.plot(color="red")'''
+    featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], 7, 100) #array de feature points do poligono destino
     
     maxi = 0
     mini = 123445612456
@@ -542,11 +570,21 @@ for pol in range(len(arrPolyWKT)-1):
     #print("correspondencesBetweenAllPoints",correspondencesBetweenAllPoints)
     #correspondences.append(pc1.getFPCorrespondences(3)) #acrescenta a correspondencia ao array de correspondencias, onde cada posicao e' um conjunto de correspondencias
     correspondences.append(correspondencesBetweenAllPoints)
-#for i in range(len(correspondences)):
-#    print("---------------------------------------------------")
-#    for j in range(len(correspondences[i])):
-#       print(correspondences[i][j])
+
+totalDistEntrePols = 0
+
+for i in range(len(correspondences)):
+    #print("NUMBER OF CORRS:", correspondences[i])
+    #print("---------------------------------------------------")
+    for j in range(len(correspondences[i])):
+        #print(correspondences[i][j])
+        totalDistEntrePols = totalDistEntrePols+math.dist(correspondences[i][j][0], correspondences[i][j][1])
+if totalDistEntrePols < minimoni:
+    minimoni = totalDistEntrePols
     
+        #f.write(f"min dist: {distancia} max angle: {angulo} and dist total: {totalDistEntrePols}\n")
+        #f.flush()
+#f.write(f"MINIMO: {minimoni}")
 renderCorrespondences(correspondences) #chama a funcao para mostrar a evolucao dos poligonos 
 
 
@@ -561,6 +599,5 @@ for pt in arrPontos:
     pt.plot(ax=ax1, color="red")
 
 for pol in arrPolyGPD:
-    pol.plot(color="blue")'''
-
-#plt.show()
+    pol.plot(color="blue")
+plt.show()'''

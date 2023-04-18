@@ -1,0 +1,3 @@
+min dist: 7 max angle: 150 and dist total: 103975.34161899294
+min dist: 7 max angle: 155 and dist total: 173118.19733964547
+min dist: 7 max angle: 160 and dist total: 239648.3527787004

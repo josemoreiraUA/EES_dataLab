@@ -23,6 +23,7 @@ class PolygonCorrespondence:
             self.discardCostTarget.append(arrFeaturePointsTarget[j].discardCost(featVariation, featSideVariation, featSizeVariation))
 
     def getFPCorrespondences(self, skips):
+        print("__----------------")
         min = 123456789
         correspondences = []
 
@@ -42,7 +43,7 @@ class PolygonCorrespondence:
                     correspondences = tmp #o tmp passa a ser a solucao
                 #print("total iter: ", total)
         #print("minimo: ", min) #menor custo da iteracao
-        
+
         #for i in range(len(correspondences)):
             #print("DENTRO DA CLASSE: ", correspondences[i]) #if i - i+1 > 1 => i+1 = i
 

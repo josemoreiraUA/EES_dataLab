@@ -1,0 +1,11 @@
+min dist: 5 max angle: 100 and dist total: 12414.006002406782
+min dist: 5 max angle: 105 and dist total: 49656.024009627086
+min dist: 5 max angle: 110 and dist total: 49656.024009627086
+min dist: 5 max angle: 115 and dist total: 298106.2535048322
+min dist: 5 max angle: 120 and dist total: 445367.1522398548
+min dist: 5 max angle: 125 and dist total: 618346.8411750966
+min dist: 5 max angle: 130 and dist total: 891228.4751046635
+min dist: 5 max angle: 135 and dist total: 1067189.2996959004
+min dist: 5 max angle: 140 and dist total: 1266905.0343779833
+min dist: 5 max angle: 145 and dist total: 1539935.429286081
+min dist: 5 max angle: 150 and dist total: 2109069.3317046147
