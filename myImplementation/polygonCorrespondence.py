@@ -23,7 +23,6 @@ class PolygonCorrespondence:
             self.discardCostTarget.append(arrFeaturePointsTarget[j].discardCost(featVariation, featSideVariation, featSizeVariation))
 
     def getFPCorrespondences(self, skips):
-        print("__----------------")
         min = 123456789
         correspondences = []
 

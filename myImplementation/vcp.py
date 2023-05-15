@@ -11,6 +11,7 @@ from ros import Ros
 from featurepoint import FeaturePoint
 from polygonCorrespondence import PolygonCorrespondence
 import re
+import time
 
 #variaveis globais
 arrPolyWKT = [] #array com os poligonos wkt
@@ -401,7 +402,7 @@ def renderCorrespondences(arrOfCorrespondences):
                 #esta a quebrar aqui, na transicao do t7 para o t8
             poly = Polygon([p[0], p[1]] for p in arrOfPointsForPolygon) #para cada conjunto de pontos cria um poligono
             arrOfPolygons.append(poly) #acrescenta a um array de poligonos'''
-    print(i)
+    #print(i)
     
     source = arrOfPolygons[0]
     target = arrOfPolygons[31]
@@ -428,7 +429,7 @@ def renderCorrespondences(arrOfCorrespondences):
         plt.clf() #apaga
         ax1 = plt.gca() #para evitar o arrasto da imagem
 
-    '''
+    
     source = arrOfPolygons[0]
     target = arrOfPolygons[31]
 
@@ -440,163 +441,283 @@ def renderCorrespondences(arrOfCorrespondences):
         plt.scatter(x, y, color='red')
 
     source=target
-    print("ct#",cnt)
     for corr in arrOfCorrespondences[0]:
         line = sg.LineString(corr)
         plt.plot(*line.xy, color="blue", alpha=0.5)
     plt.show()
-    '''
+
+def getJaccardIndex(source, target, correspondences):
+    
+    middlePoints = [] #pontos do poligono medio
+    jaccardIndex=0
+    if(len(correspondences)==0): #se nao houver correspondencias acaba (para quando nao faz o catch do zerodivisionerror)
+       jaccardIndex = 0
+       return jaccardIndex
+    
+    for j in range(len(correspondences)): #para cada correspondencia
+        ptSrc = correspondences[j][0]
+        ptTrg = correspondences[j][1]
+        coordX = ptSrc[0] + ((ptTrg[0] - ptSrc[0]) / 2) #calcula o ponto medio
+        coordY = ptSrc[1] + ((ptTrg[1] - ptSrc[1]) / 2)
+        middlePoints.append((coordX, coordY)) #e coloca no array 
+    midPoly = Polygon([p[0], p[1]] for p in middlePoints)
+
+    #para evitar erros de topologia nos poligonos mal formados
+    #se calhar devia fazer-se um try except a passar estes a' frente
+    if(not source.is_valid):
+        source = source.buffer(0)
+    elif(not target.is_valid):
+        target = target.buffer(0)
+    elif(not midPoly.is_valid):
+        midPoly = midPoly.buffer(0)
+
+    #calculo do jaccard index do source para o middle
+    intersectionSM = source.intersection(midPoly).area
+    unionSM = unary_union([source, midPoly]).area
+    jaccardIndexSM = intersectionSM/unionSM
+    #print(jaccardIndexSM)
+
+    #calculo do jaccard index do middle para o target
+    intersectionMT = midPoly.intersection(target).area
+    unionMT = unary_union([midPoly, target]).area
+    jaccardIndexMT = intersectionMT/unionMT
+    #print(jaccardIndexMT)
+    
+    jaccardIndex = (jaccardIndexSM + jaccardIndexMT) / 2
+    print(jaccardIndex)
+
+    #sempre a dar 0...
+    return jaccardIndex
+
+def getHaussdorfDist(source, target, correspondences):
+    
+    middlePoints = [] #pontos do poligono medio
+    if(len(correspondences)==0): #se nao houver correspondencias acaba (para quando nao faz o catch do zerodivisionerror)
+       haussdorfDist = 1243435233423232
+       return haussdorfDist
+    
+    for j in range(len(correspondences)): #para cada correspondencia
+        ptSrc = correspondences[j][0]
+        ptTrg = correspondences[j][1]
+        coordX = ptSrc[0] + ((ptTrg[0] - ptSrc[0]) / 2) #calcula o ponto medio
+        coordY = ptSrc[1] + ((ptTrg[1] - ptSrc[1]) / 2)
+        middlePoints.append((coordX, coordY)) #e coloca no array 
+    midPoly = Polygon([p[0], p[1]] for p in middlePoints)
+
+    #calculo do haussdorf index do source para o middle
+    hausdorff_distanceSM = source.hausdorff_distance(midPoly)
+    #print(hausdorff_distanceSM)
+
+    #calculo do haussdorf index do middle para o target
+    hausdorff_distanceMT = midPoly.hausdorff_distance(target)
+    #print(hausdorff_distanceMT)
+    
+    haussdorfDist = (hausdorff_distanceSM + hausdorff_distanceMT) / 2
+    print(haussdorfDist)
+
+    #sempre a dar 0...
+    return haussdorfDist
 
 arrPontos = []
 #wktFiles = ["0.wkt", "1.wkt", "2.wkt","3.wkt","4.wkt","5.wkt","6.wkt","7.wkt","8.wkt","9.wkt"] #nao da pra testar por ter demasiados pontos e a distancia entre eles ser demasiado curta (1.0)
 #wktFiles = ["simp0 (1).wkt","simp0 (2).wkt","simp0 (3).wkt","simp0 (4).wkt","simp0 (5).wkt","simp0 (6).wkt","simp0 (7).wkt","simp0 (8).wkt","simp0 (9).wkt"]
 #wktFiles = ["test1.wkt", "test2.wkt", "test3.wkt"]
-wktFiles = ["t1.wkt","t2.wkt"]
-#wktFiles = ["t1.wkt","t2.wkt","t3.wkt","t4.wkt","t5.wkt","t6.wkt","t7.wkt","t8.wkt","t9.wkt","t10.wkt","t11.wkt","t12.wkt","t13.wkt"]
-
-arrRosSource = []
-arrRolSource = []
-arrRorSource = []
-arrRosTarget = []
-arrRolTarget = []
-arrRorTarget = []
-rosPoints = []
-arrFPObjSource = []
-arrFPObjTarget = []
+#wktFiles = ["t1.wkt","t2.wkt","t3.wkt","t4.wkt","t5.wkt","t6.wkt","t7.wkt","t8.wkt","t9.wkt","t10.wkt","t11.wkt"]
+#wktFiles = ["t1.wkt","t2.wkt"]
+wktFiles = ["t1.wkt","t2.wkt","t3.wkt","t4.wkt","t5.wkt","t6.wkt","t7.wkt","t8.wkt","t9.wkt","t10.wkt","t11.wkt","t12.wkt","t13.wkt"]
+valuesTiago=[]
+#valuesTiagoOlho = [[3,130],[10,160],[5,140],[10,170],[5,130],[1,150],[2,160],[10,170],[1,130],[5,150],[],[1,120]]
+#valuesTiagoNmCorr = [[10, 140], [10, 160], [7, 120], [5, 160], [9, 170], [8, 170], [2, 160], [10, 180], [10, 180], [10, 180], [10, 160], [1, 120]]
+#valuesTiagoHaussdorf = [[6, 140], [5, 180], [1, 130], [3, 180], [10, 170], [1, 150], [8, 170], [1, 150], [5, 160], [9, 180]]
+#valuesTiagoJaccard = [[8, 140], [10, 160], [5, 160], [5, 160], [5, 140], [7, 170], [2, 160], [10, 170], [10, 180], [10, 180], [3, 180],[1,120]]
 correspondences = []
 correspondencesBetweenAllPoints = [] #correspondencias entre todos os pontos, nao so feature points
-minimoni = 12345678891
+jaccard = 0 #jaccard index medio entre S->M e M->T
 
-# Open file for writing
-#f=open('output1_2b.txt', 'w')
-#for distancia in range(5,50, 5): #valores da distancia minima 
-#    for angulo in range(20,150, 5): #values do angulo 
-        #print("Distancia = ", distancia, "; angulo = ", angulo)
 for file in wktFiles:
     readWKT(file) #popula o array de poligonos (arrPolyWKT)
 
-for pol in range(len(arrPolyWKT)-1):
-    #print("########################################novo poligono")
-    arrFPObjSource = [] #a cada poligono os feature points sao resetados
-    arrFPObjTarget = []
-    featurePointsSource = getFeaturePoints(arrPolyWKT[pol], 7, 100) #array de feature points do poligono origem (5,180) para poligonos grandes
-    #print(featurePointsSource)
-    featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], 7, 100) #array de feature points do poligono destino
-    
-    maxi = 0
-    mini = 123445612456
+f=open('resultadosJaccardTie.txt', 'w')
+for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
+    minJaccard = 0
+    #outer_loop: #label para passar ao proximo angulo quando ja encontramos a dist min para o angulo atual   
+    for angulo in range(120,181,10): #testa para valores de ang  
+        for distancia in range(1,11): #e de dist
 
-    for i in range(len(featurePointsSource)):
-        ros, rol, ror = getROS(featurePointsSource, i) #calcula as regions do ponto
-        regOfSupport = Ros(ros, featurePointsSource[i],arrPolyWKT[pol]) #cria um objeto ROS
-        featPoint = FeaturePoint(featurePointsSource[i],arrPolyWKT[pol], ros, rol, ror) #cria um objeto FP
+            f.write(f"pol: {pol}, ang: {angulo}, dist: {distancia} \n")
 
-        if i == len(featurePointsSource)-1:
-            valueR = math.dist(featurePointsSource[i], featurePointsSource[0])
-        else:
-            valueR = math.dist(featurePointsSource[i], featurePointsSource[i+1])
-            
-        if valueR > maxi:
-            maxi = valueR
-        if valueR < mini:
-            mini = valueR
+            try:
+                arrFPObjSource = [] #a cada poligono os feature points sao resetados
+                arrFPObjTarget = []
+                correspondences = []
 
-        featPoint.rorSize = valueR
+                if((angulo==170 or angulo==180) and distancia<3):
+                    f.write(f"Too many values\n")
+                    continue
 
-        if i == 0:
-            valueL = math.dist(featurePointsSource[i], featurePointsSource[len(featurePointsSource)-1])
-        else:
-            valueL = math.dist(featurePointsSource[i], featurePointsSource[i-1])
+                start_time = time.time()
+                #featurePointsSource = getFeaturePoints(arrPolyWKT[pol], valuesTiago[pol][0], valuesTiago[pol][1]) #array de feature points do poligono origem (5,180) para poligonos grandes 
+                featurePointsSource = getFeaturePoints(arrPolyWKT[pol], distancia, angulo)
+                #featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], valuesTiago[pol][0], valuesTiago[pol][1]) #array de feature points do poligono destino
+                featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], distancia, angulo)
 
-        if valueL > maxi:
-            maxi = valueL
-        if valueL < mini:
-            mini = valueL
+                if time.time() - start_time > 120: #se demorar mais de 2 minutos a calcular correspondencias pode passar ao proximo par de valores (deve passar ao prox ang)
+                    f.write(f"to many feature points after feature points. skipping to next cycle \n")
+                    continue
 
-        featPoint.rolSize = valueL
-        arrFPObjSource.append(featPoint) #adiciona o FP ao array de objetos FP
+                maxi = 0
+                mini = 123445612456
 
-    maxiTarget = 0
-    miniTarget = 123445612456
+                for i in range(len(featurePointsSource)):
+                    ros, rol, ror = getROS(featurePointsSource, i) #calcula as regions do ponto
+                    regOfSupport = Ros(ros, featurePointsSource[i],arrPolyWKT[pol]) #cria um objeto ROS
+                    featPoint = FeaturePoint(featurePointsSource[i],arrPolyWKT[pol], ros, rol, ror) #cria um objeto FP
 
-    for i in range(len(featurePointsTarget)):
-        ros, rol, ror = getROS(featurePointsTarget, i)
-        regOfSupport = Ros(ros, featurePointsTarget[i],arrPolyWKT[pol+1])
-        featPoint = FeaturePoint(featurePointsTarget[i],arrPolyWKT[pol+1], ros, rol, ror)
+                    if i == len(featurePointsSource)-1:
+                        valueR = math.dist(featurePointsSource[i], featurePointsSource[0])
+                    else:
+                        valueR = math.dist(featurePointsSource[i], featurePointsSource[i+1])
+                        
+                    if valueR > maxi:
+                        maxi = valueR
+                    if valueR < mini:
+                        mini = valueR
 
-        if i == len(featurePointsTarget)-1:
-            valueR = math.dist(featurePointsTarget[i], featurePointsTarget[0])
-        else:
-            valueR = math.dist(featurePointsTarget[i], featurePointsTarget[i+1])
-            
-        if valueR > maxiTarget:
-            maxiTarget = valueR
-        if valueR < miniTarget:
-            miniTarget = valueR
+                    featPoint.rorSize = valueR
 
-        featPoint.rorSize = valueR
+                    if i == 0:
+                        valueL = math.dist(featurePointsSource[i], featurePointsSource[len(featurePointsSource)-1])
+                    else:
+                        valueL = math.dist(featurePointsSource[i], featurePointsSource[i-1])
 
-        if i == 0:
-            valueL = math.dist(featurePointsTarget[i], featurePointsTarget[len(featurePointsTarget)-1])
-        else:
-            valueL = math.dist(featurePointsTarget[i], featurePointsTarget[i-1])
+                    if valueL > maxi:
+                        maxi = valueL
+                    if valueL < mini:
+                        mini = valueL
 
-        if valueL > maxiTarget:
-            maxiTarget = valueL
-        if valueL < miniTarget:
-            miniTarget = valueL
+                    featPoint.rolSize = valueL
+                    arrFPObjSource.append(featPoint) #adiciona o FP ao array de objetos FP
 
-        featPoint.rolSize = valueL
-        arrFPObjTarget.append(featPoint) #adiciona o FP ao array de objetos FP
-    
-    #o fp.featSize por vezes da negativo porque o mini > valueRouL
-    for fp in arrFPObjSource: #calcula as features de cada FP do source
-        fp.rolSizeNorm = (fp.rolSize-mini) / (maxi - mini)
-        fp.rorSizeNorm = (fp.rorSize-mini) / (maxi - mini)
-        fp.getFeatures(fp.ros, arrPolyWKT[pol].length)
-        #VAR [-1,1] SIDE [0,1] SIZE [,]
-        #print("VARIATION SIDE SIZE  SRC: ", fp.featVariation, fp.featSideVariation, fp.featSize)
+                maxiTarget = 0
+                miniTarget = 123445612456
 
-    for fp in arrFPObjTarget: #calcula as features de cada FP do target
-        fp.rolSizeNorm = (fp.rolSize-miniTarget) / (maxiTarget - miniTarget)
-        fp.rorSizeNorm = (fp.rorSize-miniTarget) / (maxiTarget - miniTarget)
-        fp.getFeatures(fp.ros, arrPolyWKT[pol+1].length)
-        #print("VARIATION SIDE SIZE  TRG: ", fp.featVariation, fp.featSideVariation, fp.featSize)
+                for i in range(len(featurePointsTarget)):
+                    ros, rol, ror = getROS(featurePointsTarget, i)
+                    regOfSupport = Ros(ros, featurePointsTarget[i],arrPolyWKT[pol+1])
+                    featPoint = FeaturePoint(featurePointsTarget[i],arrPolyWKT[pol+1], ros, rol, ror)
 
-    #calcula as correspondencias entre cada FP do poligono atual e do seguinte
-    # compute correspondences
-    pc1 = PolygonCorrespondence(arrFPObjSource, arrFPObjTarget, .3, .3, .4, 1)
-    correspondencesBetweenAllPoints = getIntermediateCorrespondences(arrPolyWKT[pol], arrPolyWKT[pol+1], pc1.getFPCorrespondences(3))
-    #print("correspondencesBetweenAllPoints",correspondencesBetweenAllPoints)
-    #correspondences.append(pc1.getFPCorrespondences(3)) #acrescenta a correspondencia ao array de correspondencias, onde cada posicao e' um conjunto de correspondencias
-    correspondences.append(correspondencesBetweenAllPoints)
+                    if i == len(featurePointsTarget)-1:
+                        valueR = math.dist(featurePointsTarget[i], featurePointsTarget[0])
+                    else:
+                        valueR = math.dist(featurePointsTarget[i], featurePointsTarget[i+1])
+                        
+                    if valueR > maxiTarget:
+                        maxiTarget = valueR
+                    if valueR < miniTarget:
+                        miniTarget = valueR
 
-totalDistEntrePols = 0
+                    featPoint.rorSize = valueR
 
-for i in range(len(correspondences)):
-    #print("NUMBER OF CORRS:", correspondences[i])
-    #print("---------------------------------------------------")
-    for j in range(len(correspondences[i])):
-        #print(correspondences[i][j])
-        totalDistEntrePols = totalDistEntrePols+math.dist(correspondences[i][j][0], correspondences[i][j][1])
-if totalDistEntrePols < minimoni:
-    minimoni = totalDistEntrePols
-    
-        #f.write(f"min dist: {distancia} max angle: {angulo} and dist total: {totalDistEntrePols}\n")
-        #f.flush()
-#f.write(f"MINIMO: {minimoni}")
-renderCorrespondences(correspondences) #chama a funcao para mostrar a evolucao dos poligonos 
+                    if i == 0:
+                        valueL = math.dist(featurePointsTarget[i], featurePointsTarget[len(featurePointsTarget)-1])
+                    else:
+                        valueL = math.dist(featurePointsTarget[i], featurePointsTarget[i-1])
 
+                    if valueL > maxiTarget:
+                        maxiTarget = valueL
+                    if valueL < miniTarget:
+                        miniTarget = valueL
 
-'''fig1, ax1 = plt.subplots()
-ax1.title.set_text('Poligonos')
+                    featPoint.rolSize = valueL
+                    arrFPObjTarget.append(featPoint) #adiciona o FP ao array de objetos FP
+                
+                #o fp.featSize por vezes da negativo porque o mini > valueRouL
+                for fp in arrFPObjSource: #calcula as features de cada FP do source
+                    fp.rolSizeNorm = (fp.rolSize-mini) / (maxi - mini)
+                    fp.rorSizeNorm = (fp.rorSize-mini) / (maxi - mini)
+                    fp.getFeatures(fp.ros, arrPolyWKT[pol].length)
 
+                for fp in arrFPObjTarget: #calcula as features de cada FP do target
+                    fp.rolSizeNorm = (fp.rolSize-miniTarget) / (maxiTarget - miniTarget)
+                    fp.rorSizeNorm = (fp.rorSize-miniTarget) / (maxiTarget - miniTarget)
+                    fp.getFeatures(fp.ros, arrPolyWKT[pol+1].length)
+                
+                if time.time() - start_time > 120: #se demorar mais de 2 minutos a calcular correspondencias pode passar ao proximo par de valores (deve passar ao prox ang)
+                    f.write(f"to many feature points after correspondences. skipping to next cycle \n")
+                    continue
+
+                #calcula as correspondencias entre cada FP do poligono atual e do seguinte
+                # compute correspondences
+                pc1 = PolygonCorrespondence(arrFPObjSource, arrFPObjTarget, .3, .3, .4, 1)
+                correspondencesBetweenAllPoints = getIntermediateCorrespondences(arrPolyWKT[pol], arrPolyWKT[pol+1], pc1.getFPCorrespondences(3))
+                correspondences.append(correspondencesBetweenAllPoints)
+
+            except ZeroDivisionError:
+                f.write(f"Not enough feature points. Skipping to next cycle.\n")
+                continue  # Skip to next cycle
+            except IndexError:
+                f.write(f"Not enough feature points. Skipping to next cycle.\n")
+                continue  # Skip to next cycle
+
+            totalDistEntrePols = 0 #dist entre correspondencias
+            numCorr=0 #numero de correspondencias
+            minNumCorr= 1234567890 #minimo numero de correspondencias
+            #for i in range(len(correspondences[pol])):
+            try:
+                numFP = (len(arrFPObjSource) + len(arrFPObjTarget))/2 #num medio de fp's
+                jaccard = getJaccardIndex(arrPolyWKT[pol], arrPolyWKT[pol+1], correspondences[0])
+                #haussdorf = getHaussdorfDist(arrPolyWKT[pol], arrPolyWKT[pol+1], correspondences[0])
+                for j in range(len(correspondences[0])): #soma das correspondencias entre os 2 poligonos atuais
+                    numCorr=numCorr+1
+                    totalDistEntrePols = totalDistEntrePols+math.dist(correspondences[0][j][0], correspondences[0][j][1])
+
+                #if totalDistEntrePols/numFP < minimoni and numCorr>0:
+                #if haussdorf < minimoni and numCorr>0:
+                    #minimoni = haussdorf
+                    #distFinal=distancia
+                    #angFinal=angulo
+                if jaccard > minJaccard: #se o jaccard for menor que o minimo jaccard anterior
+                    if (jaccard-minJaccard < 0.1): #se a diferença for ao nível das centesimas, entao verifica o numCorr
+                        if numCorr/numFP < minNumCorr: #se o valor por correspondencia deste jaccard for menor que o anterior
+                            minJaccard=jaccard #o jaccard passa a ser o novo minimo
+                            minNumCorr = numCorr/numFP
+                            distFinal=distancia
+                            angFinal=angulo
+                        else: 
+                            minJaccard=minJaccard #o minimo jaccard anterior continua a ser o minimo
+                    else:
+                        minJaccard = jaccard #o jaccard passa a ser o novo minimo
+                        minNumCorr = numCorr/numFP #o valor medio por correspondencia passa a ser o novo minimo
+                        distFinal=distancia
+                        angFinal=angulo
+
+                    f.write(f"min dist: {distancia} max angle: {angulo} valor medio por corr: {minNumCorr} jaccard: {minJaccard} \n")
+                #f.write(f"disTotal: {totalDistEntrePols} / numFP: {numFP} = minimo: {minimoni} \n")
+                f.flush()
+            except ZeroDivisionError:
+                f.write(f"Not enough correspondences. Skipping to next cycle. \n")
+
+    valuesTiago.append([distFinal,angFinal])
+    f.write(f"values: {valuesTiago}\n")
+    f.write(f"--------------- NEW POLYGON ---------------\n")
+#renderCorrespondences(correspondences) #chama a funcao para mostrar a evolucao dos poligonos 
+
+'''fig1, ax10 = plt.subplots()
+ax10.title.set_text('Poligonos')
+arrPontosSrc=[]
+arrPontosTrg=[]
 for point in featurePointsSource:
     ponto = Point(point[0], point[1])
-    arrPontos.append(gpd.GeoSeries(ponto))
+    arrPontosSrc.append(gpd.GeoSeries(ponto))
+for point in featurePointsTarget:
+    ponto = Point(point[0], point[1])
+    arrPontosTrg.append(gpd.GeoSeries(ponto))
 
-for pt in arrPontos:
-    pt.plot(ax=ax1, color="red")
+for pt in arrPontosSrc:
+    pt.plot(ax=ax10, color="green")
+
+for pt in arrPontosTrg:
+    pt.plot(ax=ax10, color="red")
 
 for pol in arrPolyGPD:
     pol.plot(color="blue")

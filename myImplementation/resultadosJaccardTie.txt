@@ -1,0 +1,614 @@
+pol: 0, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 15.368421052631579 jaccard: 0.7902596261162097 
+pol: 0, ang: 120, dist: 2 
+pol: 0, ang: 120, dist: 3 
+pol: 0, ang: 120, dist: 4 
+min dist: 4 max angle: 120 valor medio por corr: 15.222222222222221 jaccard: 0.8973147024103041 
+pol: 0, ang: 120, dist: 5 
+pol: 0, ang: 120, dist: 6 
+pol: 0, ang: 120, dist: 7 
+pol: 0, ang: 120, dist: 8 
+pol: 0, ang: 120, dist: 9 
+pol: 0, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 130, dist: 2 
+min dist: 2 max angle: 130 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 130, dist: 3 
+min dist: 3 max angle: 130 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 130, dist: 4 
+pol: 0, ang: 130, dist: 5 
+pol: 0, ang: 130, dist: 6 
+pol: 0, ang: 130, dist: 7 
+pol: 0, ang: 130, dist: 8 
+min dist: 8 max angle: 130 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 130, dist: 9 
+pol: 0, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 140, dist: 2 
+min dist: 2 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 140, dist: 3 
+min dist: 3 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 140, dist: 4 
+min dist: 4 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 140, dist: 5 
+min dist: 5 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 140, dist: 6 
+pol: 0, ang: 140, dist: 7 
+min dist: 7 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 140, dist: 8 
+min dist: 8 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 140, dist: 9 
+pol: 0, ang: 140, dist: 10 
+min dist: 10 max angle: 140 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 150, dist: 1 
+pol: 0, ang: 150, dist: 2 
+pol: 0, ang: 150, dist: 3 
+pol: 0, ang: 150, dist: 4 
+pol: 0, ang: 150, dist: 5 
+pol: 0, ang: 150, dist: 6 
+pol: 0, ang: 150, dist: 7 
+pol: 0, ang: 150, dist: 8 
+pol: 0, ang: 150, dist: 9 
+pol: 0, ang: 150, dist: 10 
+pol: 0, ang: 160, dist: 1 
+min dist: 1 max angle: 160 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 160, dist: 2 
+min dist: 2 max angle: 160 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 160, dist: 3 
+min dist: 3 max angle: 160 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 160, dist: 4 
+pol: 0, ang: 160, dist: 5 
+min dist: 5 max angle: 160 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 160, dist: 6 
+min dist: 6 max angle: 160 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 160, dist: 7 
+min dist: 7 max angle: 160 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 160, dist: 8 
+min dist: 8 max angle: 160 valor medio por corr: 0 jaccard: 0.8973147024103041 
+pol: 0, ang: 160, dist: 9 
+pol: 0, ang: 160, dist: 10 
+pol: 0, ang: 170, dist: 1 
+Too many values
+pol: 0, ang: 170, dist: 2 
+Too many values
+pol: 0, ang: 170, dist: 3 
+pol: 0, ang: 170, dist: 4 
+pol: 0, ang: 170, dist: 5 
+pol: 0, ang: 170, dist: 6 
+pol: 0, ang: 170, dist: 7 
+pol: 0, ang: 170, dist: 8 
+pol: 0, ang: 170, dist: 9 
+pol: 0, ang: 170, dist: 10 
+pol: 0, ang: 180, dist: 1 
+Too many values
+pol: 0, ang: 180, dist: 2 
+Too many values
+pol: 0, ang: 180, dist: 3 
+pol: 0, ang: 180, dist: 4 
+pol: 0, ang: 180, dist: 5 
+pol: 0, ang: 180, dist: 6 
+pol: 0, ang: 180, dist: 7 
+pol: 0, ang: 180, dist: 8 
+pol: 0, ang: 180, dist: 9 
+pol: 0, ang: 180, dist: 10 
+values: [[4, 120]]
+--------------- NEW POLYGON ---------------
+pol: 1, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 21.875 jaccard: 0.785734542144777 
+pol: 1, ang: 120, dist: 2 
+pol: 1, ang: 120, dist: 3 
+pol: 1, ang: 120, dist: 4 
+pol: 1, ang: 120, dist: 5 
+pol: 1, ang: 120, dist: 6 
+pol: 1, ang: 120, dist: 7 
+pol: 1, ang: 120, dist: 8 
+pol: 1, ang: 120, dist: 9 
+pol: 1, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 130, dist: 2 
+min dist: 2 max angle: 130 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 130, dist: 3 
+min dist: 3 max angle: 130 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 130, dist: 4 
+min dist: 4 max angle: 130 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 130, dist: 5 
+min dist: 5 max angle: 130 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 130, dist: 6 
+min dist: 6 max angle: 130 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 130, dist: 7 
+pol: 1, ang: 130, dist: 8 
+pol: 1, ang: 130, dist: 9 
+min dist: 9 max angle: 130 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 1 
+pol: 1, ang: 140, dist: 2 
+pol: 1, ang: 140, dist: 3 
+pol: 1, ang: 140, dist: 4 
+min dist: 4 max angle: 140 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 140, dist: 5 
+min dist: 5 max angle: 140 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 140, dist: 6 
+min dist: 6 max angle: 140 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 140, dist: 7 
+pol: 1, ang: 140, dist: 8 
+pol: 1, ang: 140, dist: 9 
+pol: 1, ang: 140, dist: 10 
+pol: 1, ang: 150, dist: 1 
+min dist: 1 max angle: 150 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 150, dist: 2 
+min dist: 2 max angle: 150 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 150, dist: 3 
+min dist: 3 max angle: 150 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 150, dist: 4 
+min dist: 4 max angle: 150 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 150, dist: 5 
+min dist: 5 max angle: 150 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 150, dist: 6 
+min dist: 6 max angle: 150 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 150, dist: 7 
+min dist: 7 max angle: 150 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 150, dist: 8 
+pol: 1, ang: 150, dist: 9 
+pol: 1, ang: 150, dist: 10 
+pol: 1, ang: 160, dist: 1 
+min dist: 1 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 2 
+min dist: 2 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 3 
+min dist: 3 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 4 
+min dist: 4 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 5 
+min dist: 5 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 6 
+min dist: 6 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 7 
+min dist: 7 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 8 
+pol: 1, ang: 160, dist: 9 
+min dist: 9 max angle: 160 valor medio por corr: 0 jaccard: 0.785734542144777 
+pol: 1, ang: 160, dist: 10 
+min dist: 10 max angle: 160 valor medio por corr: 5.804878048780488 jaccard: 0.9167971143955758 
+pol: 1, ang: 170, dist: 1 
+Too many values
+pol: 1, ang: 170, dist: 2 
+Too many values
+pol: 1, ang: 170, dist: 3 
+pol: 1, ang: 170, dist: 4 
+pol: 1, ang: 170, dist: 5 
+pol: 1, ang: 170, dist: 6 
+pol: 1, ang: 170, dist: 7 
+pol: 1, ang: 170, dist: 8 
+pol: 1, ang: 170, dist: 9 
+pol: 1, ang: 170, dist: 10 
+pol: 1, ang: 180, dist: 1 
+Too many values
+pol: 1, ang: 180, dist: 2 
+Too many values
+pol: 1, ang: 180, dist: 3 
+pol: 1, ang: 180, dist: 4 
+pol: 1, ang: 180, dist: 5 
+pol: 1, ang: 180, dist: 6 
+pol: 1, ang: 180, dist: 7 
+pol: 1, ang: 180, dist: 8 
+pol: 1, ang: 180, dist: 9 
+pol: 1, ang: 180, dist: 10 
+values: [[4, 120], [10, 160]]
+--------------- NEW POLYGON ---------------
+pol: 2, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 19.2 jaccard: 0.8131560499858925 
+pol: 2, ang: 120, dist: 2 
+pol: 2, ang: 120, dist: 3 
+pol: 2, ang: 120, dist: 4 
+min dist: 4 max angle: 120 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 120, dist: 5 
+pol: 2, ang: 120, dist: 6 
+pol: 2, ang: 120, dist: 7 
+min dist: 7 max angle: 120 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 130, dist: 2 
+min dist: 2 max angle: 130 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 130, dist: 3 
+min dist: 3 max angle: 130 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 130, dist: 4 
+min dist: 4 max angle: 130 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 130, dist: 5 
+pol: 2, ang: 130, dist: 6 
+pol: 2, ang: 130, dist: 7 
+min dist: 7 max angle: 130 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 130, dist: 8 
+pol: 2, ang: 130, dist: 9 
+pol: 2, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 140, dist: 2 
+min dist: 2 max angle: 140 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 140, dist: 3 
+min dist: 3 max angle: 140 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 140, dist: 4 
+pol: 2, ang: 140, dist: 5 
+min dist: 5 max angle: 140 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 140, dist: 6 
+min dist: 6 max angle: 140 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 140, dist: 7 
+pol: 2, ang: 140, dist: 8 
+pol: 2, ang: 140, dist: 9 
+pol: 2, ang: 140, dist: 10 
+pol: 2, ang: 150, dist: 1 
+pol: 2, ang: 150, dist: 2 
+pol: 2, ang: 150, dist: 3 
+pol: 2, ang: 150, dist: 4 
+pol: 2, ang: 150, dist: 5 
+pol: 2, ang: 150, dist: 6 
+pol: 2, ang: 150, dist: 7 
+min dist: 7 max angle: 150 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 150, dist: 8 
+min dist: 8 max angle: 150 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 150, dist: 9 
+pol: 2, ang: 150, dist: 10 
+pol: 2, ang: 160, dist: 1 
+pol: 2, ang: 160, dist: 2 
+pol: 2, ang: 160, dist: 3 
+pol: 2, ang: 160, dist: 4 
+pol: 2, ang: 160, dist: 5 
+pol: 2, ang: 160, dist: 6 
+pol: 2, ang: 160, dist: 7 
+pol: 2, ang: 160, dist: 8 
+min dist: 8 max angle: 160 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 160, dist: 9 
+pol: 2, ang: 160, dist: 10 
+pol: 2, ang: 170, dist: 1 
+Too many values
+pol: 2, ang: 170, dist: 2 
+Too many values
+pol: 2, ang: 170, dist: 3 
+pol: 2, ang: 170, dist: 4 
+pol: 2, ang: 170, dist: 5 
+pol: 2, ang: 170, dist: 6 
+pol: 2, ang: 170, dist: 7 
+pol: 2, ang: 170, dist: 8 
+min dist: 8 max angle: 170 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 170, dist: 9 
+min dist: 9 max angle: 170 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 170, dist: 10 
+min dist: 10 max angle: 170 valor medio por corr: 0 jaccard: 0.8131560499858925 
+pol: 2, ang: 180, dist: 1 
+Too many values
+pol: 2, ang: 180, dist: 2 
+Too many values
+pol: 2, ang: 180, dist: 3 
+pol: 2, ang: 180, dist: 4 
+pol: 2, ang: 180, dist: 5 
+pol: 2, ang: 180, dist: 6 
+pol: 2, ang: 180, dist: 7 
+pol: 2, ang: 180, dist: 8 
+pol: 2, ang: 180, dist: 9 
+pol: 2, ang: 180, dist: 10 
+values: [[4, 120], [10, 160], [1, 120]]
+--------------- NEW POLYGON ---------------
+pol: 3, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 28.42105263157895 jaccard: 0.6039624294723789 
+pol: 3, ang: 120, dist: 2 
+pol: 3, ang: 120, dist: 3 
+pol: 3, ang: 120, dist: 4 
+min dist: 4 max angle: 120 valor medio por corr: 30.375 jaccard: 0.7701643766412634 
+pol: 3, ang: 120, dist: 5 
+min dist: 5 max angle: 120 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 120, dist: 6 
+min dist: 6 max angle: 120 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 120, dist: 7 
+pol: 3, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 1 
+pol: 3, ang: 130, dist: 2 
+pol: 3, ang: 130, dist: 3 
+pol: 3, ang: 130, dist: 4 
+pol: 3, ang: 130, dist: 5 
+min dist: 5 max angle: 130 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 130, dist: 6 
+pol: 3, ang: 130, dist: 7 
+min dist: 7 max angle: 130 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 130, dist: 8 
+pol: 3, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 140, dist: 2 
+min dist: 2 max angle: 140 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 140, dist: 3 
+min dist: 3 max angle: 140 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 140, dist: 4 
+min dist: 4 max angle: 140 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 140, dist: 5 
+pol: 3, ang: 140, dist: 6 
+min dist: 6 max angle: 140 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 140, dist: 7 
+pol: 3, ang: 140, dist: 8 
+pol: 3, ang: 140, dist: 9 
+pol: 3, ang: 140, dist: 10 
+pol: 3, ang: 150, dist: 1 
+min dist: 1 max angle: 150 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 150, dist: 2 
+min dist: 2 max angle: 150 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 150, dist: 3 
+min dist: 3 max angle: 150 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 150, dist: 4 
+min dist: 4 max angle: 150 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 150, dist: 5 
+min dist: 5 max angle: 150 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 150, dist: 6 
+min dist: 6 max angle: 150 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 150, dist: 7 
+min dist: 7 max angle: 150 valor medio por corr: 0 jaccard: 0.7701643766412634 
+pol: 3, ang: 150, dist: 8 
+min dist: 8 max angle: 150 valor medio por corr: 10.514285714285714 jaccard: 0.8902264652216916 
+pol: 3, ang: 150, dist: 9 
+pol: 3, ang: 150, dist: 10 
+pol: 3, ang: 160, dist: 1 
+pol: 3, ang: 160, dist: 2 
+pol: 3, ang: 160, dist: 3 
+pol: 3, ang: 160, dist: 4 
+pol: 3, ang: 160, dist: 5 
+min dist: 5 max angle: 160 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 160, dist: 6 
+min dist: 6 max angle: 160 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 160, dist: 7 
+pol: 3, ang: 160, dist: 8 
+min dist: 8 max angle: 160 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 160, dist: 9 
+pol: 3, ang: 160, dist: 10 
+pol: 3, ang: 170, dist: 1 
+Too many values
+pol: 3, ang: 170, dist: 2 
+Too many values
+pol: 3, ang: 170, dist: 3 
+pol: 3, ang: 170, dist: 4 
+pol: 3, ang: 170, dist: 5 
+pol: 3, ang: 170, dist: 6 
+min dist: 6 max angle: 170 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 170, dist: 7 
+min dist: 7 max angle: 170 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 170, dist: 8 
+pol: 3, ang: 170, dist: 9 
+min dist: 9 max angle: 170 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 170, dist: 10 
+min dist: 10 max angle: 170 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 180, dist: 1 
+Too many values
+pol: 3, ang: 180, dist: 2 
+Too many values
+pol: 3, ang: 180, dist: 3 
+min dist: 3 max angle: 180 valor medio por corr: 0 jaccard: 0.8902264652216916 
+pol: 3, ang: 180, dist: 4 
+pol: 3, ang: 180, dist: 5 
+pol: 3, ang: 180, dist: 6 
+pol: 3, ang: 180, dist: 7 
+pol: 3, ang: 180, dist: 8 
+pol: 3, ang: 180, dist: 9 
+pol: 3, ang: 180, dist: 10 
+values: [[4, 120], [10, 160], [1, 120], [8, 150]]
+--------------- NEW POLYGON ---------------
+pol: 4, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 44.35294117647059 jaccard: 0.6016066257665817 
+pol: 4, ang: 120, dist: 2 
+pol: 4, ang: 120, dist: 3 
+pol: 4, ang: 120, dist: 4 
+pol: 4, ang: 120, dist: 5 
+min dist: 5 max angle: 120 valor medio por corr: 50.142857142857146 jaccard: 0.8283443102118494 
+pol: 4, ang: 120, dist: 6 
+pol: 4, ang: 120, dist: 7 
+pol: 4, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 10 
+pol: 4, ang: 130, dist: 1 
+pol: 4, ang: 130, dist: 2 
+pol: 4, ang: 130, dist: 3 
+pol: 4, ang: 130, dist: 4 
+pol: 4, ang: 130, dist: 5 
+min dist: 5 max angle: 130 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 130, dist: 6 
+pol: 4, ang: 130, dist: 7 
+pol: 4, ang: 130, dist: 8 
+pol: 4, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 1 
+pol: 4, ang: 140, dist: 2 
+pol: 4, ang: 140, dist: 3 
+pol: 4, ang: 140, dist: 4 
+pol: 4, ang: 140, dist: 5 
+min dist: 5 max angle: 140 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 140, dist: 6 
+min dist: 6 max angle: 140 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 140, dist: 7 
+min dist: 7 max angle: 140 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 140, dist: 8 
+pol: 4, ang: 140, dist: 9 
+min dist: 9 max angle: 140 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 140, dist: 10 
+min dist: 10 max angle: 140 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 150, dist: 1 
+pol: 4, ang: 150, dist: 2 
+pol: 4, ang: 150, dist: 3 
+pol: 4, ang: 150, dist: 4 
+pol: 4, ang: 150, dist: 5 
+pol: 4, ang: 150, dist: 6 
+min dist: 6 max angle: 150 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 150, dist: 7 
+pol: 4, ang: 150, dist: 8 
+min dist: 8 max angle: 150 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 150, dist: 9 
+pol: 4, ang: 150, dist: 10 
+min dist: 10 max angle: 150 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 1 
+min dist: 1 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 2 
+min dist: 2 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 3 
+min dist: 3 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 4 
+min dist: 4 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 5 
+min dist: 5 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 6 
+min dist: 6 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 7 
+min dist: 7 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 8 
+min dist: 8 max angle: 160 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 160, dist: 9 
+pol: 4, ang: 160, dist: 10 
+pol: 4, ang: 170, dist: 1 
+Too many values
+pol: 4, ang: 170, dist: 2 
+Too many values
+pol: 4, ang: 170, dist: 3 
+min dist: 3 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 170, dist: 4 
+min dist: 4 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 170, dist: 5 
+min dist: 5 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 170, dist: 6 
+min dist: 6 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 170, dist: 7 
+min dist: 7 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 170, dist: 8 
+min dist: 8 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 170, dist: 9 
+min dist: 9 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 170, dist: 10 
+min dist: 10 max angle: 170 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 180, dist: 1 
+Too many values
+pol: 4, ang: 180, dist: 2 
+Too many values
+pol: 4, ang: 180, dist: 3 
+pol: 4, ang: 180, dist: 4 
+pol: 4, ang: 180, dist: 5 
+pol: 4, ang: 180, dist: 6 
+pol: 4, ang: 180, dist: 7 
+pol: 4, ang: 180, dist: 8 
+min dist: 8 max angle: 180 valor medio por corr: 0 jaccard: 0.8283443102118494 
+pol: 4, ang: 180, dist: 9 
+pol: 4, ang: 180, dist: 10 
+values: [[4, 120], [10, 160], [1, 120], [8, 150], [5, 120]]
+--------------- NEW POLYGON ---------------
+pol: 5, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 58.42857142857143 jaccard: 0.8342594924522659 
+pol: 5, ang: 120, dist: 2 
+pol: 5, ang: 120, dist: 3 
+pol: 5, ang: 120, dist: 4 
+pol: 5, ang: 120, dist: 5 
+pol: 5, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 130, dist: 2 
+min dist: 2 max angle: 130 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 130, dist: 3 
+min dist: 3 max angle: 130 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 130, dist: 4 
+pol: 5, ang: 130, dist: 5 
+pol: 5, ang: 130, dist: 6 
+pol: 5, ang: 130, dist: 7 
+pol: 5, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 140, dist: 2 
+pol: 5, ang: 140, dist: 3 
+pol: 5, ang: 140, dist: 4 
+pol: 5, ang: 140, dist: 5 
+pol: 5, ang: 140, dist: 6 
+min dist: 6 max angle: 140 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 140, dist: 7 
+min dist: 7 max angle: 140 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 140, dist: 8 
+min dist: 8 max angle: 140 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 140, dist: 9 
+min dist: 9 max angle: 140 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 140, dist: 10 
+min dist: 10 max angle: 140 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 1 
+min dist: 1 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 2 
+min dist: 2 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 3 
+min dist: 3 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 4 
+min dist: 4 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 5 
+min dist: 5 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 6 
+min dist: 6 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 7 
+min dist: 7 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 8 
+min dist: 8 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 9 
+min dist: 9 max angle: 150 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 150, dist: 10 
+pol: 5, ang: 160, dist: 1 
+min dist: 1 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 160, dist: 2 
+min dist: 2 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 160, dist: 3 
+min dist: 3 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 160, dist: 4 
+min dist: 4 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 160, dist: 5 
+min dist: 5 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 160, dist: 6 
+pol: 5, ang: 160, dist: 7 
+min dist: 7 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 160, dist: 8 
+min dist: 8 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 160, dist: 9 
+pol: 5, ang: 160, dist: 10 
+min dist: 10 max angle: 160 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 170, dist: 1 
+Too many values
+pol: 5, ang: 170, dist: 2 
+Too many values
+pol: 5, ang: 170, dist: 3 
+min dist: 3 max angle: 170 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 170, dist: 4 
+min dist: 4 max angle: 170 valor medio por corr: 0 jaccard: 0.8342594924522659 
+pol: 5, ang: 170, dist: 5 
+min dist: 5 max angle: 170 valor medio por corr: 0 jaccard: 0.8342594924522659 

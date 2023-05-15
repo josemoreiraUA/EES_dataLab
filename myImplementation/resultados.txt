@@ -1,0 +1,1692 @@
+pol: 0, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 34699.4890929382 haussdorf: 201.5837745908936 jaccard: 0.7902596261162097 
+pol: 0, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 34699.4890929382 haussdorf: 201.5837745908936 jaccard: 0.7902596261162097 
+pol: 0, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 34699.4890929382 haussdorf: 201.5837745908936 jaccard: 0.7902596261162097 
+pol: 0, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 16362.322081669272 haussdorf: 41.08657414464297 jaccard: 0.8973147024103041 
+pol: 0, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 16362.322081669272 haussdorf: 41.08657414464297 jaccard: 0.8973147024103041 
+pol: 0, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 16362.322081669272 haussdorf: 41.08657414464297 jaccard: 0.8973147024103041 
+pol: 0, ang: 120, dist: 7 
+min dist: 7 max angle: 120 dist total: 16362.322081669272 haussdorf: 41.08657414464297 jaccard: 0.8973147024103041 
+pol: 0, ang: 120, dist: 8 
+min dist: 8 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 0, ang: 120, dist: 9 
+min dist: 9 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 0, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 11004.294327619604 haussdorf: 41.08657414464297 jaccard: 0.9014095611161144 
+pol: 0, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 11004.294327619604 haussdorf: 41.08657414464297 jaccard: 0.9014095611161144 
+pol: 0, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 11004.294327619604 haussdorf: 41.08657414464297 jaccard: 0.9014095611161144 
+pol: 0, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 20990.89491765852 haussdorf: 60.46077772449693 jaccard: 0.889416891058868 
+pol: 0, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 20990.89491765852 haussdorf: 60.46077772449693 jaccard: 0.889416891058868 
+pol: 0, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 21013.64119239289 haussdorf: 60.46077772449693 jaccard: 0.8894713909904933 
+pol: 0, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 20976.762070633584 haussdorf: 60.46077772449693 jaccard: 0.8894838969435913 
+pol: 0, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 10868.903295651946 haussdorf: 46.440385949099934 jaccard: 0.9056893335191661 
+pol: 0, ang: 130, dist: 9 
+min dist: 9 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 0, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 11732.741546748928 haussdorf: 40.85339643163099 jaccard: 0.8996072991019382 
+pol: 0, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 11732.741546748928 haussdorf: 40.85339643163099 jaccard: 0.8996072991019382 
+pol: 0, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 11732.741546748928 haussdorf: 40.85339643163099 jaccard: 0.8996072991019382 
+pol: 0, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 11747.9843930632 haussdorf: 40.85339643163099 jaccard: 0.8996447977487859 
+pol: 0, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 11747.9843930632 haussdorf: 40.85339643163099 jaccard: 0.8996447977487859 
+pol: 0, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 16281.222151405724 haussdorf: 53.57143838156912 jaccard: 0.8966015126299369 
+pol: 0, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 11363.905806046512 haussdorf: 41.08657414464297 jaccard: 0.9000712342964378 
+pol: 0, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 11857.378554640653 haussdorf: 46.440385949099934 jaccard: 0.9064692502667004 
+pol: 0, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 58648.14796884465 haussdorf: 137.0036636886054 jaccard: 0.6794940563201545 
+pol: 0, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 8195.978659097538 haussdorf: 40.85346315857733 jaccard: 0.9026873765572769 
+pol: 0, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 27246.722207596013 haussdorf: 137.0036636886054 jaccard: 0.6604731907638872 
+pol: 0, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 27246.722207596013 haussdorf: 137.0036636886054 jaccard: 0.6604731907638872 
+pol: 0, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 27246.722207596013 haussdorf: 137.0036636886054 jaccard: 0.6604731907638872 
+pol: 0, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 27101.614400881746 haussdorf: 137.0036636886054 jaccard: 0.6611630600273597 
+pol: 0, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 27101.614400881746 haussdorf: 137.0036636886054 jaccard: 0.6611630600273597 
+pol: 0, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 35560.932526890705 haussdorf: 137.0036636886054 jaccard: 0.639780287817916 
+pol: 0, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 103975.34161899294 haussdorf: 305.11649024802284 jaccard: 0.2749975751377723 
+pol: 0, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 77354.86378464784 haussdorf: 137.0036636886054 jaccard: 0.5255118753542142 
+pol: 0, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 61421.2983800328 haussdorf: 137.0036636886054 jaccard: 0.642058174211328 
+pol: 0, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 55206.14596957661 haussdorf: 137.0036636886054 jaccard: 0.4450148356008608 
+pol: 0, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 55057.127921173495 haussdorf: 113.13675687705188 jaccard: 0.9005265705453 
+pol: 0, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 55057.127921173495 haussdorf: 113.13675687705188 jaccard: 0.9005265705453 
+pol: 0, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 55057.127921173495 haussdorf: 113.13675687705188 jaccard: 0.9005265705453 
+pol: 0, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 57617.86802320319 haussdorf: 113.13675687705188 jaccard: 0.8941861830647002 
+pol: 0, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 12978.372674860715 haussdorf: 40.85339643163099 jaccard: 0.8994682018249573 
+pol: 0, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 11568.029060506447 haussdorf: 52.87287316869978 jaccard: 0.8998953896195308 
+pol: 0, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 13306.031087810961 haussdorf: 41.08657414464297 jaccard: 0.8991371951912858 
+pol: 0, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 13733.614377634929 haussdorf: 47.860834794173286 jaccard: 0.8978101223308192 
+pol: 0, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 10220.643888859935 haussdorf: 57.953696579080386 jaccard: 0.8684756267745184 
+pol: 0, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 14338.907893323021 haussdorf: 47.3365975822288 jaccard: 0.8579619358419761 
+pol: 0, ang: 170, dist: 1 
+Too many values
+pol: 0, ang: 170, dist: 2 
+Too many values
+pol: 0, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 57129.19746144118 haussdorf: 114.74207066092472 jaccard: 0.8911670031715484 
+pol: 0, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 58026.84556237963 haussdorf: 114.74207066092472 jaccard: 0.8908017348196925 
+pol: 0, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 14057.523056377002 haussdorf: 40.85339643163099 jaccard: 0.896846748417246 
+pol: 0, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 12107.292565485792 haussdorf: 43.98664875793627 jaccard: 0.8972690509885027 
+pol: 0, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 16187.353967512992 haussdorf: 41.35757059195281 jaccard: 0.8953650774728117 
+pol: 0, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 20970.381745249837 haussdorf: 51.136361537037004 jaccard: 0.8915174669964648 
+pol: 0, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 21642.657803247042 haussdorf: 48.44875007070137 jaccard: 0.8519232166670268 
+pol: 0, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 13069.991668675237 haussdorf: 56.59165822313846 jaccard: 0.859628266040481 
+pol: 0, ang: 180, dist: 1 
+Too many values
+pol: 0, ang: 180, dist: 2 
+Too many values
+pol: 0, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 100301.02320930731 haussdorf: 293.35823698249453 jaccard: 0.38563613260593416 
+pol: 0, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 89605.95142245964 haussdorf: 293.35823698249453 jaccard: 0.3205574184337973 
+pol: 0, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 18877.268940772483 haussdorf: 211.85582748220634 jaccard: 0.601374036488624 
+pol: 0, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 67298.25339561055 haussdorf: 211.85582748220634 jaccard: 0.4285038219054056 
+pol: 0, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 66674.2306404923 haussdorf: 211.85582748220634 jaccard: 0.4316514201990026 
+pol: 0, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 74964.03846807218 haussdorf: 211.85582748220634 jaccard: 0.3617721635552493 
+pol: 0, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 74574.19367657603 haussdorf: 211.85582748220634 jaccard: 0.34800552029783516 
+pol: 0, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 70586.92265029698 haussdorf: 209.7930525924133 jaccard: 0.378889935989935 
+--------------- NEW POLYGON ---------------
+pol: 1, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 62327.28276846226 haussdorf: 115.18239231421592 jaccard: 0.785734542144777 
+pol: 1, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 62327.28276846226 haussdorf: 115.18239231421592 jaccard: 0.785734542144777 
+pol: 1, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 62327.28276846226 haussdorf: 115.18239231421592 jaccard: 0.785734542144777 
+pol: 1, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 62327.28276846226 haussdorf: 115.18239231421592 jaccard: 0.785734542144777 
+pol: 1, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 62327.28276846226 haussdorf: 115.18239231421592 jaccard: 0.785734542144777 
+pol: 1, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 62327.28276846226 haussdorf: 115.18239231421592 jaccard: 0.785734542144777 
+pol: 1, ang: 120, dist: 7 
+min dist: 7 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 1, ang: 120, dist: 8 
+min dist: 8 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 1, ang: 120, dist: 9 
+min dist: 9 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 1, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 63626.67927138617 haussdorf: 115.03517813872475 jaccard: 0.791679954524487 
+pol: 1, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 63626.67927138617 haussdorf: 115.03517813872475 jaccard: 0.791679954524487 
+pol: 1, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 63626.67927138617 haussdorf: 115.03517813872475 jaccard: 0.791679954524487 
+pol: 1, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 29654.87759193309 haussdorf: 71.77953768642455 jaccard: 0.7943837900414432 
+pol: 1, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 29654.87759193309 haussdorf: 71.77953768642455 jaccard: 0.7943837900414432 
+pol: 1, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 29654.87759193309 haussdorf: 71.77953768642455 jaccard: 0.7943837900414432 
+pol: 1, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 56522.921442194005 haussdorf: 140.05570833796335 jaccard: 0.6657858264525699 
+pol: 1, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 1, ang: 130, dist: 9 
+min dist: 9 max angle: 130 dist total: 45962.80827930795 haussdorf: 172.04812455857018 jaccard: 0.8361468818586348 
+pol: 1, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 64640.95311714496 haussdorf: 358.92779000349327 jaccard: 0.3226908721293214 
+pol: 1, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 64640.95311714496 haussdorf: 358.92779000349327 jaccard: 0.3226908721293214 
+pol: 1, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 64640.95311714496 haussdorf: 358.92779000349327 jaccard: 0.3226908721293214 
+pol: 1, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 48138.74964094698 haussdorf: 105.25646467398644 jaccard: 0.8700775612796425 
+pol: 1, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 48138.74964094698 haussdorf: 105.25646467398644 jaccard: 0.8700775612796425 
+pol: 1, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 48138.74964094698 haussdorf: 105.25646467398644 jaccard: 0.8700775612796425 
+pol: 1, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 63783.3005533221 haussdorf: 195.80101830764767 jaccard: 0.7612673196646456 
+pol: 1, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 63271.53714019253 haussdorf: 165.47472291380592 jaccard: 0.7484151722317438 
+pol: 1, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 78191.7848141618 haussdorf: 308.1166565087334 jaccard: 0.59297055087807 
+pol: 1, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 43570.260332313315 haussdorf: 189.6522282133124 jaccard: 0.7157092108871709 
+pol: 1, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 51189.250694476505 haussdorf: 105.97826223009872 jaccard: 0.8455465794782674 
+pol: 1, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 51189.250694476505 haussdorf: 105.97826223009872 jaccard: 0.8455465794782674 
+pol: 1, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 51189.250694476505 haussdorf: 105.97826223009872 jaccard: 0.8455465794782674 
+pol: 1, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 43449.2084046153 haussdorf: 84.91666666666666 jaccard: 0.8651832922151528 
+pol: 1, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 43449.2084046153 haussdorf: 84.91666666666666 jaccard: 0.8651832922151528 
+pol: 1, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 43449.2084046153 haussdorf: 84.91666666666666 jaccard: 0.8651832922151528 
+pol: 1, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 44075.887211993766 haussdorf: 84.91666666666666 jaccard: 0.8667385256897393 
+pol: 1, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 106066.49037408535 haussdorf: 383.92207830394096 jaccard: 0.2867398102194222 
+pol: 1, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 66286.72789012095 haussdorf: 202.50350944999673 jaccard: 0.7146421111737025 
+pol: 1, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 74661.53996926534 haussdorf: 276.75073630750467 jaccard: 0.6326058147345126 
+pol: 1, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 56349.582712262614 haussdorf: 110.75521340806154 jaccard: 0.8055059547055718 
+pol: 1, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 56349.582712262614 haussdorf: 110.75521340806154 jaccard: 0.8055059547055718 
+pol: 1, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 56349.582712262614 haussdorf: 110.75521340806154 jaccard: 0.8055059547055718 
+pol: 1, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 55447.111770610674 haussdorf: 106.40265438457223 jaccard: 0.8422593231217343 
+pol: 1, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 55447.111770610674 haussdorf: 106.40265438457223 jaccard: 0.8422593231217343 
+pol: 1, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 55447.111770610674 haussdorf: 106.40265438457223 jaccard: 0.8422593231217343 
+pol: 1, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 59275.62163222067 haussdorf: 111.68841191417127 jaccard: 0.8015288261137797 
+pol: 1, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 61349.49835186919 haussdorf: 120.3709016311771 jaccard: 0.7792313125700036 
+pol: 1, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 45962.08785075569 haussdorf: 102.49784972190355 jaccard: 0.8445414723227965 
+pol: 1, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 3689.4642114788694 haussdorf: 23.71279714582375 jaccard: 0.9167971143955758 
+pol: 1, ang: 170, dist: 1 
+Too many values
+pol: 1, ang: 170, dist: 2 
+Too many values
+pol: 1, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 41834.09851897562 haussdorf: 285.21203609701377 jaccard: 0.4005420834161205 
+pol: 1, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 43071.76099965341 haussdorf: 285.21203609701377 jaccard: 0.40187829623395055 
+pol: 1, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 43071.76099965341 haussdorf: 285.21203609701377 jaccard: 0.40187829623395055 
+pol: 1, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 43071.76099965341 haussdorf: 285.21203609701377 jaccard: 0.40187829623395055 
+pol: 1, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 17954.765433288707 haussdorf: 83.77445085178616 jaccard: 0.8772251252936263 
+pol: 1, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 19427.959575060882 haussdorf: 45.297652515831224 jaccard: 0.8589125029101567 
+pol: 1, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 13988.72185117715 haussdorf: 32.973642105462005 jaccard: 0.9113216818387868 
+pol: 1, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 9128.335738630456 haussdorf: 32.274888683834796 jaccard: 0.9148415901775916 
+pol: 1, ang: 180, dist: 1 
+Too many values
+pol: 1, ang: 180, dist: 2 
+Too many values
+pol: 1, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 41831.349395759375 haussdorf: 220.5735221917123 jaccard: 0.7475102020245924 
+pol: 1, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 47948.51779558888 haussdorf: 230.21003092777778 jaccard: 0.717069416073495 
+pol: 1, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 20641.45674197362 haussdorf: 51.37563424135807 jaccard: 0.8911412611239224 
+pol: 1, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 20641.45674197362 haussdorf: 51.37563424135807 jaccard: 0.8911412611239224 
+pol: 1, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 32916.02927791985 haussdorf: 290.2901867627701 jaccard: 0.24866054301834178 
+pol: 1, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 37358.81632141367 haussdorf: 290.2901867627701 jaccard: 0.22583846229949114 
+pol: 1, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 34508.45598758847 haussdorf: 159.70851947144573 jaccard: 0.8145307442362044 
+pol: 1, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 41073.40473269735 haussdorf: 290.7158698786961 jaccard: 0.2291106720739382 
+--------------- NEW POLYGON ---------------
+pol: 2, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 42267.18259693965 haussdorf: 196.18422464612183 jaccard: 0.8131560499858925 
+pol: 2, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 42267.18259693965 haussdorf: 196.18422464612183 jaccard: 0.8131560499858925 
+pol: 2, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 42267.18259693965 haussdorf: 196.18422464612183 jaccard: 0.8131560499858925 
+pol: 2, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 38322.91124802711 haussdorf: 196.18422464612183 jaccard: 0.8132665668416841 
+pol: 2, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 141809.25365964137 haussdorf: 213.4460110244849 jaccard: 0.6356048750587077 
+pol: 2, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 141809.25365964137 haussdorf: 213.4460110244849 jaccard: 0.6356048750587077 
+pol: 2, ang: 120, dist: 7 
+min dist: 7 max angle: 120 dist total: 27834.100228173193 haussdorf: 196.37808827575515 jaccard: 0.8269823811721992 
+pol: 2, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 56024.84142895572 haussdorf: 196.32160815740144 jaccard: 0.8519724334695307 
+pol: 2, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 56024.84142895572 haussdorf: 196.32160815740144 jaccard: 0.8519724334695307 
+pol: 2, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 56024.84142895572 haussdorf: 196.32160815740144 jaccard: 0.8519724334695307 
+pol: 2, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 56149.92824966125 haussdorf: 196.32160815740144 jaccard: 0.8524953248746404 
+pol: 2, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 65434.13798625497 haussdorf: 205.25327179100893 jaccard: 0.7749405135231529 
+pol: 2, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 65434.13798625497 haussdorf: 205.25327179100893 jaccard: 0.7749405135231529 
+pol: 2, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 33657.9446836871 haussdorf: 196.30327696347086 jaccard: 0.8505166556727011 
+pol: 2, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 2, ang: 130, dist: 9 
+min dist: 9 max angle: 130 dist total: 88255.73483968023 haussdorf: 418.1249508431658 jaccard: 0.5603734602078778 
+pol: 2, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 48472.54313591389 haussdorf: 196.18422464612183 jaccard: 0.8281635541488137 
+pol: 2, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 48472.54313591389 haussdorf: 196.18422464612183 jaccard: 0.8281635541488137 
+pol: 2, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 48472.54313591389 haussdorf: 196.18422464612183 jaccard: 0.8281635541488137 
+pol: 2, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 99679.80908045643 haussdorf: 270.1930976461283 jaccard: 0.5859154317701841 
+pol: 2, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 45521.9133777468 haussdorf: 196.18422464612183 jaccard: 0.8300494590022607 
+pol: 2, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 45521.9133777468 haussdorf: 196.18422464612183 jaccard: 0.8300494590022607 
+pol: 2, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 47020.64542072034 haussdorf: 196.18422464612183 jaccard: 0.7986813956794432 
+pol: 2, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 107972.15844516894 haussdorf: 196.19877658415197 jaccard: 0.46925939108073933 
+pol: 2, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 94211.82468424874 haussdorf: 259.2033544447772 jaccard: 0.8037160095771659 
+pol: 2, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 92334.48764745684 haussdorf: 196.1853074216098 jaccard: 0.6372520021113903 
+pol: 2, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 73989.15733688377 haussdorf: 414.11521606358684 jaccard: 0.6718489101994745 
+pol: 2, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 73989.15733688377 haussdorf: 414.11521606358684 jaccard: 0.6718489101994745 
+pol: 2, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 73989.15733688377 haussdorf: 414.11521606358684 jaccard: 0.6718489101994745 
+pol: 2, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 72812.50161449381 haussdorf: 414.11521606358684 jaccard: 0.6737451758431117 
+pol: 2, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 72812.50161449381 haussdorf: 414.11521606358684 jaccard: 0.6737451758431117 
+pol: 2, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 72812.50161449381 haussdorf: 414.11521606358684 jaccard: 0.6737451758431117 
+pol: 2, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 32257.934087639416 haussdorf: 203.36964908191896 jaccard: 0.8390866941411115 
+pol: 2, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 37312.655469563986 haussdorf: 205.91588114905028 jaccard: 0.824303741844918 
+pol: 2, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 111002.34295541061 haussdorf: 229.2761251532205 jaccard: 0.6592511284535605 
+pol: 2, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 100542.344747936 haussdorf: 198.0758179447704 jaccard: 0.6936879783581015 
+pol: 2, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 109454.45362624666 haussdorf: 207.77919821967117 jaccard: 0.6352194404574286 
+pol: 2, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 109454.45362624666 haussdorf: 207.77919821967117 jaccard: 0.6352194404574286 
+pol: 2, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 109454.45362624666 haussdorf: 207.77919821967117 jaccard: 0.6352194404574286 
+pol: 2, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 108050.95389453918 haussdorf: 220.83499422503604 jaccard: 0.6171752363216991 
+pol: 2, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 110523.17890074351 haussdorf: 196.18422464612183 jaccard: 0.8041364206580532 
+pol: 2, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 110523.17890074351 haussdorf: 196.18422464612183 jaccard: 0.8041364206580532 
+pol: 2, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 102331.85353770788 haussdorf: 209.04419940315418 jaccard: 0.7501258601839881 
+pol: 2, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 102344.1597385428 haussdorf: 196.1871892467372 jaccard: 0.8275089104508841 
+pol: 2, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 32725.895738976058 haussdorf: 259.8253281030224 jaccard: 0.5467751864594685 
+pol: 2, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 29306.053565870752 haussdorf: 253.65487151968512 jaccard: 0.5488669260563309 
+pol: 2, ang: 170, dist: 1 
+Too many values
+pol: 2, ang: 170, dist: 2 
+Too many values
+pol: 2, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 104770.18485932994 haussdorf: 196.18422464612183 jaccard: 0.753152429899459 
+pol: 2, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 41717.98864957055 haussdorf: 196.18422464612183 jaccard: 0.777368241764891 
+pol: 2, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 34299.12188208844 haussdorf: 196.18422464612183 jaccard: 0.786637616286499 
+pol: 2, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 34299.12188208844 haussdorf: 196.18422464612183 jaccard: 0.786637616286499 
+pol: 2, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 92686.17631031998 haussdorf: 196.19765776914358 jaccard: 0.7463121981257375 
+pol: 2, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 98596.87661582649 haussdorf: 196.25325194116834 jaccard: 0.822680446725373 
+pol: 2, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 95551.38118382436 haussdorf: 196.25325194116834 jaccard: 0.8292491521781662 
+pol: 2, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 93518.20904559748 haussdorf: 196.25325194116834 jaccard: 0.8243218517093096 
+pol: 2, ang: 180, dist: 1 
+Too many values
+pol: 2, ang: 180, dist: 2 
+Too many values
+pol: 2, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 49640.01882807932 haussdorf: 218.9051620716432 jaccard: 0.7866939548316888 
+pol: 2, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 49829.47786544444 haussdorf: 224.05493770075944 jaccard: 0.7825760674887915 
+pol: 2, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 49211.229445128345 haussdorf: 224.05493770075944 jaccard: 0.7815665647967656 
+pol: 2, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 47856.34975304186 haussdorf: 218.9051620716432 jaccard: 0.7911314993095897 
+pol: 2, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 120816.36693172046 haussdorf: 233.6103809477312 jaccard: 0.7793057299401354 
+pol: 2, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 120138.7359028779 haussdorf: 232.35052371868562 jaccard: 0.7834130057217382 
+pol: 2, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 46024.285648880454 haussdorf: 217.48845065732354 jaccard: 0.799507941464292 
+pol: 2, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 43298.51798583612 haussdorf: 197.40497012119604 jaccard: 0.74336446462988 
+--------------- NEW POLYGON ---------------
+pol: 3, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 97129.42960300697 haussdorf: 194.38552080064548 jaccard: 0.6039624294723789 
+pol: 3, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 97129.42960300697 haussdorf: 194.38552080064548 jaccard: 0.6039624294723789 
+pol: 3, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 97129.42960300697 haussdorf: 194.38552080064548 jaccard: 0.6039624294723789 
+pol: 3, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 98527.42044028718 haussdorf: 166.91633419142255 jaccard: 0.7701643766412634 
+pol: 3, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 43985.32257231174 haussdorf: 44.548874481111255 jaccard: 0.8594899308401247 
+pol: 3, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 62025.70822340748 haussdorf: 228.5886914248539 jaccard: 0.8002108611058247 
+pol: 3, ang: 120, dist: 7 
+min dist: 7 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 3, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 149042.45118206466 haussdorf: 396.55576474395775 jaccard: 0.65080860445992 
+pol: 3, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 149042.45118206466 haussdorf: 396.55576474395775 jaccard: 0.65080860445992 
+pol: 3, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 149042.45118206466 haussdorf: 396.55576474395775 jaccard: 0.65080860445992 
+pol: 3, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 141629.22068196247 haussdorf: 273.69274370992423 jaccard: 0.6192946481636559 
+pol: 3, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 48772.64104648204 haussdorf: 166.91633419142255 jaccard: 0.8307034796791664 
+pol: 3, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 124981.46099275819 haussdorf: 211.2275310609681 jaccard: 0.641558531261538 
+pol: 3, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 71682.90169518832 haussdorf: 318.04075644230136 jaccard: 0.7944585530225663 
+pol: 3, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 3, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 108517.19290471962 haussdorf: 122.08655436959629 jaccard: 0.8127517841124086 
+pol: 3, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 108517.19290471962 haussdorf: 122.08655436959629 jaccard: 0.8127517841124086 
+pol: 3, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 108517.19290471962 haussdorf: 122.08655436959629 jaccard: 0.8127517841124086 
+pol: 3, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 100127.71901233717 haussdorf: 104.30770730829005 jaccard: 0.7745958380308442 
+pol: 3, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 175895.09792496936 haussdorf: 401.30365073871707 jaccard: 0.5314348096084667 
+pol: 3, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 84581.99978247727 haussdorf: 101.48449693203541 jaccard: 0.788667462605172 
+pol: 3, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 153496.0307882316 haussdorf: 228.2418625480044 jaccard: 0.7041149580577064 
+pol: 3, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 102497.33241277728 haussdorf: 193.05654214857282 jaccard: 0.733536905379927 
+pol: 3, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 82381.19586550033 haussdorf: 295.28246950244727 jaccard: 0.7195293705298755 
+pol: 3, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 82602.30879659764 haussdorf: 295.28246950244727 jaccard: 0.719072596783326 
+pol: 3, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 70215.1391760658 haussdorf: 179.79135999962205 jaccard: 0.8301673926096498 
+pol: 3, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 70215.1391760658 haussdorf: 179.79135999962205 jaccard: 0.8301673926096498 
+pol: 3, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 70215.1391760658 haussdorf: 179.79135999962205 jaccard: 0.8301673926096498 
+pol: 3, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 73515.13717939083 haussdorf: 179.79135999962205 jaccard: 0.8058469138745203 
+pol: 3, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 130613.86156461108 haussdorf: 136.19250697341485 jaccard: 0.8337386343650991 
+pol: 3, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 133194.09878885007 haussdorf: 139.3027234919213 jaccard: 0.796603854811808 
+pol: 3, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 71570.47313776771 haussdorf: 193.05654214857282 jaccard: 0.8170361884087232 
+pol: 3, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 15876.670224394715 haussdorf: 42.957772394726874 jaccard: 0.8902264652216916 
+pol: 3, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 52469.115685329605 haussdorf: 100.04977137933145 jaccard: 0.8077412235571702 
+pol: 3, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 111723.61392860302 haussdorf: 166.91633419142255 jaccard: 0.8617074455450267 
+pol: 3, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 47807.1055723177 haussdorf: 183.56839480628483 jaccard: 0.8367346033695611 
+pol: 3, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 47807.1055723177 haussdorf: 183.56839480628483 jaccard: 0.8367346033695611 
+pol: 3, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 47807.1055723177 haussdorf: 183.56839480628483 jaccard: 0.8367346033695611 
+pol: 3, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 129127.4246825508 haussdorf: 183.56839480628483 jaccard: 0.8300030734864101 
+pol: 3, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 10555.039013064235 haussdorf: 36.690375408074374 jaccard: 0.9076387759344415 
+pol: 3, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 23460.55271691276 haussdorf: 36.32499079268976 jaccard: 0.8904988791174968 
+pol: 3, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 28082.188216525734 haussdorf: 148.3884224843126 jaccard: 0.876388525635767 
+pol: 3, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 14136.089814931049 haussdorf: 36.673076923076934 jaccard: 0.8912136893500766 
+pol: 3, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 30134.86561050346 haussdorf: 153.57036314564664 jaccard: 0.8790177043669689 
+pol: 3, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 24527.43199748501 haussdorf: 154.195490665315 jaccard: 0.8709126958603468 
+pol: 3, ang: 170, dist: 1 
+Too many values
+pol: 3, ang: 170, dist: 2 
+Too many values
+pol: 3, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 15594.506185333454 haussdorf: 105.06144554468693 jaccard: 0.8191632446534967 
+pol: 3, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 18614.679628931208 haussdorf: 105.06144554468693 jaccard: 0.8103264733634057 
+pol: 3, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 102360.9263538781 haussdorf: 116.92746381933293 jaccard: 0.8762989690129999 
+pol: 3, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 92093.42887652089 haussdorf: 116.92746381933293 jaccard: 0.8952381562950247 
+pol: 3, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 93945.45777292983 haussdorf: 116.92746381933293 jaccard: 0.8916872241826637 
+pol: 3, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 96980.16306230162 haussdorf: 116.92746381933293 jaccard: 0.8823126865752298 
+pol: 3, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 14604.196387732849 haussdorf: 38.950790003948995 jaccard: 0.9068183451295463 
+pol: 3, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 14576.102745501701 haussdorf: 38.550986277958444 jaccard: 0.9002732410857113 
+pol: 3, ang: 180, dist: 1 
+Too many values
+pol: 3, ang: 180, dist: 2 
+Too many values
+pol: 3, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 11149.713000652877 haussdorf: 33.942487873644254 jaccard: 0.8960724485508258 
+pol: 3, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 17622.92602912603 haussdorf: 71.45264856793207 jaccard: 0.8765876937148822 
+pol: 3, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 19781.32844718509 haussdorf: 77.33669240673478 jaccard: 0.8738693534458385 
+pol: 3, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 20048.311270090267 haussdorf: 100.4208785840641 jaccard: 0.8744656983031974 
+pol: 3, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 18026.024849946665 haussdorf: 61.60102727967714 jaccard: 0.8869621333731179 
+pol: 3, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 35433.83516407927 haussdorf: 129.61017247151165 jaccard: 0.8466889915941493 
+pol: 3, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 42787.89370357488 haussdorf: 184.14522587331004 jaccard: 0.8394216202329476 
+pol: 3, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 29734.071325232704 haussdorf: 91.12998511932705 jaccard: 0.8600962675285633 
+--------------- NEW POLYGON ---------------
+pol: 4, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 190496.2289983376 haussdorf: 398.9340166062308 jaccard: 0.6016066257665817 
+pol: 4, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 190496.2289983376 haussdorf: 398.9340166062308 jaccard: 0.6016066257665817 
+pol: 4, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 190496.2289983376 haussdorf: 398.9340166062308 jaccard: 0.6016066257665817 
+pol: 4, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 190496.2289983376 haussdorf: 398.9340166062308 jaccard: 0.6016066257665817 
+pol: 4, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 121119.04687355745 haussdorf: 166.90896863303203 jaccard: 0.8283443102118494 
+pol: 4, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 141823.79966816155 haussdorf: 268.96775534544025 jaccard: 0.7327972332983855 
+pol: 4, ang: 120, dist: 7 
+min dist: 7 max angle: 120 dist total: 170367.2393927143 haussdorf: 442.2422433756883 jaccard: 0.6613244837887896 
+pol: 4, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 10 
+min dist: 10 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 4, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 129589.19337329392 haussdorf: 160.75311371085326 jaccard: 0.6507803468240521 
+pol: 4, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 129589.19337329392 haussdorf: 160.75311371085326 jaccard: 0.6507803468240521 
+pol: 4, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 129589.19337329392 haussdorf: 160.75311371085326 jaccard: 0.6507803468240521 
+pol: 4, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 129589.19337329392 haussdorf: 160.75311371085326 jaccard: 0.6507803468240521 
+pol: 4, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 17724.90956072857 haussdorf: 51.55686502001871 jaccard: 0.8843884263707802 
+pol: 4, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 151680.28596454774 haussdorf: 353.59503823221587 jaccard: 0.7160224739989444 
+pol: 4, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 145136.5228654624 haussdorf: 406.2048307173647 jaccard: 0.7134017437596765 
+pol: 4, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 74641.87509010795 haussdorf: 114.88132964497103 jaccard: 0.7960517579834098 
+pol: 4, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 137817.69456581448 haussdorf: 160.75311371085326 jaccard: 0.6283201577266158 
+pol: 4, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 137817.69456581448 haussdorf: 160.75311371085326 jaccard: 0.6283201577266158 
+pol: 4, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 137817.69456581448 haussdorf: 160.75311371085326 jaccard: 0.6283201577266158 
+pol: 4, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 137817.69456581448 haussdorf: 160.75311371085326 jaccard: 0.6283201577266158 
+pol: 4, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 27149.62696522971 haussdorf: 46.30197500930318 jaccard: 0.8928162133357744 
+pol: 4, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 36924.244907402004 haussdorf: 181.2272068428033 jaccard: 0.8632553118425776 
+pol: 4, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 30838.014038846777 haussdorf: 42.78070400505416 jaccard: 0.8749196376684711 
+pol: 4, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 110462.16401165341 haussdorf: 326.3043380445698 jaccard: 0.7059974499413689 
+pol: 4, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 81132.37042463612 haussdorf: 268.8003480160487 jaccard: 0.8408382689363654 
+pol: 4, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 40399.11323436426 haussdorf: 122.42315697373743 jaccard: 0.8642229971298072 
+pol: 4, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 113438.10909255037 haussdorf: 202.16101123723809 jaccard: 0.7978495396947431 
+pol: 4, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 113438.10909255037 haussdorf: 202.16101123723809 jaccard: 0.7978495396947431 
+pol: 4, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 113438.10909255037 haussdorf: 202.16101123723809 jaccard: 0.7978495396947431 
+pol: 4, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 113482.16760080049 haussdorf: 202.16101123723809 jaccard: 0.797774564154384 
+pol: 4, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 113626.92400300784 haussdorf: 202.16101123723809 jaccard: 0.7976869715156363 
+pol: 4, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 45493.40658700085 haussdorf: 47.35015363309272 jaccard: 0.8633393067073398 
+pol: 4, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 85356.98130140944 haussdorf: 143.0127069619527 jaccard: 0.8224954035175955 
+pol: 4, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 60901.593254361534 haussdorf: 45.13859896314336 jaccard: 0.8611939167548649 
+pol: 4, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 110011.29499569809 haussdorf: 312.38696433624415 jaccard: 0.6947365698860153 
+pol: 4, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 45009.48907957441 haussdorf: 47.109593190691214 jaccard: 0.8635538232881569 
+pol: 4, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 56409.95947266889 haussdorf: 60.80917916723903 jaccard: 0.8368210690335022 
+pol: 4, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 56409.95947266889 haussdorf: 60.80917916723903 jaccard: 0.8368210690335022 
+pol: 4, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 56409.95947266889 haussdorf: 60.80917916723903 jaccard: 0.8368210690335022 
+pol: 4, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 36147.79970628773 haussdorf: 54.54640803197951 jaccard: 0.8650211827867674 
+pol: 4, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 139247.999941476 haussdorf: 134.25 jaccard: 0.8535222031485362 
+pol: 4, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 141239.6349189065 haussdorf: 134.25 jaccard: 0.8390992358512387 
+pol: 4, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 132582.69628319697 haussdorf: 134.25 jaccard: 0.8647535999621976 
+pol: 4, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 138624.10778554305 haussdorf: 134.25 jaccard: 0.8627881747396442 
+pol: 4, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 111857.20464869861 haussdorf: 328.97266759406773 jaccard: 0.7099586690149547 
+pol: 4, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 75753.80789713957 haussdorf: 230.00835479773917 jaccard: 0.8146352240611741 
+pol: 4, ang: 170, dist: 1 
+Too many values
+pol: 4, ang: 170, dist: 2 
+Too many values
+pol: 4, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 32686.245067731546 haussdorf: 100.19370015854602 jaccard: 0.8463052004018565 
+pol: 4, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 24958.97110824008 haussdorf: 114.88132964497103 jaccard: 0.8785964918706752 
+pol: 4, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 134878.32579674947 haussdorf: 134.25 jaccard: 0.8555208681059226 
+pol: 4, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 137112.5468097708 haussdorf: 134.25 jaccard: 0.8532082781384306 
+pol: 4, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 22850.9175996666 haussdorf: 50.73343190145204 jaccard: 0.8796809117262232 
+pol: 4, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 30532.67125769837 haussdorf: 48.14725892055038 jaccard: 0.8648608525942509 
+pol: 4, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 15080.765931808313 haussdorf: 41.84215610614736 jaccard: 0.8853369929331641 
+pol: 4, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 28778.54524097234 haussdorf: 40.34303497617053 jaccard: 0.8759762914829838 
+pol: 4, ang: 180, dist: 1 
+Too many values
+pol: 4, ang: 180, dist: 2 
+Too many values
+pol: 4, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 173440.62517759672 haussdorf: 353.59503823221587 jaccard: 0.17388379530719933 
+pol: 4, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 171983.34720421757 haussdorf: 379.16503973055404 jaccard: 0.17856666660100787 
+pol: 4, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 85736.19796467031 haussdorf: 291.078933746851 jaccard: 0.763322070680414 
+pol: 4, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 88916.10349755725 haussdorf: 292.21061412566564 jaccard: 0.7614580348289938 
+pol: 4, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 175650.2366070675 haussdorf: 371.23283799591024 jaccard: 0.21816162788515164 
+pol: 4, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 78060.50892712429 haussdorf: 227.8860298046485 jaccard: 0.8328445517018912 
+pol: 4, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 62252.92647771479 haussdorf: 160.75311371085326 jaccard: 0.7364659245207956 
+pol: 4, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 88189.19961710088 haussdorf: 160.75311371085326 jaccard: 0.6681718728882318 
+--------------- NEW POLYGON ---------------
+pol: 5, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 148656.18463267322 haussdorf: 147.35218853844634 jaccard: 0.8342594924522659 
+pol: 5, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 114469.41272316594 haussdorf: 123.09160453043918 jaccard: 0.7606348209252703 
+pol: 5, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 114469.41272316594 haussdorf: 123.09160453043918 jaccard: 0.7606348209252703 
+pol: 5, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 5, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 5, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 113989.59061209373 haussdorf: 122.76690355389779 jaccard: 0.8558402758383858 
+pol: 5, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 107252.88181615241 haussdorf: 114.35268059317683 jaccard: 0.8562538688370456 
+pol: 5, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 107252.88181615241 haussdorf: 114.35268059317683 jaccard: 0.8562538688370456 
+pol: 5, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 65348.337646277185 haussdorf: 267.7777483158919 jaccard: 0.8031917687363865 
+pol: 5, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 100455.81534850024 haussdorf: 108.96488253396303 jaccard: 0.8247005601763334 
+pol: 5, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 91721.1921782232 haussdorf: 371.61811912223106 jaccard: 0.7467088514327124 
+pol: 5, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 90084.98459618144 haussdorf: 371.61811912223106 jaccard: 0.7516467234727715 
+pol: 5, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 118134.97338035217 haussdorf: 122.9974739404039 jaccard: 0.8418627214430249 
+pol: 5, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 98155.26578742231 haussdorf: 112.59073754472777 jaccard: 0.833588222531603 
+pol: 5, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 98155.26578742231 haussdorf: 112.59073754472777 jaccard: 0.833588222531603 
+pol: 5, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 100192.80789606993 haussdorf: 112.59073754472777 jaccard: 0.8266610159374903 
+pol: 5, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 96011.82694974828 haussdorf: 112.59073754472777 jaccard: 0.8333380927975882 
+pol: 5, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 53749.42220832429 haussdorf: 110.49461576092996 jaccard: 0.8786583918810624 
+pol: 5, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 68277.64264209595 haussdorf: 238.54110016983762 jaccard: 0.8403885697030722 
+pol: 5, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 104036.5214986591 haussdorf: 101.20259461180956 jaccard: 0.8764207539110616 
+pol: 5, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 55479.62670345405 haussdorf: 115.53038298127098 jaccard: 0.8585797748435704 
+pol: 5, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 23366.802357554236 haussdorf: 53.48366288132094 jaccard: 0.8987817210656198 
+pol: 5, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 32768.6436818254 haussdorf: 42.96871412066565 jaccard: 0.9032234174332638 
+pol: 5, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 137281.14396483722 haussdorf: 142.6513841290785 jaccard: 0.8596001850306898 
+pol: 5, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 137281.14396483722 haussdorf: 142.6513841290785 jaccard: 0.8596001850306898 
+pol: 5, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 140712.2422366886 haussdorf: 142.6513841290785 jaccard: 0.8596007145874107 
+pol: 5, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 140425.66652658218 haussdorf: 142.6513841290785 jaccard: 0.8598121474918652 
+pol: 5, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 72450.2491613149 haussdorf: 42.92577679641187 jaccard: 0.8864978093370783 
+pol: 5, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 104472.4122084504 haussdorf: 48.11415591757758 jaccard: 0.8697975468019759 
+pol: 5, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 39826.552291098575 haussdorf: 48.11415591757758 jaccard: 0.8943774647171034 
+pol: 5, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 79984.42305649992 haussdorf: 70.72072497658075 jaccard: 0.868963559661065 
+pol: 5, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 104224.81719498111 haussdorf: 171.491430998203 jaccard: 0.7229099791099509 
+pol: 5, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 30067.538238388817 haussdorf: 43.42145555145666 jaccard: 0.9080344873704164 
+pol: 5, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 149160.05649318793 haussdorf: 142.5646298363546 jaccard: 0.8889278748598879 
+pol: 5, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 149160.05649318793 haussdorf: 142.5646298363546 jaccard: 0.8889278748598879 
+pol: 5, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 147168.60810405115 haussdorf: 142.35761810509808 jaccard: 0.8721006353894234 
+pol: 5, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 140482.34667012643 haussdorf: 142.6513841290785 jaccard: 0.8569380879663456 
+pol: 5, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 173185.0160534259 haussdorf: 197.96781140517493 jaccard: 0.8076338166530566 
+pol: 5, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 158494.9799607899 haussdorf: 141.4074650151413 jaccard: 0.861539688072009 
+pol: 5, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 48750.643095054314 haussdorf: 98.50181352539445 jaccard: 0.8863183284531568 
+pol: 5, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 103787.23030831502 haussdorf: 295.55201884511337 jaccard: 0.7342043438702088 
+pol: 5, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 56444.06735417986 haussdorf: 63.21052095479337 jaccard: 0.8712351683371877 
+pol: 5, ang: 170, dist: 1 
+Too many values
+pol: 5, ang: 170, dist: 2 
+Too many values
+pol: 5, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 127976.29538660716 haussdorf: 142.0004496388333 jaccard: 0.8924094068999366 
+pol: 5, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 136035.89138413168 haussdorf: 142.0004496388333 jaccard: 0.8926444586322475 
+pol: 5, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 135363.82763533402 haussdorf: 142.0004496388333 jaccard: 0.8977914651397059 
+pol: 5, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 15332.662704137083 haussdorf: 48.08457731604931 jaccard: 0.8931160514773284 
+pol: 5, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 16387.36311835301 haussdorf: 44.496949640186486 jaccard: 0.9156140973606834 
+pol: 5, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 14817.773040572518 haussdorf: 44.02265470821838 jaccard: 0.9151960010717833 
+pol: 5, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 36663.100047532054 haussdorf: 45.824587535436365 jaccard: 0.9033600899411645 
+pol: 5, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 19920.556142761216 haussdorf: 46.514546496021055 jaccard: 0.9075822351080748 
+pol: 5, ang: 180, dist: 1 
+Too many values
+pol: 5, ang: 180, dist: 2 
+Too many values
+pol: 5, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 65207.635105901296 haussdorf: 191.7733295833837 jaccard: 0.6820862600478359 
+pol: 5, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 24878.16698660339 haussdorf: 64.61701952554769 jaccard: 0.8846577047295155 
+pol: 5, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 27477.41113950084 haussdorf: 108.97725976774171 jaccard: 0.8178764619686532 
+pol: 5, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 68997.3563838861 haussdorf: 127.12944790771718 jaccard: 0.8541311099884821 
+pol: 5, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 84950.29843195793 haussdorf: 150.29008491717315 jaccard: 0.8158198346574684 
+pol: 5, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 207393.86183477126 haussdorf: 150.29008491717315 jaccard: 0.7925421302344027 
+pol: 5, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 121210.9930982494 haussdorf: 167.13289131518718 jaccard: 0.7487198165847961 
+pol: 5, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 143965.50645041818 haussdorf: 362.1738254170276 jaccard: 0.1819312656112616 
+--------------- NEW POLYGON ---------------
+pol: 6, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 205327.48655923098 haussdorf: 308.9125432021674 jaccard: 0.5463543811737264 
+pol: 6, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 23849.30394946305 haussdorf: 93.34505595112532 jaccard: 0.8740337170528223 
+pol: 6, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 23849.30394946305 haussdorf: 93.34505595112532 jaccard: 0.8740337170528223 
+pol: 6, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 6, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 6, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 184768.57703241528 haussdorf: 486.6753267570758 jaccard: 0.6012270183281382 
+pol: 6, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 74337.55986140441 haussdorf: 245.91236864205274 jaccard: 0.8626024513070164 
+pol: 6, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 74337.55986140441 haussdorf: 245.91236864205274 jaccard: 0.8626024513070164 
+pol: 6, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 74094.36164965211 haussdorf: 93.34505595112532 jaccard: 0.8349639096050512 
+pol: 6, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 6, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 6, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 105836.0148062072 haussdorf: 361.91687815453815 jaccard: 0.7059554416775888 
+pol: 6, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 146114.87060315165 haussdorf: 379.52723780639764 jaccard: 0.6837159520908316 
+pol: 6, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 127660.8588292314 haussdorf: 156.91516111342804 jaccard: 0.8661181205988233 
+pol: 6, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 127660.8588292314 haussdorf: 156.91516111342804 jaccard: 0.8661181205988233 
+pol: 6, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 167582.3560413723 haussdorf: 513.8926871617232 jaccard: 0.61858753053635 
+pol: 6, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 99768.91951445564 haussdorf: 330.1002504099341 jaccard: 0.7062867327481431 
+pol: 6, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 167127.36369770387 haussdorf: 524.7108327422161 jaccard: 0.6163810097585782 
+pol: 6, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 166339.40666130255 haussdorf: 441.1947403641244 jaccard: 0.6308192280581598 
+pol: 6, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 63660.84113725101 haussdorf: 89.50836805287028 jaccard: 0.8711890736636769 
+pol: 6, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 162193.74098347794 haussdorf: 157.4682341538473 jaccard: 0.8365801856075586 
+pol: 6, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 166362.85008760044 haussdorf: 473.17114235887925 jaccard: 0.6062945556609838 
+pol: 6, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 163005.42279704768 haussdorf: 296.0074190594744 jaccard: 0.6551742540648146 
+pol: 6, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 231261.18803460884 haussdorf: 296.0074190594744 jaccard: 0.6219120644230037 
+pol: 6, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 231261.18803460884 haussdorf: 296.0074190594744 jaccard: 0.6219120644230037 
+pol: 6, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 250595.86268490148 haussdorf: 151.7767042415261 jaccard: 0.8137378027563575 
+pol: 6, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 228189.28977407803 haussdorf: 151.7767042415261 jaccard: 0.8211000868698166 
+pol: 6, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 197102.7107074472 haussdorf: 170.94636293146647 jaccard: 0.8487474621070077 
+pol: 6, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 116045.02871988964 haussdorf: 242.04634247256666 jaccard: 0.7556268246546067 
+pol: 6, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 183708.84804116396 haussdorf: 148.12728320105566 jaccard: 0.8243714996383285 
+pol: 6, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 147020.68675864316 haussdorf: 157.8503964413531 jaccard: 0.7809829348501567 
+pol: 6, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 231500.02299109907 haussdorf: 391.45224145376426 jaccard: 0.7026435340767857 
+pol: 6, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 195442.61862961017 haussdorf: 151.7767042415261 jaccard: 0.8635919034404902 
+pol: 6, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 15382.686213970415 haussdorf: 47.065069488545966 jaccard: 0.9121344742744881 
+pol: 6, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 62791.59683966842 haussdorf: 49.91960849122787 jaccard: 0.8733224124540198 
+pol: 6, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 156075.95157336156 haussdorf: 151.7767042415261 jaccard: 0.8924445765389808 
+pol: 6, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 157638.57092811403 haussdorf: 151.7767042415261 jaccard: 0.892243326815916 
+pol: 6, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 220271.40651923913 haussdorf: 156.84030516611415 jaccard: 0.8367081784512731 
+pol: 6, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 242335.70577288262 haussdorf: 164.57289922489016 jaccard: 0.7990711469018102 
+pol: 6, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 24392.263489672805 haussdorf: 49.91960849122787 jaccard: 0.9002892114198284 
+pol: 6, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 162677.69125408286 haussdorf: 153.72962676822448 jaccard: 0.8678725485761305 
+pol: 6, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 180029.59007816916 haussdorf: 189.67042249150046 jaccard: 0.8352017207006713 
+pol: 6, ang: 170, dist: 1 
+Too many values
+pol: 6, ang: 170, dist: 2 
+Too many values
+pol: 6, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 37267.87628440148 haussdorf: 50.92868345086401 jaccard: 0.8957380891083513 
+pol: 6, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 49154.319362583214 haussdorf: 50.22714467041517 jaccard: 0.8958631876879657 
+pol: 6, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 21816.70291609807 haussdorf: 47.08495283014151 jaccard: 0.904689794124466 
+pol: 6, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 36683.798030418395 haussdorf: 48.27691258674196 jaccard: 0.9016937165221206 
+pol: 6, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 16204.455600501436 haussdorf: 99.73184579879404 jaccard: 0.8697215090829196 
+pol: 6, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 16791.02969910219 haussdorf: 48.23545270381655 jaccard: 0.9106157296655397 
+pol: 6, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 39726.84148942663 haussdorf: 47.065069488545966 jaccard: 0.9009285031108663 
+pol: 6, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 85520.34141158655 haussdorf: 161.96913790148557 jaccard: 0.8219250936115106 
+pol: 6, ang: 180, dist: 1 
+Too many values
+pol: 6, ang: 180, dist: 2 
+Too many values
+pol: 6, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 28130.58359483229 haussdorf: 47.08495283014151 jaccard: 0.9000258868940385 
+pol: 6, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 20100.01962014726 haussdorf: 47.08495283014151 jaccard: 0.9012867619153329 
+pol: 6, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 31409.961185565728 haussdorf: 47.08495283014151 jaccard: 0.8943337618709141 
+pol: 6, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 28811.47579235038 haussdorf: 47.67979722289323 jaccard: 0.9005014200714119 
+pol: 6, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 66989.50129295014 haussdorf: 127.6804275385291 jaccard: 0.8637362139071191 
+pol: 6, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 83845.56476197124 haussdorf: 127.6804275385291 jaccard: 0.8470426403838003 
+pol: 6, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 66222.35758992218 haussdorf: 112.59338715983746 jaccard: 0.8674357157876336 
+pol: 6, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 25847.70779517641 haussdorf: 80.32583162002908 jaccard: 0.8952547749691568 
+--------------- NEW POLYGON ---------------
+pol: 7, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 77371.30306385257 haussdorf: 195.04117592409187 jaccard: 0.8216683537454923 
+pol: 7, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 77371.30306385257 haussdorf: 195.04117592409187 jaccard: 0.8216683537454923 
+pol: 7, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 77371.30306385257 haussdorf: 195.04117592409187 jaccard: 0.8216683537454923 
+pol: 7, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 190945.71095558148 haussdorf: 208.25102040391337 jaccard: 0.5599539195415509 
+pol: 7, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 7, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 211372.87138521954 haussdorf: 388.11925152291315 jaccard: 0.6367499889402946 
+pol: 7, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 231272.51666761152 haussdorf: 388.11925152291315 jaccard: 0.47075864124461525 
+pol: 7, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 231272.51666761152 haussdorf: 388.11925152291315 jaccard: 0.47075864124461525 
+pol: 7, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 143355.11955032675 haussdorf: 220.96412205244548 jaccard: 0.659937384065893 
+pol: 7, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 210843.3478794806 haussdorf: 339.282159781834 jaccard: 0.47375948983459326 
+pol: 7, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 182851.88933082015 haussdorf: 495.0345952974582 jaccard: 0.5908768204566734 
+pol: 7, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 196757.71812428083 haussdorf: 208.25102040391337 jaccard: 0.36786800222050114 
+pol: 7, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 191167.28804094213 haussdorf: 207.71398890049846 jaccard: 0.36644466002356146 
+pol: 7, ang: 130, dist: 9 
+min dist: 9 max angle: 130 dist total: 132364.42301663445 haussdorf: 413.71752147468385 jaccard: 0.688091376888508 
+pol: 7, ang: 130, dist: 10 
+min dist: 10 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 7, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 127529.0717733457 haussdorf: 267.9812329095053 jaccard: 0.7525173764278478 
+pol: 7, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 144753.44366977914 haussdorf: 267.9812329095053 jaccard: 0.7531087294815468 
+pol: 7, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 144753.44366977914 haussdorf: 267.9812329095053 jaccard: 0.7531087294815468 
+pol: 7, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 64917.14827552508 haussdorf: 232.3269610466208 jaccard: 0.8319199211073318 
+pol: 7, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 61358.273812537765 haussdorf: 225.2270744282132 jaccard: 0.8318596921705717 
+pol: 7, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 144487.05013573007 haussdorf: 382.8815291338804 jaccard: 0.6249066876301818 
+pol: 7, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 149751.75696527856 haussdorf: 382.8815291338804 jaccard: 0.636522203181723 
+pol: 7, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 103037.3913360465 haussdorf: 102.01727925368036 jaccard: 0.8316696798798602 
+pol: 7, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 105100.67513317996 haussdorf: 375.9404060763082 jaccard: 0.7436952743904304 
+pol: 7, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 109792.93587671146 haussdorf: 146.64220845466923 jaccard: 0.8162316978854047 
+pol: 7, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 84538.37570799004 haussdorf: 68.0842655188872 jaccard: 0.865702296539937 
+pol: 7, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 87010.27443195511 haussdorf: 69.39832525050836 jaccard: 0.8633624020834849 
+pol: 7, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 87010.27443195511 haussdorf: 69.39832525050836 jaccard: 0.8633624020834849 
+pol: 7, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 82668.54879353807 haussdorf: 221.94362987145695 jaccard: 0.8154886155914534 
+pol: 7, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 61586.41956628249 haussdorf: 220.7640126322374 jaccard: 0.8246283604275262 
+pol: 7, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 63415.1106776814 haussdorf: 220.7640126322374 jaccard: 0.8218148552050784 
+pol: 7, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 135645.3716875204 haussdorf: 216.515159353733 jaccard: 0.7069308292157608 
+pol: 7, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 200889.24681047347 haussdorf: 201.81925864983634 jaccard: 0.7379632707737706 
+pol: 7, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 80809.19039301807 haussdorf: 76.9680566551589 jaccard: 0.8546489597673197 
+pol: 7, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 174792.94338283496 haussdorf: 165.7042594432064 jaccard: 0.6786553509893678 
+pol: 7, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 78347.8015501725 haussdorf: 161.48207984770633 jaccard: 0.8682346258534298 
+pol: 7, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 78660.48400593192 haussdorf: 161.48207984770633 jaccard: 0.86822706254406 
+pol: 7, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 112133.84893688804 haussdorf: 179.90352571274997 jaccard: 0.8389065616296283 
+pol: 7, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 89863.44437033487 haussdorf: 231.1215940317379 jaccard: 0.8159435295608398 
+pol: 7, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 57725.50117907726 haussdorf: 192.25622896481303 jaccard: 0.8232375473955971 
+pol: 7, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 46631.54484806847 haussdorf: 107.19187443395654 jaccard: 0.8653209830732065 
+pol: 7, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 59869.29847009068 haussdorf: 184.50623998054238 jaccard: 0.834269560419346 
+pol: 7, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 157778.9079603453 haussdorf: 508.38762710872976 jaccard: 0.631293697502557 
+pol: 7, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 171108.7629096464 haussdorf: 199.83522151196522 jaccard: 0.8186711897873475 
+pol: 7, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 165179.90595723156 haussdorf: 160.4687827273127 jaccard: 0.8176479568662867 
+pol: 7, ang: 170, dist: 1 
+Too many values
+pol: 7, ang: 170, dist: 2 
+Too many values
+pol: 7, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 60919.67216399164 haussdorf: 102.80865072527138 jaccard: 0.873224216619674 
+pol: 7, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 63565.58815008459 haussdorf: 102.80865072527138 jaccard: 0.868805444281563 
+pol: 7, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 57593.66027557101 haussdorf: 72.37620240213467 jaccard: 0.8856507564007894 
+pol: 7, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 103502.93132277881 haussdorf: 270.43421661298066 jaccard: 0.7858374940566872 
+pol: 7, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 71769.57269791084 haussdorf: 84.86648383007557 jaccard: 0.864679229808911 
+pol: 7, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 73422.86315128671 haussdorf: 198.7559022879592 jaccard: 0.8307708129218546 
+pol: 7, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 201193.52247117765 haussdorf: 197.69094673668855 jaccard: 0.7686664483236183 
+pol: 7, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 35213.569656026804 haussdorf: 65.14153179295243 jaccard: 0.8949178529261266 
+pol: 7, ang: 180, dist: 1 
+Too many values
+pol: 7, ang: 180, dist: 2 
+Too many values
+pol: 7, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 53694.143851629095 haussdorf: 72.70928080294686 jaccard: 0.8857379783995958 
+pol: 7, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 67657.33408929815 haussdorf: 128.03612866707215 jaccard: 0.8549813703880955 
+pol: 7, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 51037.22189748347 haussdorf: 120.88025503033441 jaccard: 0.8692925096254772 
+pol: 7, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 48376.25749487049 haussdorf: 116.39212993034178 jaccard: 0.875493244563422 
+pol: 7, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 149064.9073917022 haussdorf: 165.7675664716474 jaccard: 0.8808750945629962 
+pol: 7, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 102282.55978290793 haussdorf: 216.2893514940111 jaccard: 0.8273415066507681 
+pol: 7, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 95319.42577186828 haussdorf: 180.87341855462108 jaccard: 0.8405042428511651 
+pol: 7, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 25221.253601431163 haussdorf: 88.02222579745896 jaccard: 0.8949842170384246 
+--------------- NEW POLYGON ---------------
+pol: 8, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 75143.333510381 haussdorf: 66.28293395244904 jaccard: 0.8781241222153642 
+pol: 8, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 77849.38542337727 haussdorf: 77.78457615709887 jaccard: 0.8576369820343207 
+pol: 8, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 77849.38542337727 haussdorf: 77.78457615709887 jaccard: 0.8576369820343207 
+pol: 8, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 182661.24208057555 haussdorf: 374.38538284414904 jaccard: 0.6246071895760199 
+pol: 8, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 234255.91172115272 haussdorf: 387.9986138559869 jaccard: 0.6360095646521403 
+pol: 8, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 212175.19244140567 haussdorf: 379.3370903216986 jaccard: 0.6425998733589282 
+pol: 8, ang: 120, dist: 7 
+min dist: 7 max angle: 120 dist total: 175887.11423862915 haussdorf: 335.96217690454375 jaccard: 0.7049061563364678 
+pol: 8, ang: 120, dist: 8 
+min dist: 8 max angle: 120 dist total: 174703.61382045748 haussdorf: 379.3370903216986 jaccard: 0.6894581550101195 
+pol: 8, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 8, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 8, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 35527.77512693518 haussdorf: 45.640357710345654 jaccard: 0.8925551665206446 
+pol: 8, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 38513.94031723183 haussdorf: 50.35094161923067 jaccard: 0.8891259207787776 
+pol: 8, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 38513.94031723183 haussdorf: 50.35094161923067 jaccard: 0.8891259207787776 
+pol: 8, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 114804.48627529225 haussdorf: 129.4900683668669 jaccard: 0.8872464608781314 
+pol: 8, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 114804.48627529225 haussdorf: 129.4900683668669 jaccard: 0.8872464608781314 
+pol: 8, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 130547.37019865103 haussdorf: 150.39926001040322 jaccard: 0.8614356049927173 
+pol: 8, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 78901.57142563646 haussdorf: 111.86459396790093 jaccard: 0.857915890266334 
+pol: 8, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 124826.23814633962 haussdorf: 214.29221559500317 jaccard: 0.7834986070529599 
+pol: 8, ang: 130, dist: 9 
+min dist: 9 max angle: 130 dist total: 167520.46598595864 haussdorf: 419.5984750634872 jaccard: 0.7153475761279688 
+pol: 8, ang: 130, dist: 10 
+min dist: 10 max angle: 130 dist total: 156995.5371144137 haussdorf: 465.4744318048725 jaccard: 0.615548097926959 
+pol: 8, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 194615.40603457298 haussdorf: 170.572391249952 jaccard: 0.7403089001900678 
+pol: 8, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 213023.17347461457 haussdorf: 170.572391249952 jaccard: 0.7248387226324209 
+pol: 8, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 213023.17347461457 haussdorf: 170.572391249952 jaccard: 0.7248387226324209 
+pol: 8, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 67512.14969545616 haussdorf: 55.51094674165236 jaccard: 0.8809827524197673 
+pol: 8, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 67397.55003419619 haussdorf: 55.51094674165236 jaccard: 0.8814875754866942 
+pol: 8, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 78549.98413691766 haussdorf: 112.45848668588499 jaccard: 0.8499833030338266 
+pol: 8, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 47694.583862971944 haussdorf: 81.14710624241525 jaccard: 0.8593021640150178 
+pol: 8, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 53217.61732343899 haussdorf: 81.14710624241525 jaccard: 0.8571023850760296 
+pol: 8, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 146861.5350141323 haussdorf: 159.30387483534201 jaccard: 0.7784578817611667 
+pol: 8, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 163536.16954680724 haussdorf: 484.3570998048133 jaccard: 0.6070836742168506 
+pol: 8, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 55138.13240575702 haussdorf: 121.33549770088959 jaccard: 0.8289830191018133 
+pol: 8, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 54171.20584380303 haussdorf: 89.92228401478113 jaccard: 0.8429477494041842 
+pol: 8, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 54171.20584380303 haussdorf: 89.92228401478113 jaccard: 0.8429477494041842 
+pol: 8, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 54648.472460134806 haussdorf: 55.21896751957198 jaccard: 0.8847426446674221 
+pol: 8, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 52377.31050338189 haussdorf: 55.21896751957198 jaccard: 0.8847181236856005 
+pol: 8, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 86547.65748663446 haussdorf: 118.26095024143399 jaccard: 0.8497412822245564 
+pol: 8, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 146782.39080662024 haussdorf: 246.87997365852422 jaccard: 0.7625904201933291 
+pol: 8, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 118673.32484075862 haussdorf: 406.3633161441341 jaccard: 0.3749992998149182 
+pol: 8, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 120752.7327855978 haussdorf: 165.05387483534201 jaccard: 0.7451437689149112 
+pol: 8, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 221643.0693574185 haussdorf: 577.1878446905988 jaccard: 0.540046332493426 
+pol: 8, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 152118.38926989728 haussdorf: 159.7891085201137 jaccard: 0.8735243714121999 
+pol: 8, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 134344.95166458184 haussdorf: 159.7891085201137 jaccard: 0.882907906815552 
+pol: 8, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 66899.11205555049 haussdorf: 80.16841660717773 jaccard: 0.8380940486007532 
+pol: 8, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 131487.53738347275 haussdorf: 157.73571005892296 jaccard: 0.8827275559657677 
+pol: 8, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 38902.08575367851 haussdorf: 49.24433766598857 jaccard: 0.900347781982 
+pol: 8, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 214895.20190583853 haussdorf: 386.3397100709741 jaccard: 0.6755849998780789 
+pol: 8, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 58444.64557662458 haussdorf: 49.08744660321909 jaccard: 0.8703299665427293 
+pol: 8, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 56564.55805575818 haussdorf: 101.71722147763114 jaccard: 0.8711672068378625 
+pol: 8, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 186496.2008490412 haussdorf: 359.76296522391874 jaccard: 0.7021860191490674 
+pol: 8, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 142499.8330425898 haussdorf: 197.90203197694512 jaccard: 0.809983308088895 
+pol: 8, ang: 170, dist: 1 
+Too many values
+pol: 8, ang: 170, dist: 2 
+Too many values
+pol: 8, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 114124.28205306776 haussdorf: 159.7891085201137 jaccard: 0.8969223871672909 
+pol: 8, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 142049.7634074052 haussdorf: 159.7891085201137 jaccard: 0.8853141268322161 
+pol: 8, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 131040.63607863583 haussdorf: 159.7891085201137 jaccard: 0.875286993767306 
+pol: 8, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 132516.7446525396 haussdorf: 159.7891085201137 jaccard: 0.882504066535994 
+pol: 8, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 129211.93856354868 haussdorf: 159.7891085201137 jaccard: 0.8938152488758861 
+pol: 8, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 38953.42475138181 haussdorf: 57.20854967941636 jaccard: 0.8635895191384191 
+pol: 8, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 22431.74083620459 haussdorf: 52.41243721145905 jaccard: 0.8928647411590833 
+pol: 8, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 119553.46031550998 haussdorf: 158.79204609901421 jaccard: 0.8844116390462369 
+pol: 8, ang: 180, dist: 1 
+Too many values
+pol: 8, ang: 180, dist: 2 
+Too many values
+pol: 8, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 39256.56304727619 haussdorf: 82.84395305139742 jaccard: 0.8629125341743251 
+pol: 8, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 36512.9917845057 haussdorf: 49.77427338812487 jaccard: 0.893679614622997 
+pol: 8, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 186387.90069785636 haussdorf: 373.3435053106398 jaccard: 0.718819104568728 
+pol: 8, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 131221.2214693165 haussdorf: 166.4125167935 jaccard: 0.8551411651856 
+pol: 8, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 31712.242485317867 haussdorf: 57.85418589954413 jaccard: 0.8938916311258669 
+pol: 8, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 39412.510840809264 haussdorf: 99.98907153941005 jaccard: 0.8940461280482876 
+pol: 8, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 22687.623920031852 haussdorf: 51.563212006497764 jaccard: 0.8977827062684596 
+pol: 8, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 13761.429773565456 haussdorf: 43.02270398711328 jaccard: 0.9006301894676255 
+--------------- NEW POLYGON ---------------
+pol: 9, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 174950.4482331403 haussdorf: 143.97365575700616 jaccard: 0.7862522878461853 
+pol: 9, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 174950.4482331403 haussdorf: 143.97365575700616 jaccard: 0.7862522878461853 
+pol: 9, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 113843.45875131755 haussdorf: 198.68226721397758 jaccard: 0.7714837431191516 
+pol: 9, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 9, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 9, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 87751.20855649454 haussdorf: 198.68226721397758 jaccard: 0.7701142210931036 
+pol: 9, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 9, ang: 120, dist: 8 
+min dist: 8 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 9, ang: 120, dist: 9 
+min dist: 9 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 9, ang: 120, dist: 10 
+min dist: 10 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 9, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 200055.2658219023 haussdorf: 154.11548840469652 jaccard: 0.8766783167315844 
+pol: 9, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 200055.2658219023 haussdorf: 154.11548840469652 jaccard: 0.8766783167315844 
+pol: 9, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 163353.96513934692 haussdorf: 120.53781284777813 jaccard: 0.840965992584053 
+pol: 9, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 161256.13530151962 haussdorf: 119.32233468371646 jaccard: 0.8395071941986691 
+pol: 9, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 37537.20024938433 haussdorf: 63.519943804174325 jaccard: 0.8906005268922901 
+pol: 9, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 109319.1147843907 haussdorf: 128.49407164729115 jaccard: 0.7484242497920632 
+pol: 9, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 9, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 9, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 9, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 9, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 222723.47126097986 haussdorf: 154.11548840469652 jaccard: 0.8647627308108925 
+pol: 9, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 222723.47126097986 haussdorf: 154.11548840469652 jaccard: 0.8647627308108925 
+pol: 9, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 230879.28855522053 haussdorf: 211.61265597187926 jaccard: 0.8159670739233111 
+pol: 9, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 62174.46482757008 haussdorf: 73.81293662370236 jaccard: 0.8858765480283265 
+pol: 9, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 145433.4754895264 haussdorf: 142.84240726641858 jaccard: 0.7974689002710558 
+pol: 9, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 178173.94289156908 haussdorf: 116.53653029975462 jaccard: 0.8129518174596457 
+pol: 9, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 149798.81912035588 haussdorf: 99.80087836548395 jaccard: 0.8152774918504795 
+pol: 9, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 122578.97532285932 haussdorf: 241.29934271875132 jaccard: 0.7421613721244267 
+pol: 9, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 146738.096828392 haussdorf: 288.09270515284277 jaccard: 0.6604252660772805 
+pol: 9, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 143539.5090262931 haussdorf: 241.29934271875132 jaccard: 0.7285345209659678 
+pol: 9, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 235035.46062289114 haussdorf: 180.54253311848697 jaccard: 0.7693579622378135 
+pol: 9, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 235035.46062289114 haussdorf: 180.54253311848697 jaccard: 0.7693579622378135 
+pol: 9, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 276389.1521274429 haussdorf: 230.5876219231671 jaccard: 0.5450960570876293 
+pol: 9, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 102985.48423704763 haussdorf: 187.8344767696123 jaccard: 0.7414295578720934 
+pol: 9, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 18169.985898388015 haussdorf: 56.7653440327966 jaccard: 0.9134277669242439 
+pol: 9, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 152868.8240238771 haussdorf: 143.45689655172413 jaccard: 0.761457698632046 
+pol: 9, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 40545.165446928004 haussdorf: 72.7170528681018 jaccard: 0.877320411999452 
+pol: 9, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 114259.53075483482 haussdorf: 358.16710270672854 jaccard: 0.7027973443785074 
+pol: 9, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 138587.12715167372 haussdorf: 100.53941056582275 jaccard: 0.7949697887942582 
+pol: 9, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 38969.609980795576 haussdorf: 72.93717000325837 jaccard: 0.8762905953342953 
+pol: 9, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 193861.04167747026 haussdorf: 155.25225921495672 jaccard: 0.9004276415745538 
+pol: 9, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 193861.04167747026 haussdorf: 155.25225921495672 jaccard: 0.9004276415745538 
+pol: 9, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 20587.838433606783 haussdorf: 64.68382338683536 jaccard: 0.9120778210982685 
+pol: 9, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 273788.9333845111 haussdorf: 143.95338732075413 jaccard: 0.6230025737433149 
+pol: 9, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 115191.37255754451 haussdorf: 119.91818506321545 jaccard: 0.7497505294727064 
+pol: 9, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 318072.0504473858 haussdorf: 297.8249683282611 jaccard: 0.6464948145076987 
+pol: 9, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 281567.33487852 haussdorf: 202.51546217005892 jaccard: 0.658639694270194 
+pol: 9, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 61827.20381725262 haussdorf: 139.8918166102982 jaccard: 0.8369927169798463 
+pol: 9, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 232235.53398534225 haussdorf: 147.20785649030455 jaccard: 0.7875865411332148 
+pol: 9, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 43173.13754827572 haussdorf: 77.88050002840438 jaccard: 0.857154480898847 
+pol: 9, ang: 170, dist: 1 
+Too many values
+pol: 9, ang: 170, dist: 2 
+Too many values
+pol: 9, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 287625.8591326526 haussdorf: 297.8249683282611 jaccard: 0.3604418228009488 
+pol: 9, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 210612.107562418 haussdorf: 153.78071480522112 jaccard: 0.8749804962992389 
+pol: 9, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 290488.8890150473 haussdorf: 297.8249683282611 jaccard: 0.7070966305629973 
+pol: 9, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 209177.74938597356 haussdorf: 153.78071480522112 jaccard: 0.852084742114457 
+pol: 9, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 296350.5490284888 haussdorf: 290.9171906190521 jaccard: 0.7037018421911503 
+pol: 9, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 38766.83297381683 haussdorf: 92.5152600881811 jaccard: 0.874857667980523 
+pol: 9, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 33466.80173986293 haussdorf: 76.30745596446144 jaccard: 0.8801420505337723 
+pol: 9, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 184360.26961445183 haussdorf: 156.61821034706838 jaccard: 0.8867220759814805 
+pol: 9, ang: 180, dist: 1 
+Too many values
+pol: 9, ang: 180, dist: 2 
+Too many values
+pol: 9, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 58900.40586631451 haussdorf: 75.65851761099823 jaccard: 0.8748404821536088 
+pol: 9, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 182688.8325689734 haussdorf: 331.55386848461217 jaccard: 0.24118547377713773 
+pol: 9, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 78633.61698901255 haussdorf: 96.34336935394043 jaccard: 0.8435740327652745 
+pol: 9, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 36486.87219449541 haussdorf: 62.29295985899992 jaccard: 0.9045529239940573 
+pol: 9, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 36450.67727525248 haussdorf: 62.70325812351197 jaccard: 0.9045825459581032 
+pol: 9, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 39671.2916220298 haussdorf: 61.68990251826389 jaccard: 0.9072108164058534 
+pol: 9, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 28775.773448331365 haussdorf: 78.98461788611866 jaccard: 0.9012817836070508 
+pol: 9, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 17105.790696459728 haussdorf: 68.73880558392788 jaccard: 0.9121510030112325 
+--------------- NEW POLYGON ---------------
+pol: 10, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 369839.12391658727 haussdorf: 330.3430772716101 jaccard: 0.4060987515499642 
+pol: 10, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 369839.12391658727 haussdorf: 330.3430772716101 jaccard: 0.4060987515499642 
+pol: 10, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 234465.1900818863 haussdorf: 523.9939685477095 jaccard: 0.5546075659460824 
+pol: 10, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 31518.09452590301 haussdorf: 75.76002290607357 jaccard: 0.8369220327985254 
+pol: 10, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 113426.94504586126 haussdorf: 267.07855400426934 jaccard: 0.6751944606753322 
+pol: 10, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 142866.5428056285 haussdorf: 269.77550053169864 jaccard: 0.6565740287099407 
+pol: 10, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 10, ang: 120, dist: 8 
+min dist: 8 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 10, ang: 120, dist: 9 
+min dist: 9 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 10, ang: 120, dist: 10 
+min dist: 10 max angle: 120 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 10, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 218097.83527358045 haussdorf: 155.40527751662867 jaccard: 0.749261865074071 
+pol: 10, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 218097.83527358045 haussdorf: 155.40527751662867 jaccard: 0.749261865074071 
+pol: 10, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 76255.12348645828 haussdorf: 106.03238085599136 jaccard: 0.7822741728740263 
+pol: 10, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 191612.9031681766 haussdorf: 179.70206143385047 jaccard: 0.6051324442456363 
+pol: 10, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 229581.51605879638 haussdorf: 370.17690765373334 jaccard: 0.47333142880100354 
+pol: 10, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 93020.92810562001 haussdorf: 265.7606685948696 jaccard: 0.7272355035288018 
+pol: 10, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 0 haussdorf: 1243435233423232 jaccard: 1 
+pol: 10, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 10, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 10, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 10, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 235171.10167330524 haussdorf: 150.28596105846256 jaccard: 0.7350431312072221 
+pol: 10, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 235171.10167330524 haussdorf: 150.28596105846256 jaccard: 0.7350431312072221 
+pol: 10, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 305974.18817782006 haussdorf: 141.99656637252957 jaccard: 0.7441706710686953 
+pol: 10, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 312701.92605549085 haussdorf: 188.1252983181704 jaccard: 0.688811931509524 
+pol: 10, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 213608.43673040761 haussdorf: 406.6413029661046 jaccard: 0.5713367221930534 
+pol: 10, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 179433.28673416143 haussdorf: 264.479748609514 jaccard: 0.638179847475719 
+pol: 10, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 65902.00009196649 haussdorf: 106.64147210420415 jaccard: 0.7718911866375657 
+pol: 10, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 54956.35252394547 haussdorf: 182.51614846589007 jaccard: 0.8210333353959629 
+pol: 10, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 54956.35252394547 haussdorf: 182.51614846589007 jaccard: 0.8210333353959629 
+pol: 10, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 54719.84506071504 haussdorf: 182.51614846589007 jaccard: 0.8198724164468836 
+pol: 10, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 207974.35976303293 haussdorf: 156.90336921000832 jaccard: 0.809371611210487 
+pol: 10, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 207974.35976303293 haussdorf: 156.90336921000832 jaccard: 0.809371611210487 
+pol: 10, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 68255.71569486843 haussdorf: 180.34452850051497 jaccard: 0.8092798663698364 
+pol: 10, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 45587.75618351465 haussdorf: 119.67875371226657 jaccard: 0.8572970496835481 
+pol: 10, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 260640.3295792496 haussdorf: 469.4413674967436 jaccard: 0.48702270159232597 
+pol: 10, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 34122.30699227302 haussdorf: 77.4426983587118 jaccard: 0.8665800292272443 
+pol: 10, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 173724.76122276433 haussdorf: 124.952604146331 jaccard: 0.8364511738134492 
+pol: 10, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 99209.50532288647 haussdorf: 145.82306967952172 jaccard: 0.7403989771577603 
+pol: 10, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 105697.57878679257 haussdorf: 145.82306967952172 jaccard: 0.7358660499220093 
+pol: 10, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 32662.097257736354 haussdorf: 77.45439512550544 jaccard: 0.8699906772384025 
+pol: 10, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 75574.19555410261 haussdorf: 101.92581931870293 jaccard: 0.8084370987850923 
+pol: 10, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 75574.19555410261 haussdorf: 101.92581931870293 jaccard: 0.8084370987850923 
+pol: 10, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 259273.93929392094 haussdorf: 155.40527751662867 jaccard: 0.7954571545761372 
+pol: 10, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 292740.2215731268 haussdorf: 293.2689691460818 jaccard: 0.6737729749888105 
+pol: 10, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 219668.74498793934 haussdorf: 155.40527751662867 jaccard: 0.7811357283815873 
+pol: 10, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 200385.90351598925 haussdorf: 178.41479040026758 jaccard: 0.8124131222060658 
+pol: 10, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 78930.9859467013 haussdorf: 125.78056983276969 jaccard: 0.7848574469445257 
+pol: 10, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 237630.02078090617 haussdorf: 397.55994409840224 jaccard: 0.5281882343423739 
+pol: 10, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 195241.87078009505 haussdorf: 287.12650127844086 jaccard: 0.5272335446628765 
+pol: 10, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 32676.554682251444 haussdorf: 80.75509377639621 jaccard: 0.8734822762418182 
+pol: 10, ang: 170, dist: 1 
+Too many values
+pol: 10, ang: 170, dist: 2 
+Too many values
+pol: 10, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 202818.54127056978 haussdorf: 155.40527751662867 jaccard: 0.8530075534371562 
+pol: 10, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 188206.22914485566 haussdorf: 155.40527751662867 jaccard: 0.8553164115885186 
+pol: 10, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 39966.14091787058 haussdorf: 87.96766237740306 jaccard: 0.8652470400382717 
+pol: 10, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 43809.72960416591 haussdorf: 125.20352899086532 jaccard: 0.8659882229127334 
+pol: 10, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 54257.5804308246 haussdorf: 125.20352899086532 jaccard: 0.8474420024870226 
+pol: 10, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 77179.87685851294 haussdorf: 101.71544025752965 jaccard: 0.8444945414084292 
+pol: 10, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 80529.94679809955 haussdorf: 100.97576351329525 jaccard: 0.8341018252653983 
+pol: 10, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 228240.5474542328 haussdorf: 156.90336921000832 jaccard: 0.8320276132405254 
+pol: 10, ang: 180, dist: 1 
+Too many values
+pol: 10, ang: 180, dist: 2 
+Too many values
+pol: 10, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 171081.74809672066 haussdorf: 156.53254945680297 jaccard: 0.8763974130286996 
+pol: 10, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 337858.84747813456 haussdorf: 320.6716192752662 jaccard: 0.5284418918139865 
+pol: 10, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 40903.6166364029 haussdorf: 90.49194643772898 jaccard: 0.8262517574052711 
+pol: 10, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 21750.939754992643 haussdorf: 114.65554629904817 jaccard: 0.8650360234521397 
+pol: 10, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 36598.270568776155 haussdorf: 114.65554629904817 jaccard: 0.8288489640117002 
+pol: 10, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 52552.71120958303 haussdorf: 84.89701180172933 jaccard: 0.8573871984126891 
+pol: 10, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 54645.15188279402 haussdorf: 83.72054212957026 jaccard: 0.8583811230741659 
+pol: 10, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 33280.292581325986 haussdorf: 102.51281091569777 jaccard: 0.8661527537593281 
+--------------- NEW POLYGON ---------------
+pol: 11, ang: 120, dist: 1 
+min dist: 1 max angle: 120 dist total: 25164.986457391988 haussdorf: 76.6429207366304 jaccard: 0.9157243176876199 
+pol: 11, ang: 120, dist: 2 
+min dist: 2 max angle: 120 dist total: 25164.986457391988 haussdorf: 76.6429207366304 jaccard: 0.9157243176876199 
+pol: 11, ang: 120, dist: 3 
+min dist: 3 max angle: 120 dist total: 25164.986457391988 haussdorf: 76.6429207366304 jaccard: 0.9157243176876199 
+pol: 11, ang: 120, dist: 4 
+min dist: 4 max angle: 120 dist total: 25164.986457391988 haussdorf: 76.6429207366304 jaccard: 0.9157243176876199 
+pol: 11, ang: 120, dist: 5 
+min dist: 5 max angle: 120 dist total: 120133.12969976244 haussdorf: 174.70510172129897 jaccard: 0.7421167771280901 
+pol: 11, ang: 120, dist: 6 
+min dist: 6 max angle: 120 dist total: 61634.18482941691 haussdorf: 130.904234478717 jaccard: 0.8099529754784105 
+pol: 11, ang: 120, dist: 7 
+min dist: 7 max angle: 120 dist total: 66291.8219753071 haussdorf: 130.904234478717 jaccard: 0.7798850515927962 
+pol: 11, ang: 120, dist: 8 
+min dist: 8 max angle: 120 dist total: 81642.87782079277 haussdorf: 130.904234478717 jaccard: 0.7381012672346314 
+pol: 11, ang: 120, dist: 9 
+min dist: 9 max angle: 120 dist total: 50488.27755402484 haussdorf: 113.51129214590281 jaccard: 0.8279443009166878 
+pol: 11, ang: 120, dist: 10 
+min dist: 10 max angle: 120 dist total: 79322.58798767571 haussdorf: 226.06964900771032 jaccard: 0.7347596393997469 
+pol: 11, ang: 130, dist: 1 
+min dist: 1 max angle: 130 dist total: 39376.729707294355 haussdorf: 85.51361202685865 jaccard: 0.8998778868497634 
+pol: 11, ang: 130, dist: 2 
+min dist: 2 max angle: 130 dist total: 39376.729707294355 haussdorf: 85.51361202685865 jaccard: 0.8998778868497634 
+pol: 11, ang: 130, dist: 3 
+min dist: 3 max angle: 130 dist total: 39376.729707294355 haussdorf: 85.51361202685865 jaccard: 0.8998778868497634 
+pol: 11, ang: 130, dist: 4 
+min dist: 4 max angle: 130 dist total: 272168.85272898385 haussdorf: 273.3283867473376 jaccard: 0.5905236179014729 
+pol: 11, ang: 130, dist: 5 
+min dist: 5 max angle: 130 dist total: 127475.5312827732 haussdorf: 123.99482085833311 jaccard: 0.7975834401391484 
+pol: 11, ang: 130, dist: 6 
+min dist: 6 max angle: 130 dist total: 163631.77371178867 haussdorf: 497.7846416088586 jaccard: 0.6274773356324939 
+pol: 11, ang: 130, dist: 7 
+min dist: 7 max angle: 130 dist total: 43049.34017897035 haussdorf: 83.40774020259457 jaccard: 0.8686038623536628 
+pol: 11, ang: 130, dist: 8 
+min dist: 8 max angle: 130 dist total: 50966.241497951625 haussdorf: 113.51129214590281 jaccard: 0.8431265496951413 
+pol: 11, ang: 130, dist: 9 
+min dist: 9 max angle: 130 dist total: 54615.759678102746 haussdorf: 113.51129214590281 jaccard: 0.8184039594380079 
+pol: 11, ang: 130, dist: 10 
+min dist: 10 max angle: 130 dist total: 67774.58852518657 haussdorf: 119.57344008085889 jaccard: 0.7769492918704088 
+pol: 11, ang: 140, dist: 1 
+min dist: 1 max angle: 140 dist total: 197600.56952214902 haussdorf: 156.7428928557464 jaccard: 0.7789228861125137 
+pol: 11, ang: 140, dist: 2 
+min dist: 2 max angle: 140 dist total: 197600.56952214902 haussdorf: 156.7428928557464 jaccard: 0.7789228861125137 
+pol: 11, ang: 140, dist: 3 
+min dist: 3 max angle: 140 dist total: 194742.39818566773 haussdorf: 156.7428928557464 jaccard: 0.7814460340204661 
+pol: 11, ang: 140, dist: 4 
+min dist: 4 max angle: 140 dist total: 275476.7847758489 haussdorf: 231.5236687571214 jaccard: 0.6303260522755338 
+pol: 11, ang: 140, dist: 5 
+min dist: 5 max angle: 140 dist total: 76183.08432483688 haussdorf: 105.65996508446466 jaccard: 0.8139867769151756 
+pol: 11, ang: 140, dist: 6 
+min dist: 6 max angle: 140 dist total: 231730.2112049774 haussdorf: 156.7428928557464 jaccard: 0.6848620847410736 
+pol: 11, ang: 140, dist: 7 
+min dist: 7 max angle: 140 dist total: 196427.8703964883 haussdorf: 156.7428928557464 jaccard: 0.7963991889821718 
+pol: 11, ang: 140, dist: 8 
+min dist: 8 max angle: 140 dist total: 189911.71326091423 haussdorf: 156.7428928557464 jaccard: 0.8387930190521404 
+pol: 11, ang: 140, dist: 9 
+min dist: 9 max angle: 140 dist total: 218132.22155799737 haussdorf: 156.7428928557464 jaccard: 0.7467514824577449 
+pol: 11, ang: 140, dist: 10 
+min dist: 10 max angle: 140 dist total: 195003.2713355575 haussdorf: 156.7428928557464 jaccard: 0.8136987490424794 
+pol: 11, ang: 150, dist: 1 
+min dist: 1 max angle: 150 dist total: 122057.71667574772 haussdorf: 110.23573953426317 jaccard: 0.8345433730834915 
+pol: 11, ang: 150, dist: 2 
+min dist: 2 max angle: 150 dist total: 122057.71667574772 haussdorf: 110.23573953426317 jaccard: 0.8345433730834915 
+pol: 11, ang: 150, dist: 3 
+min dist: 3 max angle: 150 dist total: 121076.52054929455 haussdorf: 110.23573953426317 jaccard: 0.8072480058752252 
+pol: 11, ang: 150, dist: 4 
+min dist: 4 max angle: 150 dist total: 211185.94644860787 haussdorf: 163.04702160217244 jaccard: 0.7076412213617302 
+pol: 11, ang: 150, dist: 5 
+min dist: 5 max angle: 150 dist total: 80211.58902260888 haussdorf: 121.72347155280515 jaccard: 0.8106739628387409 
+pol: 11, ang: 150, dist: 6 
+min dist: 6 max angle: 150 dist total: 74027.37115675473 haussdorf: 121.72347155280515 jaccard: 0.8239567615411865 
+pol: 11, ang: 150, dist: 7 
+min dist: 7 max angle: 150 dist total: 49883.289513163356 haussdorf: 122.01214081426795 jaccard: 0.8136460894543058 
+pol: 11, ang: 150, dist: 8 
+min dist: 8 max angle: 150 dist total: 51267.98546613364 haussdorf: 113.51129214590281 jaccard: 0.7916372078278168 
+pol: 11, ang: 150, dist: 9 
+min dist: 9 max angle: 150 dist total: 96467.79781737424 haussdorf: 124.64937673612988 jaccard: 0.7343443520985169 
+pol: 11, ang: 150, dist: 10 
+min dist: 10 max angle: 150 dist total: 57416.27013641865 haussdorf: 129.57237914571272 jaccard: 0.751271877385087 
+pol: 11, ang: 160, dist: 1 
+min dist: 1 max angle: 160 dist total: 190699.79723180525 haussdorf: 157.4051281277875 jaccard: 0.830405162928389 
+pol: 11, ang: 160, dist: 2 
+min dist: 2 max angle: 160 dist total: 190699.79723180525 haussdorf: 157.4051281277875 jaccard: 0.830405162928389 
+pol: 11, ang: 160, dist: 3 
+min dist: 3 max angle: 160 dist total: 224837.06507987718 haussdorf: 157.4051281277875 jaccard: 0.8734809006882966 
+pol: 11, ang: 160, dist: 4 
+min dist: 4 max angle: 160 dist total: 223787.61414984195 haussdorf: 157.4051281277875 jaccard: 0.8733658153738111 
+pol: 11, ang: 160, dist: 5 
+min dist: 5 max angle: 160 dist total: 111085.1176591985 haussdorf: 119.0180745686567 jaccard: 0.7865028233147903 
+pol: 11, ang: 160, dist: 6 
+min dist: 6 max angle: 160 dist total: 80803.12543615774 haussdorf: 93.43234934384299 jaccard: 0.8864930278013881 
+pol: 11, ang: 160, dist: 7 
+min dist: 7 max angle: 160 dist total: 112445.34642961233 haussdorf: 356.02690690712154 jaccard: 0.6693476120339306 
+pol: 11, ang: 160, dist: 8 
+min dist: 8 max angle: 160 dist total: 59679.73037297672 haussdorf: 130.69350345573204 jaccard: 0.8017971955754727 
+pol: 11, ang: 160, dist: 9 
+min dist: 9 max angle: 160 dist total: 68073.59893559144 haussdorf: 130.69350345573204 jaccard: 0.7893028981406836 
+pol: 11, ang: 160, dist: 10 
+min dist: 10 max angle: 160 dist total: 185147.57444875612 haussdorf: 159.56950985548838 jaccard: 0.7629069257018353 
+pol: 11, ang: 170, dist: 1 
+Too many values
+pol: 11, ang: 170, dist: 2 
+Too many values
+pol: 11, ang: 170, dist: 3 
+min dist: 3 max angle: 170 dist total: 169634.86870080396 haussdorf: 157.4051281277875 jaccard: 0.9028185216829212 
+pol: 11, ang: 170, dist: 4 
+min dist: 4 max angle: 170 dist total: 174720.4270583026 haussdorf: 157.4051281277875 jaccard: 0.8952837617455613 
+pol: 11, ang: 170, dist: 5 
+min dist: 5 max angle: 170 dist total: 65046.83699631823 haussdorf: 78.33566004548871 jaccard: 0.8426128209821018 
+pol: 11, ang: 170, dist: 6 
+min dist: 6 max angle: 170 dist total: 51359.5381721561 haussdorf: 81.45263013800806 jaccard: 0.8708320350772648 
+pol: 11, ang: 170, dist: 7 
+min dist: 7 max angle: 170 dist total: 56319.02175924781 haussdorf: 87.32730865301957 jaccard: 0.8653188401623175 
+pol: 11, ang: 170, dist: 8 
+min dist: 8 max angle: 170 dist total: 76220.50065605264 haussdorf: 87.29119274896777 jaccard: 0.8260657973534253 
+pol: 11, ang: 170, dist: 9 
+min dist: 9 max angle: 170 dist total: 81136.9762779045 haussdorf: 84.5077719047722 jaccard: 0.8497692617921702 
+pol: 11, ang: 170, dist: 10 
+min dist: 10 max angle: 170 dist total: 63063.81792762077 haussdorf: 92.40295318388921 jaccard: 0.8605457849803004 
+pol: 11, ang: 180, dist: 1 
+Too many values
+pol: 11, ang: 180, dist: 2 
+Too many values
+pol: 11, ang: 180, dist: 3 
+min dist: 3 max angle: 180 dist total: 33209.40208885059 haussdorf: 102.56500027903337 jaccard: 0.8413546571086267 
+pol: 11, ang: 180, dist: 4 
+min dist: 4 max angle: 180 dist total: 31930.287772355496 haussdorf: 64.05807535414559 jaccard: 0.8727245152377587 
+pol: 11, ang: 180, dist: 5 
+min dist: 5 max angle: 180 dist total: 23484.408155758636 haussdorf: 66.6549187232835 jaccard: 0.8932891381981299 
+pol: 11, ang: 180, dist: 6 
+min dist: 6 max angle: 180 dist total: 26223.181666165136 haussdorf: 69.67687646606376 jaccard: 0.8946164971623229 
+pol: 11, ang: 180, dist: 7 
+min dist: 7 max angle: 180 dist total: 21535.012442444346 haussdorf: 68.53517384318667 jaccard: 0.9118772568605322 
+pol: 11, ang: 180, dist: 8 
+min dist: 8 max angle: 180 dist total: 39850.35943445092 haussdorf: 104.53823779776397 jaccard: 0.8482490216046414 
+pol: 11, ang: 180, dist: 9 
+min dist: 9 max angle: 180 dist total: 29924.29449753428 haussdorf: 72.90058520706427 jaccard: 0.896111961567124 
+pol: 11, ang: 180, dist: 10 
+min dist: 10 max angle: 180 dist total: 30995.246119179636 haussdorf: 74.11608526497598 jaccard: 0.9040717105435186 
+--------------- NEW POLYGON ---------------
