@@ -1,0 +1,2179 @@
+pol: 0, ang: 120, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 15 
+pol: 0, ang: 120, dist: 16 
+pol: 0, ang: 120, dist: 17 
+pol: 0, ang: 120, dist: 18 
+pol: 0, ang: 120, dist: 19 
+pol: 0, ang: 120, dist: 20 
+pol: 0, ang: 120, dist: 21 
+pol: 0, ang: 120, dist: 22 
+pol: 0, ang: 120, dist: 23 
+pol: 0, ang: 120, dist: 24 
+pol: 0, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 18.181818181818183 jaccard: 0.6592840919501413 
+pol: 0, ang: 130, dist: 2 
+pol: 0, ang: 130, dist: 3 
+pol: 0, ang: 130, dist: 4 
+pol: 0, ang: 130, dist: 5 
+min dist: 5 max angle: 130 valor medio por corr: 12.666666666666666 jaccard: 0.8515841579551499 
+pol: 0, ang: 130, dist: 6 
+pol: 0, ang: 130, dist: 7 
+pol: 0, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 23 
+pol: 0, ang: 130, dist: 24 
+pol: 0, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 6.5 jaccard: 0.9048360396137567 
+pol: 0, ang: 140, dist: 2 
+pol: 0, ang: 140, dist: 3 
+pol: 0, ang: 140, dist: 4 
+pol: 0, ang: 140, dist: 5 
+min dist: 5 max angle: 140 valor medio por corr: 7.444444444444445 jaccard: 0.9049245804519591 
+pol: 0, ang: 140, dist: 6 
+pol: 0, ang: 140, dist: 7 
+pol: 0, ang: 140, dist: 8 
+pol: 0, ang: 140, dist: 9 
+pol: 0, ang: 140, dist: 10 
+pol: 0, ang: 140, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 23 
+pol: 0, ang: 140, dist: 24 
+pol: 0, ang: 150, dist: 1 
+min dist: 1 max angle: 150 valor medio por corr: 4.758620689655173 jaccard: 0.9112303547761387 
+pol: 0, ang: 150, dist: 2 
+pol: 0, ang: 150, dist: 3 
+pol: 0, ang: 150, dist: 4 
+min dist: 4 max angle: 150 valor medio por corr: 4.928571428571429 jaccard: 0.9112392617762963 
+pol: 0, ang: 150, dist: 5 
+min dist: 5 max angle: 150 valor medio por corr: 5.6 jaccard: 0.9166767779251965 
+pol: 0, ang: 150, dist: 6 
+pol: 0, ang: 150, dist: 7 
+pol: 0, ang: 150, dist: 8 
+pol: 0, ang: 150, dist: 9 
+pol: 0, ang: 150, dist: 10 
+pol: 0, ang: 150, dist: 11 
+pol: 0, ang: 150, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 17 
+pol: 0, ang: 150, dist: 18 
+pol: 0, ang: 150, dist: 19 
+pol: 0, ang: 150, dist: 20 
+pol: 0, ang: 150, dist: 21 
+pol: 0, ang: 150, dist: 22 
+pol: 0, ang: 150, dist: 23 
+pol: 0, ang: 150, dist: 24 
+pol: 0, ang: 160, dist: 1 
+pol: 0, ang: 160, dist: 2 
+pol: 0, ang: 160, dist: 3 
+pol: 0, ang: 160, dist: 4 
+pol: 0, ang: 160, dist: 5 
+pol: 0, ang: 160, dist: 6 
+min dist: 6 max angle: 160 valor medio por corr: 3.230769230769231 jaccard: 0.9186951251682303 
+pol: 0, ang: 160, dist: 7 
+pol: 0, ang: 160, dist: 8 
+pol: 0, ang: 160, dist: 9 
+pol: 0, ang: 160, dist: 10 
+pol: 0, ang: 160, dist: 11 
+pol: 0, ang: 160, dist: 12 
+pol: 0, ang: 160, dist: 13 
+pol: 0, ang: 160, dist: 14 
+pol: 0, ang: 160, dist: 15 
+pol: 0, ang: 160, dist: 16 
+pol: 0, ang: 160, dist: 17 
+pol: 0, ang: 160, dist: 18 
+pol: 0, ang: 160, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 160, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 160, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 160, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 160, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 160, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 170, dist: 1 
+min dist: 1 max angle: 170 valor medio por corr: 1.8285714285714285 jaccard: 0.9299363167888665 
+pol: 0, ang: 170, dist: 2 
+pol: 0, ang: 170, dist: 3 
+pol: 0, ang: 170, dist: 4 
+min dist: 4 max angle: 170 valor medio por corr: 1.911764705882353 jaccard: 0.9310267204787543 
+pol: 0, ang: 170, dist: 5 
+pol: 0, ang: 170, dist: 6 
+min dist: 6 max angle: 170 valor medio por corr: 2.2333333333333334 jaccard: 0.9371488293575609 
+pol: 0, ang: 170, dist: 7 
+pol: 0, ang: 170, dist: 8 
+pol: 0, ang: 170, dist: 9 
+pol: 0, ang: 170, dist: 10 
+pol: 0, ang: 170, dist: 11 
+pol: 0, ang: 170, dist: 12 
+pol: 0, ang: 170, dist: 13 
+pol: 0, ang: 170, dist: 14 
+pol: 0, ang: 170, dist: 15 
+pol: 0, ang: 170, dist: 16 
+pol: 0, ang: 170, dist: 17 
+pol: 0, ang: 170, dist: 18 
+pol: 0, ang: 170, dist: 19 
+pol: 0, ang: 170, dist: 20 
+pol: 0, ang: 170, dist: 21 
+pol: 0, ang: 170, dist: 22 
+pol: 0, ang: 170, dist: 23 
+pol: 0, ang: 170, dist: 24 
+pol: 0, ang: 180, dist: 1 
+pol: 0, ang: 180, dist: 2 
+pol: 0, ang: 180, dist: 3 
+pol: 0, ang: 180, dist: 4 
+pol: 0, ang: 180, dist: 5 
+pol: 0, ang: 180, dist: 6 
+pol: 0, ang: 180, dist: 7 
+pol: 0, ang: 180, dist: 8 
+pol: 0, ang: 180, dist: 9 
+pol: 0, ang: 180, dist: 10 
+pol: 0, ang: 180, dist: 11 
+pol: 0, ang: 180, dist: 12 
+pol: 0, ang: 180, dist: 13 
+pol: 0, ang: 180, dist: 14 
+pol: 0, ang: 180, dist: 15 
+pol: 0, ang: 180, dist: 16 
+pol: 0, ang: 180, dist: 17 
+pol: 0, ang: 180, dist: 18 
+pol: 0, ang: 180, dist: 19 
+pol: 0, ang: 180, dist: 20 
+pol: 0, ang: 180, dist: 21 
+pol: 0, ang: 180, dist: 22 
+pol: 0, ang: 180, dist: 23 
+pol: 0, ang: 180, dist: 24 
+values: [[6, 170]]
+--------------- NEW POLYGON ---------------
+pol: 1, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 27.0 jaccard: 0.48126403302481907 
+pol: 1, ang: 120, dist: 2 
+pol: 1, ang: 120, dist: 3 
+pol: 1, ang: 120, dist: 4 
+pol: 1, ang: 120, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 120, dist: 21 
+pol: 1, ang: 120, dist: 22 
+pol: 1, ang: 120, dist: 23 
+pol: 1, ang: 120, dist: 24 
+pol: 1, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 14.285714285714286 jaccard: 0.6708825338685718 
+pol: 1, ang: 130, dist: 2 
+pol: 1, ang: 130, dist: 3 
+pol: 1, ang: 130, dist: 4 
+pol: 1, ang: 130, dist: 5 
+pol: 1, ang: 130, dist: 6 
+pol: 1, ang: 130, dist: 7 
+pol: 1, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 130, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 1 
+pol: 1, ang: 140, dist: 2 
+pol: 1, ang: 140, dist: 3 
+pol: 1, ang: 140, dist: 4 
+pol: 1, ang: 140, dist: 5 
+pol: 1, ang: 140, dist: 6 
+min dist: 6 max angle: 140 valor medio por corr: 9.0 jaccard: 0.867340211695726 
+pol: 1, ang: 140, dist: 7 
+pol: 1, ang: 140, dist: 8 
+pol: 1, ang: 140, dist: 9 
+pol: 1, ang: 140, dist: 10 
+pol: 1, ang: 140, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 140, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 1 
+pol: 1, ang: 150, dist: 2 
+pol: 1, ang: 150, dist: 3 
+pol: 1, ang: 150, dist: 4 
+pol: 1, ang: 150, dist: 5 
+pol: 1, ang: 150, dist: 6 
+min dist: 6 max angle: 150 valor medio por corr: 6.0 jaccard: 0.8676812016120038 
+pol: 1, ang: 150, dist: 7 
+pol: 1, ang: 150, dist: 8 
+pol: 1, ang: 150, dist: 9 
+pol: 1, ang: 150, dist: 10 
+pol: 1, ang: 150, dist: 11 
+pol: 1, ang: 150, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 17 
+pol: 1, ang: 150, dist: 18 
+pol: 1, ang: 150, dist: 19 
+pol: 1, ang: 150, dist: 20 
+pol: 1, ang: 150, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 150, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 160, dist: 1 
+pol: 1, ang: 160, dist: 2 
+pol: 1, ang: 160, dist: 3 
+pol: 1, ang: 160, dist: 4 
+pol: 1, ang: 160, dist: 5 
+pol: 1, ang: 160, dist: 6 
+pol: 1, ang: 160, dist: 7 
+pol: 1, ang: 160, dist: 8 
+pol: 1, ang: 160, dist: 9 
+pol: 1, ang: 160, dist: 10 
+pol: 1, ang: 160, dist: 11 
+pol: 1, ang: 160, dist: 12 
+pol: 1, ang: 160, dist: 13 
+pol: 1, ang: 160, dist: 14 
+pol: 1, ang: 160, dist: 15 
+pol: 1, ang: 160, dist: 16 
+pol: 1, ang: 160, dist: 17 
+pol: 1, ang: 160, dist: 18 
+pol: 1, ang: 160, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 160, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 160, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 160, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 160, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 160, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 1, ang: 170, dist: 1 
+pol: 1, ang: 170, dist: 2 
+pol: 1, ang: 170, dist: 3 
+pol: 1, ang: 170, dist: 4 
+pol: 1, ang: 170, dist: 5 
+pol: 1, ang: 170, dist: 6 
+pol: 1, ang: 170, dist: 7 
+pol: 1, ang: 170, dist: 8 
+pol: 1, ang: 170, dist: 9 
+pol: 1, ang: 170, dist: 10 
+pol: 1, ang: 170, dist: 11 
+pol: 1, ang: 170, dist: 12 
+pol: 1, ang: 170, dist: 13 
+pol: 1, ang: 170, dist: 14 
+pol: 1, ang: 170, dist: 15 
+pol: 1, ang: 170, dist: 16 
+pol: 1, ang: 170, dist: 17 
+pol: 1, ang: 170, dist: 18 
+pol: 1, ang: 170, dist: 19 
+pol: 1, ang: 170, dist: 20 
+pol: 1, ang: 170, dist: 21 
+pol: 1, ang: 170, dist: 22 
+pol: 1, ang: 170, dist: 23 
+pol: 1, ang: 170, dist: 24 
+pol: 1, ang: 180, dist: 1 
+pol: 1, ang: 180, dist: 2 
+pol: 1, ang: 180, dist: 3 
+pol: 1, ang: 180, dist: 4 
+pol: 1, ang: 180, dist: 5 
+pol: 1, ang: 180, dist: 6 
+pol: 1, ang: 180, dist: 7 
+pol: 1, ang: 180, dist: 8 
+pol: 1, ang: 180, dist: 9 
+pol: 1, ang: 180, dist: 10 
+pol: 1, ang: 180, dist: 11 
+pol: 1, ang: 180, dist: 12 
+pol: 1, ang: 180, dist: 13 
+pol: 1, ang: 180, dist: 14 
+pol: 1, ang: 180, dist: 15 
+pol: 1, ang: 180, dist: 16 
+pol: 1, ang: 180, dist: 17 
+pol: 1, ang: 180, dist: 18 
+pol: 1, ang: 180, dist: 19 
+pol: 1, ang: 180, dist: 20 
+pol: 1, ang: 180, dist: 21 
+pol: 1, ang: 180, dist: 22 
+pol: 1, ang: 180, dist: 23 
+pol: 1, ang: 180, dist: 24 
+values: [[6, 170], [6, 150]]
+--------------- NEW POLYGON ---------------
+pol: 2, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 13.5 jaccard: 0.8781797354495516 
+pol: 2, ang: 120, dist: 2 
+pol: 2, ang: 120, dist: 3 
+pol: 2, ang: 120, dist: 4 
+pol: 2, ang: 120, dist: 5 
+pol: 2, ang: 120, dist: 6 
+pol: 2, ang: 120, dist: 7 
+pol: 2, ang: 120, dist: 8 
+pol: 2, ang: 120, dist: 9 
+pol: 2, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 21 
+pol: 2, ang: 120, dist: 22 
+pol: 2, ang: 120, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 120, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 1 
+pol: 2, ang: 130, dist: 2 
+pol: 2, ang: 130, dist: 3 
+pol: 2, ang: 130, dist: 4 
+pol: 2, ang: 130, dist: 5 
+pol: 2, ang: 130, dist: 6 
+pol: 2, ang: 130, dist: 7 
+pol: 2, ang: 130, dist: 8 
+pol: 2, ang: 130, dist: 9 
+pol: 2, ang: 130, dist: 10 
+pol: 2, ang: 130, dist: 11 
+min dist: 11 max angle: 130 valor medio por corr: 11.11111111111111 jaccard: 0.8876056380633055 
+pol: 2, ang: 130, dist: 12 
+pol: 2, ang: 130, dist: 13 
+pol: 2, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 130, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 5.2631578947368425 jaccard: 0.8902729065182644 
+pol: 2, ang: 140, dist: 2 
+pol: 2, ang: 140, dist: 3 
+pol: 2, ang: 140, dist: 4 
+pol: 2, ang: 140, dist: 5 
+pol: 2, ang: 140, dist: 6 
+pol: 2, ang: 140, dist: 7 
+pol: 2, ang: 140, dist: 8 
+pol: 2, ang: 140, dist: 9 
+pol: 2, ang: 140, dist: 10 
+pol: 2, ang: 140, dist: 11 
+pol: 2, ang: 140, dist: 12 
+pol: 2, ang: 140, dist: 13 
+pol: 2, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 140, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 150, dist: 1 
+pol: 2, ang: 150, dist: 2 
+pol: 2, ang: 150, dist: 3 
+pol: 2, ang: 150, dist: 4 
+pol: 2, ang: 150, dist: 5 
+pol: 2, ang: 150, dist: 6 
+pol: 2, ang: 150, dist: 7 
+pol: 2, ang: 150, dist: 8 
+pol: 2, ang: 150, dist: 9 
+pol: 2, ang: 150, dist: 10 
+pol: 2, ang: 150, dist: 11 
+pol: 2, ang: 150, dist: 12 
+pol: 2, ang: 150, dist: 13 
+pol: 2, ang: 150, dist: 14 
+pol: 2, ang: 150, dist: 15 
+pol: 2, ang: 150, dist: 16 
+pol: 2, ang: 150, dist: 17 
+pol: 2, ang: 150, dist: 18 
+pol: 2, ang: 150, dist: 19 
+pol: 2, ang: 150, dist: 20 
+pol: 2, ang: 150, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 150, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 150, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 150, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 2, ang: 160, dist: 1 
+pol: 2, ang: 160, dist: 2 
+pol: 2, ang: 160, dist: 3 
+pol: 2, ang: 160, dist: 4 
+pol: 2, ang: 160, dist: 5 
+pol: 2, ang: 160, dist: 6 
+pol: 2, ang: 160, dist: 7 
+pol: 2, ang: 160, dist: 8 
+pol: 2, ang: 160, dist: 9 
+pol: 2, ang: 160, dist: 10 
+pol: 2, ang: 160, dist: 11 
+pol: 2, ang: 160, dist: 12 
+pol: 2, ang: 160, dist: 13 
+pol: 2, ang: 160, dist: 14 
+pol: 2, ang: 160, dist: 15 
+pol: 2, ang: 160, dist: 16 
+pol: 2, ang: 160, dist: 17 
+pol: 2, ang: 160, dist: 18 
+pol: 2, ang: 160, dist: 19 
+pol: 2, ang: 160, dist: 20 
+pol: 2, ang: 160, dist: 21 
+pol: 2, ang: 160, dist: 22 
+pol: 2, ang: 160, dist: 23 
+pol: 2, ang: 160, dist: 24 
+pol: 2, ang: 170, dist: 1 
+pol: 2, ang: 170, dist: 2 
+pol: 2, ang: 170, dist: 3 
+pol: 2, ang: 170, dist: 4 
+pol: 2, ang: 170, dist: 5 
+pol: 2, ang: 170, dist: 6 
+pol: 2, ang: 170, dist: 7 
+pol: 2, ang: 170, dist: 8 
+pol: 2, ang: 170, dist: 9 
+pol: 2, ang: 170, dist: 10 
+pol: 2, ang: 170, dist: 11 
+pol: 2, ang: 170, dist: 12 
+pol: 2, ang: 170, dist: 13 
+pol: 2, ang: 170, dist: 14 
+pol: 2, ang: 170, dist: 15 
+pol: 2, ang: 170, dist: 16 
+pol: 2, ang: 170, dist: 17 
+pol: 2, ang: 170, dist: 18 
+pol: 2, ang: 170, dist: 19 
+pol: 2, ang: 170, dist: 20 
+pol: 2, ang: 170, dist: 21 
+pol: 2, ang: 170, dist: 22 
+pol: 2, ang: 170, dist: 23 
+pol: 2, ang: 170, dist: 24 
+pol: 2, ang: 180, dist: 1 
+pol: 2, ang: 180, dist: 2 
+pol: 2, ang: 180, dist: 3 
+pol: 2, ang: 180, dist: 4 
+pol: 2, ang: 180, dist: 5 
+pol: 2, ang: 180, dist: 6 
+pol: 2, ang: 180, dist: 7 
+pol: 2, ang: 180, dist: 8 
+pol: 2, ang: 180, dist: 9 
+pol: 2, ang: 180, dist: 10 
+pol: 2, ang: 180, dist: 11 
+pol: 2, ang: 180, dist: 12 
+pol: 2, ang: 180, dist: 13 
+pol: 2, ang: 180, dist: 14 
+pol: 2, ang: 180, dist: 15 
+pol: 2, ang: 180, dist: 16 
+pol: 2, ang: 180, dist: 17 
+pol: 2, ang: 180, dist: 18 
+pol: 2, ang: 180, dist: 19 
+pol: 2, ang: 180, dist: 20 
+pol: 2, ang: 180, dist: 21 
+pol: 2, ang: 180, dist: 22 
+pol: 2, ang: 180, dist: 23 
+pol: 2, ang: 180, dist: 24 
+values: [[6, 170], [6, 150], [1, 140]]
+--------------- NEW POLYGON ---------------
+pol: 3, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 14.444444444444445 jaccard: 0.8714685547075608 
+pol: 3, ang: 120, dist: 2 
+pol: 3, ang: 120, dist: 3 
+pol: 3, ang: 120, dist: 4 
+pol: 3, ang: 120, dist: 5 
+pol: 3, ang: 120, dist: 6 
+pol: 3, ang: 120, dist: 7 
+pol: 3, ang: 120, dist: 8 
+pol: 3, ang: 120, dist: 9 
+pol: 3, ang: 120, dist: 10 
+pol: 3, ang: 120, dist: 11 
+pol: 3, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 120, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 5.076923076923077 jaccard: 0.8787516557754255 
+pol: 3, ang: 130, dist: 2 
+pol: 3, ang: 130, dist: 3 
+pol: 3, ang: 130, dist: 4 
+pol: 3, ang: 130, dist: 5 
+pol: 3, ang: 130, dist: 6 
+pol: 3, ang: 130, dist: 7 
+pol: 3, ang: 130, dist: 8 
+pol: 3, ang: 130, dist: 9 
+pol: 3, ang: 130, dist: 10 
+pol: 3, ang: 130, dist: 11 
+pol: 3, ang: 130, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 130, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 1 
+pol: 3, ang: 140, dist: 2 
+pol: 3, ang: 140, dist: 3 
+pol: 3, ang: 140, dist: 4 
+pol: 3, ang: 140, dist: 5 
+pol: 3, ang: 140, dist: 6 
+pol: 3, ang: 140, dist: 7 
+pol: 3, ang: 140, dist: 8 
+pol: 3, ang: 140, dist: 9 
+pol: 3, ang: 140, dist: 10 
+pol: 3, ang: 140, dist: 11 
+pol: 3, ang: 140, dist: 12 
+pol: 3, ang: 140, dist: 13 
+pol: 3, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 140, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 3, ang: 150, dist: 1 
+pol: 3, ang: 150, dist: 2 
+pol: 3, ang: 150, dist: 3 
+pol: 3, ang: 150, dist: 4 
+pol: 3, ang: 150, dist: 5 
+pol: 3, ang: 150, dist: 6 
+pol: 3, ang: 150, dist: 7 
+pol: 3, ang: 150, dist: 8 
+pol: 3, ang: 150, dist: 9 
+min dist: 9 max angle: 150 valor medio por corr: 3.111111111111111 jaccard: 0.8931667870142561 
+pol: 3, ang: 150, dist: 10 
+pol: 3, ang: 150, dist: 11 
+pol: 3, ang: 150, dist: 12 
+pol: 3, ang: 150, dist: 13 
+pol: 3, ang: 150, dist: 14 
+pol: 3, ang: 150, dist: 15 
+pol: 3, ang: 150, dist: 16 
+pol: 3, ang: 150, dist: 17 
+pol: 3, ang: 150, dist: 18 
+pol: 3, ang: 150, dist: 19 
+min dist: 19 max angle: 150 valor medio por corr: 6.5 jaccard: 0.8943577616870112 
+pol: 3, ang: 150, dist: 20 
+pol: 3, ang: 150, dist: 21 
+pol: 3, ang: 150, dist: 22 
+pol: 3, ang: 150, dist: 23 
+pol: 3, ang: 150, dist: 24 
+pol: 3, ang: 160, dist: 1 
+min dist: 1 max angle: 160 valor medio por corr: 1.64 jaccard: 0.9015152060267727 
+pol: 3, ang: 160, dist: 2 
+pol: 3, ang: 160, dist: 3 
+pol: 3, ang: 160, dist: 4 
+pol: 3, ang: 160, dist: 5 
+pol: 3, ang: 160, dist: 6 
+pol: 3, ang: 160, dist: 7 
+pol: 3, ang: 160, dist: 8 
+pol: 3, ang: 160, dist: 9 
+pol: 3, ang: 160, dist: 10 
+pol: 3, ang: 160, dist: 11 
+pol: 3, ang: 160, dist: 12 
+pol: 3, ang: 160, dist: 13 
+pol: 3, ang: 160, dist: 14 
+pol: 3, ang: 160, dist: 15 
+pol: 3, ang: 160, dist: 16 
+pol: 3, ang: 160, dist: 17 
+pol: 3, ang: 160, dist: 18 
+pol: 3, ang: 160, dist: 19 
+pol: 3, ang: 160, dist: 20 
+pol: 3, ang: 160, dist: 21 
+pol: 3, ang: 160, dist: 22 
+pol: 3, ang: 160, dist: 23 
+pol: 3, ang: 160, dist: 24 
+pol: 3, ang: 170, dist: 1 
+min dist: 1 max angle: 170 valor medio por corr: 1.2063492063492063 jaccard: 0.9056349913503362 
+pol: 3, ang: 170, dist: 2 
+pol: 3, ang: 170, dist: 3 
+pol: 3, ang: 170, dist: 4 
+pol: 3, ang: 170, dist: 5 
+pol: 3, ang: 170, dist: 6 
+pol: 3, ang: 170, dist: 7 
+pol: 3, ang: 170, dist: 8 
+pol: 3, ang: 170, dist: 9 
+pol: 3, ang: 170, dist: 10 
+pol: 3, ang: 170, dist: 11 
+pol: 3, ang: 170, dist: 12 
+pol: 3, ang: 170, dist: 13 
+pol: 3, ang: 170, dist: 14 
+pol: 3, ang: 170, dist: 15 
+pol: 3, ang: 170, dist: 16 
+pol: 3, ang: 170, dist: 17 
+pol: 3, ang: 170, dist: 18 
+pol: 3, ang: 170, dist: 19 
+pol: 3, ang: 170, dist: 20 
+pol: 3, ang: 170, dist: 21 
+pol: 3, ang: 170, dist: 22 
+pol: 3, ang: 170, dist: 23 
+pol: 3, ang: 170, dist: 24 
+pol: 3, ang: 180, dist: 1 
+min dist: 1 max angle: 180 valor medio por corr: 1.1176470588235294 jaccard: 0.9064419752632555 
+pol: 3, ang: 180, dist: 2 
+pol: 3, ang: 180, dist: 3 
+pol: 3, ang: 180, dist: 4 
+pol: 3, ang: 180, dist: 5 
+pol: 3, ang: 180, dist: 6 
+pol: 3, ang: 180, dist: 7 
+pol: 3, ang: 180, dist: 8 
+pol: 3, ang: 180, dist: 9 
+pol: 3, ang: 180, dist: 10 
+pol: 3, ang: 180, dist: 11 
+pol: 3, ang: 180, dist: 12 
+pol: 3, ang: 180, dist: 13 
+pol: 3, ang: 180, dist: 14 
+pol: 3, ang: 180, dist: 15 
+pol: 3, ang: 180, dist: 16 
+min dist: 16 max angle: 180 valor medio por corr: 1.565217391304348 jaccard: 0.9070940291908081 
+pol: 3, ang: 180, dist: 17 
+pol: 3, ang: 180, dist: 18 
+pol: 3, ang: 180, dist: 19 
+pol: 3, ang: 180, dist: 20 
+pol: 3, ang: 180, dist: 21 
+pol: 3, ang: 180, dist: 22 
+pol: 3, ang: 180, dist: 23 
+pol: 3, ang: 180, dist: 24 
+values: [[6, 170], [6, 150], [1, 140], [16, 180]]
+--------------- NEW POLYGON ---------------
+pol: 4, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 18.285714285714285 jaccard: 0.630986896500462 
+pol: 4, ang: 120, dist: 2 
+pol: 4, ang: 120, dist: 3 
+pol: 4, ang: 120, dist: 4 
+pol: 4, ang: 120, dist: 5 
+pol: 4, ang: 120, dist: 6 
+pol: 4, ang: 120, dist: 7 
+pol: 4, ang: 120, dist: 8 
+pol: 4, ang: 120, dist: 9 
+pol: 4, ang: 120, dist: 10 
+min dist: 10 max angle: 120 valor medio por corr: 12.666666666666666 jaccard: 0.875241736120496 
+pol: 4, ang: 120, dist: 11 
+pol: 4, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 120, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 6.0 jaccard: 0.8823637538859586 
+pol: 4, ang: 130, dist: 2 
+pol: 4, ang: 130, dist: 3 
+pol: 4, ang: 130, dist: 4 
+pol: 4, ang: 130, dist: 5 
+pol: 4, ang: 130, dist: 6 
+pol: 4, ang: 130, dist: 7 
+pol: 4, ang: 130, dist: 8 
+pol: 4, ang: 130, dist: 9 
+pol: 4, ang: 130, dist: 10 
+pol: 4, ang: 130, dist: 11 
+pol: 4, ang: 130, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 130, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 4.5 jaccard: 0.8826074510669936 
+pol: 4, ang: 140, dist: 2 
+pol: 4, ang: 140, dist: 3 
+pol: 4, ang: 140, dist: 4 
+pol: 4, ang: 140, dist: 5 
+pol: 4, ang: 140, dist: 6 
+pol: 4, ang: 140, dist: 7 
+pol: 4, ang: 140, dist: 8 
+pol: 4, ang: 140, dist: 9 
+pol: 4, ang: 140, dist: 10 
+pol: 4, ang: 140, dist: 11 
+pol: 4, ang: 140, dist: 12 
+pol: 4, ang: 140, dist: 13 
+pol: 4, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 140, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 150, dist: 1 
+min dist: 1 max angle: 150 valor medio por corr: 2.8275862068965516 jaccard: 0.9005375622131391 
+pol: 4, ang: 150, dist: 2 
+pol: 4, ang: 150, dist: 3 
+pol: 4, ang: 150, dist: 4 
+pol: 4, ang: 150, dist: 5 
+pol: 4, ang: 150, dist: 6 
+pol: 4, ang: 150, dist: 7 
+pol: 4, ang: 150, dist: 8 
+pol: 4, ang: 150, dist: 9 
+pol: 4, ang: 150, dist: 10 
+pol: 4, ang: 150, dist: 11 
+pol: 4, ang: 150, dist: 12 
+pol: 4, ang: 150, dist: 13 
+pol: 4, ang: 150, dist: 14 
+pol: 4, ang: 150, dist: 15 
+pol: 4, ang: 150, dist: 16 
+pol: 4, ang: 150, dist: 17 
+pol: 4, ang: 150, dist: 18 
+min dist: 18 max angle: 150 valor medio por corr: 8.0 jaccard: 0.9052928085966235 
+pol: 4, ang: 150, dist: 19 
+pol: 4, ang: 150, dist: 20 
+pol: 4, ang: 150, dist: 21 
+pol: 4, ang: 150, dist: 22 
+pol: 4, ang: 150, dist: 23 
+pol: 4, ang: 150, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 160, dist: 1 
+pol: 4, ang: 160, dist: 2 
+pol: 4, ang: 160, dist: 3 
+pol: 4, ang: 160, dist: 4 
+pol: 4, ang: 160, dist: 5 
+pol: 4, ang: 160, dist: 6 
+pol: 4, ang: 160, dist: 7 
+pol: 4, ang: 160, dist: 8 
+pol: 4, ang: 160, dist: 9 
+pol: 4, ang: 160, dist: 10 
+pol: 4, ang: 160, dist: 11 
+pol: 4, ang: 160, dist: 12 
+pol: 4, ang: 160, dist: 13 
+pol: 4, ang: 160, dist: 14 
+pol: 4, ang: 160, dist: 15 
+pol: 4, ang: 160, dist: 16 
+pol: 4, ang: 160, dist: 17 
+pol: 4, ang: 160, dist: 18 
+pol: 4, ang: 160, dist: 19 
+min dist: 19 max angle: 160 valor medio por corr: 3.8947368421052633 jaccard: 0.9169751058470546 
+pol: 4, ang: 160, dist: 20 
+pol: 4, ang: 160, dist: 21 
+pol: 4, ang: 160, dist: 22 
+pol: 4, ang: 160, dist: 23 
+pol: 4, ang: 160, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 4, ang: 170, dist: 1 
+pol: 4, ang: 170, dist: 2 
+pol: 4, ang: 170, dist: 3 
+pol: 4, ang: 170, dist: 4 
+pol: 4, ang: 170, dist: 5 
+pol: 4, ang: 170, dist: 6 
+pol: 4, ang: 170, dist: 7 
+pol: 4, ang: 170, dist: 8 
+pol: 4, ang: 170, dist: 9 
+pol: 4, ang: 170, dist: 10 
+pol: 4, ang: 170, dist: 11 
+pol: 4, ang: 170, dist: 12 
+pol: 4, ang: 170, dist: 13 
+pol: 4, ang: 170, dist: 14 
+pol: 4, ang: 170, dist: 15 
+pol: 4, ang: 170, dist: 16 
+pol: 4, ang: 170, dist: 17 
+pol: 4, ang: 170, dist: 18 
+pol: 4, ang: 170, dist: 19 
+pol: 4, ang: 170, dist: 20 
+pol: 4, ang: 170, dist: 21 
+pol: 4, ang: 170, dist: 22 
+pol: 4, ang: 170, dist: 23 
+pol: 4, ang: 170, dist: 24 
+pol: 4, ang: 180, dist: 1 
+min dist: 1 max angle: 180 valor medio por corr: 1.0909090909090908 jaccard: 0.9296799255514274 
+pol: 4, ang: 180, dist: 2 
+pol: 4, ang: 180, dist: 3 
+pol: 4, ang: 180, dist: 4 
+pol: 4, ang: 180, dist: 5 
+pol: 4, ang: 180, dist: 6 
+pol: 4, ang: 180, dist: 7 
+pol: 4, ang: 180, dist: 8 
+pol: 4, ang: 180, dist: 9 
+pol: 4, ang: 180, dist: 10 
+pol: 4, ang: 180, dist: 11 
+pol: 4, ang: 180, dist: 12 
+pol: 4, ang: 180, dist: 13 
+pol: 4, ang: 180, dist: 14 
+pol: 4, ang: 180, dist: 15 
+pol: 4, ang: 180, dist: 16 
+pol: 4, ang: 180, dist: 17 
+pol: 4, ang: 180, dist: 18 
+pol: 4, ang: 180, dist: 19 
+min dist: 19 max angle: 180 valor medio por corr: 1.8461538461538463 jaccard: 0.9299981537768696 
+pol: 4, ang: 180, dist: 20 
+pol: 4, ang: 180, dist: 21 
+pol: 4, ang: 180, dist: 22 
+pol: 4, ang: 180, dist: 23 
+pol: 4, ang: 180, dist: 24 
+values: [[6, 170], [6, 150], [1, 140], [16, 180], [19, 180]]
+--------------- NEW POLYGON ---------------
+pol: 5, ang: 120, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 6.2 jaccard: 0.6952866234323342 
+pol: 5, ang: 130, dist: 2 
+pol: 5, ang: 130, dist: 3 
+pol: 5, ang: 130, dist: 4 
+pol: 5, ang: 130, dist: 5 
+pol: 5, ang: 130, dist: 6 
+pol: 5, ang: 130, dist: 7 
+pol: 5, ang: 130, dist: 8 
+pol: 5, ang: 130, dist: 9 
+pol: 5, ang: 130, dist: 10 
+pol: 5, ang: 130, dist: 11 
+min dist: 11 max angle: 130 valor medio por corr: 7.75 jaccard: 0.7206108008156491 
+pol: 5, ang: 130, dist: 12 
+pol: 5, ang: 130, dist: 13 
+pol: 5, ang: 130, dist: 14 
+pol: 5, ang: 130, dist: 15 
+pol: 5, ang: 130, dist: 16 
+pol: 5, ang: 130, dist: 17 
+pol: 5, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 1 
+pol: 5, ang: 140, dist: 2 
+pol: 5, ang: 140, dist: 3 
+pol: 5, ang: 140, dist: 4 
+pol: 5, ang: 140, dist: 5 
+pol: 5, ang: 140, dist: 6 
+pol: 5, ang: 140, dist: 7 
+pol: 5, ang: 140, dist: 8 
+pol: 5, ang: 140, dist: 9 
+pol: 5, ang: 140, dist: 10 
+pol: 5, ang: 140, dist: 11 
+pol: 5, ang: 140, dist: 12 
+pol: 5, ang: 140, dist: 13 
+pol: 5, ang: 140, dist: 14 
+pol: 5, ang: 140, dist: 15 
+min dist: 15 max angle: 140 valor medio por corr: 8.857142857142858 jaccard: 0.7230080061989095 
+pol: 5, ang: 140, dist: 16 
+pol: 5, ang: 140, dist: 17 
+pol: 5, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 140, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 150, dist: 1 
+min dist: 1 max angle: 150 valor medio por corr: 4.6923076923076925 jaccard: 0.8252793968862147 
+pol: 5, ang: 150, dist: 2 
+pol: 5, ang: 150, dist: 3 
+pol: 5, ang: 150, dist: 4 
+pol: 5, ang: 150, dist: 5 
+pol: 5, ang: 150, dist: 6 
+pol: 5, ang: 150, dist: 7 
+pol: 5, ang: 150, dist: 8 
+pol: 5, ang: 150, dist: 9 
+pol: 5, ang: 150, dist: 10 
+pol: 5, ang: 150, dist: 11 
+pol: 5, ang: 150, dist: 12 
+pol: 5, ang: 150, dist: 13 
+pol: 5, ang: 150, dist: 14 
+pol: 5, ang: 150, dist: 15 
+pol: 5, ang: 150, dist: 16 
+pol: 5, ang: 150, dist: 17 
+pol: 5, ang: 150, dist: 18 
+pol: 5, ang: 150, dist: 19 
+pol: 5, ang: 150, dist: 20 
+pol: 5, ang: 150, dist: 21 
+pol: 5, ang: 150, dist: 22 
+pol: 5, ang: 150, dist: 23 
+pol: 5, ang: 150, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 160, dist: 1 
+pol: 5, ang: 160, dist: 2 
+pol: 5, ang: 160, dist: 3 
+pol: 5, ang: 160, dist: 4 
+pol: 5, ang: 160, dist: 5 
+pol: 5, ang: 160, dist: 6 
+pol: 5, ang: 160, dist: 7 
+pol: 5, ang: 160, dist: 8 
+pol: 5, ang: 160, dist: 9 
+pol: 5, ang: 160, dist: 10 
+pol: 5, ang: 160, dist: 11 
+pol: 5, ang: 160, dist: 12 
+pol: 5, ang: 160, dist: 13 
+pol: 5, ang: 160, dist: 14 
+pol: 5, ang: 160, dist: 15 
+pol: 5, ang: 160, dist: 16 
+pol: 5, ang: 160, dist: 17 
+pol: 5, ang: 160, dist: 18 
+pol: 5, ang: 160, dist: 19 
+pol: 5, ang: 160, dist: 20 
+pol: 5, ang: 160, dist: 21 
+pol: 5, ang: 160, dist: 22 
+pol: 5, ang: 160, dist: 23 
+pol: 5, ang: 160, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 170, dist: 1 
+pol: 5, ang: 170, dist: 2 
+pol: 5, ang: 170, dist: 3 
+pol: 5, ang: 170, dist: 4 
+pol: 5, ang: 170, dist: 5 
+pol: 5, ang: 170, dist: 6 
+pol: 5, ang: 170, dist: 7 
+pol: 5, ang: 170, dist: 8 
+pol: 5, ang: 170, dist: 9 
+pol: 5, ang: 170, dist: 10 
+pol: 5, ang: 170, dist: 11 
+pol: 5, ang: 170, dist: 12 
+pol: 5, ang: 170, dist: 13 
+pol: 5, ang: 170, dist: 14 
+pol: 5, ang: 170, dist: 15 
+pol: 5, ang: 170, dist: 16 
+min dist: 16 max angle: 170 valor medio por corr: 3.176470588235294 jaccard: 0.8380248795959006 
+pol: 5, ang: 170, dist: 17 
+pol: 5, ang: 170, dist: 18 
+pol: 5, ang: 170, dist: 19 
+pol: 5, ang: 170, dist: 20 
+pol: 5, ang: 170, dist: 21 
+pol: 5, ang: 170, dist: 22 
+pol: 5, ang: 170, dist: 23 
+pol: 5, ang: 170, dist: 24 
+pol: 5, ang: 180, dist: 1 
+pol: 5, ang: 180, dist: 2 
+pol: 5, ang: 180, dist: 3 
+pol: 5, ang: 180, dist: 4 
+pol: 5, ang: 180, dist: 5 
+pol: 5, ang: 180, dist: 6 
+pol: 5, ang: 180, dist: 7 
+pol: 5, ang: 180, dist: 8 
+pol: 5, ang: 180, dist: 9 
+pol: 5, ang: 180, dist: 10 
+pol: 5, ang: 180, dist: 11 
+pol: 5, ang: 180, dist: 12 
+pol: 5, ang: 180, dist: 13 
+pol: 5, ang: 180, dist: 14 
+pol: 5, ang: 180, dist: 15 
+pol: 5, ang: 180, dist: 16 
+pol: 5, ang: 180, dist: 17 
+pol: 5, ang: 180, dist: 18 
+pol: 5, ang: 180, dist: 19 
+pol: 5, ang: 180, dist: 20 
+pol: 5, ang: 180, dist: 21 
+pol: 5, ang: 180, dist: 22 
+min dist: 22 max angle: 180 valor medio por corr: 4.0 jaccard: 0.8385702637452674 
+pol: 5, ang: 180, dist: 23 
+pol: 5, ang: 180, dist: 24 
+values: [[6, 170], [6, 150], [1, 140], [16, 180], [19, 180], [22, 180]]
+--------------- NEW POLYGON ---------------
+pol: 6, ang: 120, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 160, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 170, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 180, dist: 24 
+Not enough feature points. Skipping to next cycle.
+values: [[6, 170], [6, 150], [1, 140], [16, 180], [19, 180], [22, 180], [0, 0]]
+--------------- NEW POLYGON ---------------
+pol: 7, ang: 120, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 160, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 170, dist: 24 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 1 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 2 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 3 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 4 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 20 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 21 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 22 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 23 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 180, dist: 24 
+Not enough feature points. Skipping to next cycle.
+values: [[6, 170], [6, 150], [1, 140], [16, 180], [19, 180], [22, 180], [0, 0], [0, 0]]
+--------------- NEW POLYGON ---------------
+pol: 8, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 12.444444444444445 jaccard: 0.4227553844640269 
+pol: 8, ang: 120, dist: 2 
+pol: 8, ang: 120, dist: 3 
+pol: 8, ang: 120, dist: 4 
+pol: 8, ang: 120, dist: 5 
+pol: 8, ang: 120, dist: 6 
+pol: 8, ang: 120, dist: 7 
+pol: 8, ang: 120, dist: 8 
+pol: 8, ang: 120, dist: 9 
+pol: 8, ang: 120, dist: 10 
+pol: 8, ang: 120, dist: 11 
+min dist: 11 max angle: 120 valor medio por corr: 8.285714285714286 jaccard: 0.9278694025317906 
+pol: 8, ang: 120, dist: 12 
+pol: 8, ang: 120, dist: 13 
+pol: 8, ang: 120, dist: 14 
+pol: 8, ang: 120, dist: 15 
+pol: 8, ang: 120, dist: 16 
+pol: 8, ang: 120, dist: 17 
+pol: 8, ang: 120, dist: 18 
+pol: 8, ang: 120, dist: 19 
+pol: 8, ang: 120, dist: 20 
+pol: 8, ang: 120, dist: 21 
+pol: 8, ang: 120, dist: 22 
+pol: 8, ang: 120, dist: 23 
+pol: 8, ang: 120, dist: 24 
+pol: 8, ang: 130, dist: 1 
+pol: 8, ang: 130, dist: 2 
+pol: 8, ang: 130, dist: 3 
+pol: 8, ang: 130, dist: 4 
+pol: 8, ang: 130, dist: 5 
+pol: 8, ang: 130, dist: 6 
+pol: 8, ang: 130, dist: 7 
+pol: 8, ang: 130, dist: 8 
+pol: 8, ang: 130, dist: 9 
+pol: 8, ang: 130, dist: 10 
+pol: 8, ang: 130, dist: 11 
+pol: 8, ang: 130, dist: 12 
+pol: 8, ang: 130, dist: 13 
+pol: 8, ang: 130, dist: 14 
+pol: 8, ang: 130, dist: 15 
+min dist: 15 max angle: 130 valor medio por corr: 8.285714285714286 jaccard: 0.9295807522533199 
+pol: 8, ang: 130, dist: 16 
+pol: 8, ang: 130, dist: 17 
+pol: 8, ang: 130, dist: 18 
+pol: 8, ang: 130, dist: 19 
+pol: 8, ang: 130, dist: 20 
+pol: 8, ang: 130, dist: 21 
+pol: 8, ang: 130, dist: 22 
+pol: 8, ang: 130, dist: 23 
+pol: 8, ang: 130, dist: 24 
+pol: 8, ang: 140, dist: 1 
+pol: 8, ang: 140, dist: 2 
+pol: 8, ang: 140, dist: 3 
+pol: 8, ang: 140, dist: 4 
+pol: 8, ang: 140, dist: 5 
+pol: 8, ang: 140, dist: 6 
+pol: 8, ang: 140, dist: 7 
+pol: 8, ang: 140, dist: 8 
+pol: 8, ang: 140, dist: 9 
+pol: 8, ang: 140, dist: 10 
+pol: 8, ang: 140, dist: 11 
+pol: 8, ang: 140, dist: 12 
+pol: 8, ang: 140, dist: 13 
+pol: 8, ang: 140, dist: 14 
+pol: 8, ang: 140, dist: 15 
+pol: 8, ang: 140, dist: 16 
+pol: 8, ang: 140, dist: 17 
+pol: 8, ang: 140, dist: 18 
+pol: 8, ang: 140, dist: 19 
+pol: 8, ang: 140, dist: 20 
+pol: 8, ang: 140, dist: 21 
+pol: 8, ang: 140, dist: 22 
+pol: 8, ang: 140, dist: 23 
+pol: 8, ang: 140, dist: 24 
+pol: 8, ang: 150, dist: 1 
+pol: 8, ang: 150, dist: 2 
+pol: 8, ang: 150, dist: 3 
+pol: 8, ang: 150, dist: 4 
+pol: 8, ang: 150, dist: 5 
+pol: 8, ang: 150, dist: 6 
+pol: 8, ang: 150, dist: 7 
+pol: 8, ang: 150, dist: 8 
+pol: 8, ang: 150, dist: 9 
+pol: 8, ang: 150, dist: 10 
+pol: 8, ang: 150, dist: 11 
+pol: 8, ang: 150, dist: 12 
+pol: 8, ang: 150, dist: 13 
+pol: 8, ang: 150, dist: 14 
+pol: 8, ang: 150, dist: 15 
+pol: 8, ang: 150, dist: 16 
+pol: 8, ang: 150, dist: 17 
+pol: 8, ang: 150, dist: 18 
+pol: 8, ang: 150, dist: 19 
+pol: 8, ang: 150, dist: 20 
+pol: 8, ang: 150, dist: 21 
+pol: 8, ang: 150, dist: 22 
+pol: 8, ang: 150, dist: 23 
+pol: 8, ang: 150, dist: 24 
+pol: 8, ang: 160, dist: 1 
+pol: 8, ang: 160, dist: 2 
+pol: 8, ang: 160, dist: 3 
+pol: 8, ang: 160, dist: 4 
+pol: 8, ang: 160, dist: 5 
+pol: 8, ang: 160, dist: 6 
+pol: 8, ang: 160, dist: 7 
+pol: 8, ang: 160, dist: 8 
+pol: 8, ang: 160, dist: 9 
+pol: 8, ang: 160, dist: 10 
+pol: 8, ang: 160, dist: 11 
+pol: 8, ang: 160, dist: 12 
+pol: 8, ang: 160, dist: 13 
+pol: 8, ang: 160, dist: 14 
+pol: 8, ang: 160, dist: 15 
+pol: 8, ang: 160, dist: 16 
+pol: 8, ang: 160, dist: 17 
+pol: 8, ang: 160, dist: 18 
+pol: 8, ang: 160, dist: 19 
+pol: 8, ang: 160, dist: 20 
+pol: 8, ang: 160, dist: 21 
+pol: 8, ang: 160, dist: 22 
+pol: 8, ang: 160, dist: 23 
+pol: 8, ang: 160, dist: 24 
+pol: 8, ang: 170, dist: 1 
+pol: 8, ang: 170, dist: 2 
+pol: 8, ang: 170, dist: 3 
+pol: 8, ang: 170, dist: 4 
+pol: 8, ang: 170, dist: 5 
+pol: 8, ang: 170, dist: 6 
+pol: 8, ang: 170, dist: 7 
+pol: 8, ang: 170, dist: 8 
+pol: 8, ang: 170, dist: 9 
+pol: 8, ang: 170, dist: 10 
+pol: 8, ang: 170, dist: 11 
+pol: 8, ang: 170, dist: 12 
+pol: 8, ang: 170, dist: 13 
+pol: 8, ang: 170, dist: 14 
+pol: 8, ang: 170, dist: 15 
+pol: 8, ang: 170, dist: 16 
+pol: 8, ang: 170, dist: 17 
+pol: 8, ang: 170, dist: 18 
+pol: 8, ang: 170, dist: 19 
+pol: 8, ang: 170, dist: 20 
+pol: 8, ang: 170, dist: 21 
+pol: 8, ang: 170, dist: 22 
+pol: 8, ang: 170, dist: 23 
+pol: 8, ang: 170, dist: 24 
+pol: 8, ang: 180, dist: 1 
+pol: 8, ang: 180, dist: 2 
+pol: 8, ang: 180, dist: 3 
+pol: 8, ang: 180, dist: 4 
+pol: 8, ang: 180, dist: 5 
+pol: 8, ang: 180, dist: 6 
+pol: 8, ang: 180, dist: 7 
+pol: 8, ang: 180, dist: 8 
+pol: 8, ang: 180, dist: 9 
+pol: 8, ang: 180, dist: 10 
+pol: 8, ang: 180, dist: 11 
+pol: 8, ang: 180, dist: 12 
+pol: 8, ang: 180, dist: 13 
+pol: 8, ang: 180, dist: 14 
+pol: 8, ang: 180, dist: 15 
+pol: 8, ang: 180, dist: 16 
+pol: 8, ang: 180, dist: 17 
+pol: 8, ang: 180, dist: 18 
+pol: 8, ang: 180, dist: 19 
+pol: 8, ang: 180, dist: 20 
+pol: 8, ang: 180, dist: 21 
+pol: 8, ang: 180, dist: 22 
+pol: 8, ang: 180, dist: 23 
+pol: 8, ang: 180, dist: 24 
+values: [[6, 170], [6, 150], [1, 140], [16, 180], [19, 180], [22, 180], [0, 0], [0, 0], [15, 130]]
+--------------- NEW POLYGON ---------------

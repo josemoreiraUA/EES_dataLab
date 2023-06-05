@@ -1,0 +1,672 @@
+pol: 0, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 8.521739130434783 jaccard: 0.573824715660449 
+pol: 0, ang: 120, dist: 2 
+pol: 0, ang: 120, dist: 3 
+min dist: 3 max angle: 120 valor medio por corr: 6.090909090909091 jaccard: 0.6649426740099436 
+pol: 0, ang: 120, dist: 4 
+min dist: 4 max angle: 120 valor medio por corr: 8.380952380952381 jaccard: 0.7441090482864556 
+pol: 0, ang: 120, dist: 5 
+pol: 0, ang: 120, dist: 6 
+pol: 0, ang: 120, dist: 7 
+pol: 0, ang: 120, dist: 8 
+pol: 0, ang: 120, dist: 9 
+pol: 0, ang: 120, dist: 10 
+min dist: 10 max angle: 120 valor medio por corr: 7.285714285714286 jaccard: 0.9386632767966269 
+pol: 0, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 3.806451612903226 jaccard: 0.9386765301961688 
+pol: 0, ang: 130, dist: 2 
+pol: 0, ang: 130, dist: 3 
+pol: 0, ang: 130, dist: 4 
+pol: 0, ang: 130, dist: 5 
+pol: 0, ang: 130, dist: 6 
+pol: 0, ang: 130, dist: 7 
+pol: 0, ang: 130, dist: 8 
+pol: 0, ang: 130, dist: 9 
+pol: 0, ang: 130, dist: 10 
+pol: 0, ang: 140, dist: 1 
+pol: 0, ang: 140, dist: 2 
+pol: 0, ang: 140, dist: 3 
+pol: 0, ang: 140, dist: 4 
+pol: 0, ang: 140, dist: 5 
+pol: 0, ang: 140, dist: 6 
+pol: 0, ang: 140, dist: 7 
+pol: 0, ang: 140, dist: 8 
+pol: 0, ang: 140, dist: 9 
+pol: 0, ang: 140, dist: 10 
+pol: 0, ang: 150, dist: 1 
+pol: 0, ang: 150, dist: 2 
+pol: 0, ang: 150, dist: 3 
+pol: 0, ang: 150, dist: 4 
+pol: 0, ang: 150, dist: 5 
+pol: 0, ang: 150, dist: 6 
+pol: 0, ang: 150, dist: 7 
+pol: 0, ang: 150, dist: 8 
+pol: 0, ang: 150, dist: 9 
+pol: 0, ang: 150, dist: 10 
+pol: 0, ang: 160, dist: 1 
+pol: 0, ang: 160, dist: 2 
+pol: 0, ang: 160, dist: 3 
+pol: 0, ang: 160, dist: 4 
+pol: 0, ang: 160, dist: 5 
+pol: 0, ang: 160, dist: 6 
+pol: 0, ang: 160, dist: 7 
+pol: 0, ang: 160, dist: 8 
+pol: 0, ang: 160, dist: 9 
+pol: 0, ang: 160, dist: 10 
+pol: 0, ang: 170, dist: 1 
+Too many values
+pol: 0, ang: 170, dist: 2 
+Too many values
+pol: 0, ang: 170, dist: 3 
+pol: 0, ang: 170, dist: 4 
+pol: 0, ang: 170, dist: 5 
+pol: 0, ang: 170, dist: 6 
+pol: 0, ang: 170, dist: 7 
+pol: 0, ang: 170, dist: 8 
+pol: 0, ang: 170, dist: 9 
+pol: 0, ang: 170, dist: 10 
+pol: 0, ang: 180, dist: 1 
+Too many values
+pol: 0, ang: 180, dist: 2 
+Too many values
+pol: 0, ang: 180, dist: 3 
+pol: 0, ang: 180, dist: 4 
+pol: 0, ang: 180, dist: 5 
+pol: 0, ang: 180, dist: 6 
+pol: 0, ang: 180, dist: 7 
+pol: 0, ang: 180, dist: 8 
+pol: 0, ang: 180, dist: 9 
+pol: 0, ang: 180, dist: 10 
+values: [[1, 130]]
+--------------- NEW POLYGON ---------------
+pol: 1, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 7.2 jaccard: 0.853791158061617 
+pol: 1, ang: 120, dist: 2 
+pol: 1, ang: 120, dist: 3 
+pol: 1, ang: 120, dist: 4 
+pol: 1, ang: 120, dist: 5 
+pol: 1, ang: 120, dist: 6 
+min dist: 6 max angle: 120 valor medio por corr: 7.571428571428571 jaccard: 0.9212702266790771 
+pol: 1, ang: 120, dist: 7 
+pol: 1, ang: 120, dist: 8 
+pol: 1, ang: 120, dist: 9 
+pol: 1, ang: 120, dist: 10 
+pol: 1, ang: 130, dist: 1 
+pol: 1, ang: 130, dist: 2 
+pol: 1, ang: 130, dist: 3 
+pol: 1, ang: 130, dist: 4 
+pol: 1, ang: 130, dist: 5 
+pol: 1, ang: 130, dist: 6 
+pol: 1, ang: 130, dist: 7 
+pol: 1, ang: 130, dist: 8 
+pol: 1, ang: 130, dist: 9 
+pol: 1, ang: 130, dist: 10 
+pol: 1, ang: 140, dist: 1 
+pol: 1, ang: 140, dist: 2 
+pol: 1, ang: 140, dist: 3 
+pol: 1, ang: 140, dist: 4 
+pol: 1, ang: 140, dist: 5 
+pol: 1, ang: 140, dist: 6 
+pol: 1, ang: 140, dist: 7 
+pol: 1, ang: 140, dist: 8 
+pol: 1, ang: 140, dist: 9 
+pol: 1, ang: 140, dist: 10 
+pol: 1, ang: 150, dist: 1 
+pol: 1, ang: 150, dist: 2 
+pol: 1, ang: 150, dist: 3 
+pol: 1, ang: 150, dist: 4 
+pol: 1, ang: 150, dist: 5 
+pol: 1, ang: 150, dist: 6 
+pol: 1, ang: 150, dist: 7 
+pol: 1, ang: 150, dist: 8 
+pol: 1, ang: 150, dist: 9 
+pol: 1, ang: 150, dist: 10 
+pol: 1, ang: 160, dist: 1 
+pol: 1, ang: 160, dist: 2 
+pol: 1, ang: 160, dist: 3 
+pol: 1, ang: 160, dist: 4 
+pol: 1, ang: 160, dist: 5 
+pol: 1, ang: 160, dist: 6 
+pol: 1, ang: 160, dist: 7 
+pol: 1, ang: 160, dist: 8 
+pol: 1, ang: 160, dist: 9 
+pol: 1, ang: 160, dist: 10 
+pol: 1, ang: 170, dist: 1 
+Too many values
+pol: 1, ang: 170, dist: 2 
+Too many values
+pol: 1, ang: 170, dist: 3 
+pol: 1, ang: 170, dist: 4 
+pol: 1, ang: 170, dist: 5 
+pol: 1, ang: 170, dist: 6 
+pol: 1, ang: 170, dist: 7 
+pol: 1, ang: 170, dist: 8 
+pol: 1, ang: 170, dist: 9 
+pol: 1, ang: 170, dist: 10 
+pol: 1, ang: 180, dist: 1 
+Too many values
+pol: 1, ang: 180, dist: 2 
+Too many values
+pol: 1, ang: 180, dist: 3 
+pol: 1, ang: 180, dist: 4 
+pol: 1, ang: 180, dist: 5 
+pol: 1, ang: 180, dist: 6 
+pol: 1, ang: 180, dist: 7 
+pol: 1, ang: 180, dist: 8 
+pol: 1, ang: 180, dist: 9 
+pol: 1, ang: 180, dist: 10 
+values: [[1, 130], [6, 120]]
+--------------- NEW POLYGON ---------------
+pol: 2, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 8.923076923076923 jaccard: 0.5350468069662258 
+pol: 2, ang: 120, dist: 2 
+pol: 2, ang: 120, dist: 3 
+pol: 2, ang: 120, dist: 4 
+pol: 2, ang: 120, dist: 5 
+pol: 2, ang: 120, dist: 6 
+pol: 2, ang: 120, dist: 7 
+pol: 2, ang: 120, dist: 8 
+pol: 2, ang: 120, dist: 9 
+pol: 2, ang: 120, dist: 10 
+pol: 2, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 4.117647058823529 jaccard: 0.8447550537072948 
+pol: 2, ang: 130, dist: 2 
+pol: 2, ang: 130, dist: 3 
+pol: 2, ang: 130, dist: 4 
+pol: 2, ang: 130, dist: 5 
+pol: 2, ang: 130, dist: 6 
+pol: 2, ang: 130, dist: 7 
+min dist: 7 max angle: 130 valor medio por corr: 4.857142857142857 jaccard: 0.8475971401033624 
+pol: 2, ang: 130, dist: 8 
+pol: 2, ang: 130, dist: 9 
+pol: 2, ang: 130, dist: 10 
+pol: 2, ang: 140, dist: 1 
+pol: 2, ang: 140, dist: 2 
+pol: 2, ang: 140, dist: 3 
+pol: 2, ang: 140, dist: 4 
+pol: 2, ang: 140, dist: 5 
+min dist: 5 max angle: 140 valor medio por corr: 4.1 jaccard: 0.8836474298645394 
+pol: 2, ang: 140, dist: 6 
+pol: 2, ang: 140, dist: 7 
+min dist: 7 max angle: 140 valor medio por corr: 4.333333333333333 jaccard: 0.8911939237122851 
+pol: 2, ang: 140, dist: 8 
+pol: 2, ang: 140, dist: 9 
+pol: 2, ang: 140, dist: 10 
+pol: 2, ang: 150, dist: 1 
+pol: 2, ang: 150, dist: 2 
+pol: 2, ang: 150, dist: 3 
+pol: 2, ang: 150, dist: 4 
+pol: 2, ang: 150, dist: 5 
+pol: 2, ang: 150, dist: 6 
+pol: 2, ang: 150, dist: 7 
+min dist: 7 max angle: 150 valor medio por corr: 3.9047619047619047 jaccard: 0.8999787954917342 
+pol: 2, ang: 150, dist: 8 
+pol: 2, ang: 150, dist: 9 
+pol: 2, ang: 150, dist: 10 
+pol: 2, ang: 160, dist: 1 
+pol: 2, ang: 160, dist: 2 
+pol: 2, ang: 160, dist: 3 
+pol: 2, ang: 160, dist: 4 
+pol: 2, ang: 160, dist: 5 
+pol: 2, ang: 160, dist: 6 
+pol: 2, ang: 160, dist: 7 
+pol: 2, ang: 160, dist: 8 
+pol: 2, ang: 160, dist: 9 
+pol: 2, ang: 160, dist: 10 
+pol: 2, ang: 170, dist: 1 
+Too many values
+pol: 2, ang: 170, dist: 2 
+Too many values
+pol: 2, ang: 170, dist: 3 
+pol: 2, ang: 170, dist: 4 
+pol: 2, ang: 170, dist: 5 
+pol: 2, ang: 170, dist: 6 
+pol: 2, ang: 170, dist: 7 
+pol: 2, ang: 170, dist: 8 
+pol: 2, ang: 170, dist: 9 
+pol: 2, ang: 170, dist: 10 
+pol: 2, ang: 180, dist: 1 
+Too many values
+pol: 2, ang: 180, dist: 2 
+Too many values
+pol: 2, ang: 180, dist: 3 
+pol: 2, ang: 180, dist: 4 
+pol: 2, ang: 180, dist: 5 
+pol: 2, ang: 180, dist: 6 
+pol: 2, ang: 180, dist: 7 
+pol: 2, ang: 180, dist: 8 
+pol: 2, ang: 180, dist: 9 
+pol: 2, ang: 180, dist: 10 
+values: [[1, 130], [6, 120], [7, 150]]
+--------------- NEW POLYGON ---------------
+pol: 3, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 4.615384615384615 jaccard: 0.26783045310722664 
+pol: 3, ang: 120, dist: 2 
+pol: 3, ang: 120, dist: 3 
+pol: 3, ang: 120, dist: 4 
+pol: 3, ang: 120, dist: 5 
+pol: 3, ang: 120, dist: 6 
+pol: 3, ang: 120, dist: 7 
+pol: 3, ang: 120, dist: 8 
+pol: 3, ang: 120, dist: 9 
+pol: 3, ang: 120, dist: 10 
+min dist: 10 max angle: 120 valor medio por corr: 5.454545454545454 jaccard: 0.30669528050447914 
+pol: 3, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 6.666666666666667 jaccard: 0.5496961713960795 
+pol: 3, ang: 130, dist: 2 
+pol: 3, ang: 130, dist: 3 
+pol: 3, ang: 130, dist: 4 
+pol: 3, ang: 130, dist: 5 
+pol: 3, ang: 130, dist: 6 
+pol: 3, ang: 130, dist: 7 
+pol: 3, ang: 130, dist: 8 
+pol: 3, ang: 130, dist: 9 
+pol: 3, ang: 130, dist: 10 
+min dist: 10 max angle: 130 valor medio por corr: 5.384615384615385 jaccard: 0.6867362940290012 
+pol: 3, ang: 140, dist: 1 
+pol: 3, ang: 140, dist: 2 
+pol: 3, ang: 140, dist: 3 
+pol: 3, ang: 140, dist: 4 
+pol: 3, ang: 140, dist: 5 
+pol: 3, ang: 140, dist: 6 
+pol: 3, ang: 140, dist: 7 
+pol: 3, ang: 140, dist: 8 
+pol: 3, ang: 140, dist: 9 
+pol: 3, ang: 140, dist: 10 
+min dist: 10 max angle: 140 valor medio por corr: 4.8 jaccard: 0.7459841634136519 
+pol: 3, ang: 150, dist: 1 
+pol: 3, ang: 150, dist: 2 
+pol: 3, ang: 150, dist: 3 
+pol: 3, ang: 150, dist: 4 
+pol: 3, ang: 150, dist: 5 
+pol: 3, ang: 150, dist: 6 
+pol: 3, ang: 150, dist: 7 
+pol: 3, ang: 150, dist: 8 
+pol: 3, ang: 150, dist: 9 
+pol: 3, ang: 150, dist: 10 
+pol: 3, ang: 160, dist: 1 
+pol: 3, ang: 160, dist: 2 
+pol: 3, ang: 160, dist: 3 
+pol: 3, ang: 160, dist: 4 
+pol: 3, ang: 160, dist: 5 
+pol: 3, ang: 160, dist: 6 
+pol: 3, ang: 160, dist: 7 
+pol: 3, ang: 160, dist: 8 
+pol: 3, ang: 160, dist: 9 
+pol: 3, ang: 160, dist: 10 
+pol: 3, ang: 170, dist: 1 
+Too many values
+pol: 3, ang: 170, dist: 2 
+Too many values
+pol: 3, ang: 170, dist: 3 
+pol: 3, ang: 170, dist: 4 
+pol: 3, ang: 170, dist: 5 
+pol: 3, ang: 170, dist: 6 
+pol: 3, ang: 170, dist: 7 
+pol: 3, ang: 170, dist: 8 
+pol: 3, ang: 170, dist: 9 
+pol: 3, ang: 170, dist: 10 
+pol: 3, ang: 180, dist: 1 
+Too many values
+pol: 3, ang: 180, dist: 2 
+Too many values
+pol: 3, ang: 180, dist: 3 
+pol: 3, ang: 180, dist: 4 
+pol: 3, ang: 180, dist: 5 
+pol: 3, ang: 180, dist: 6 
+pol: 3, ang: 180, dist: 7 
+pol: 3, ang: 180, dist: 8 
+pol: 3, ang: 180, dist: 9 
+pol: 3, ang: 180, dist: 10 
+min dist: 10 max angle: 180 valor medio por corr: 3.1904761904761907 jaccard: 0.7890181151832341 
+values: [[1, 130], [6, 120], [7, 150], [10, 180]]
+--------------- NEW POLYGON ---------------
+pol: 4, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 5.818181818181818 jaccard: 0.715917013381436 
+pol: 4, ang: 120, dist: 2 
+pol: 4, ang: 120, dist: 3 
+pol: 4, ang: 120, dist: 4 
+pol: 4, ang: 120, dist: 5 
+pol: 4, ang: 120, dist: 6 
+pol: 4, ang: 120, dist: 7 
+pol: 4, ang: 120, dist: 8 
+pol: 4, ang: 120, dist: 9 
+pol: 4, ang: 120, dist: 10 
+pol: 4, ang: 130, dist: 1 
+pol: 4, ang: 130, dist: 2 
+pol: 4, ang: 130, dist: 3 
+pol: 4, ang: 130, dist: 4 
+pol: 4, ang: 130, dist: 5 
+pol: 4, ang: 130, dist: 6 
+pol: 4, ang: 130, dist: 7 
+pol: 4, ang: 130, dist: 8 
+pol: 4, ang: 130, dist: 9 
+pol: 4, ang: 130, dist: 10 
+pol: 4, ang: 140, dist: 1 
+pol: 4, ang: 140, dist: 2 
+pol: 4, ang: 140, dist: 3 
+pol: 4, ang: 140, dist: 4 
+pol: 4, ang: 140, dist: 5 
+pol: 4, ang: 140, dist: 6 
+pol: 4, ang: 140, dist: 7 
+pol: 4, ang: 140, dist: 8 
+pol: 4, ang: 140, dist: 9 
+pol: 4, ang: 140, dist: 10 
+pol: 4, ang: 150, dist: 1 
+min dist: 1 max angle: 150 valor medio por corr: 2.9411764705882355 jaccard: 0.7446135197994247 
+pol: 4, ang: 150, dist: 2 
+pol: 4, ang: 150, dist: 3 
+pol: 4, ang: 150, dist: 4 
+pol: 4, ang: 150, dist: 5 
+pol: 4, ang: 150, dist: 6 
+pol: 4, ang: 150, dist: 7 
+pol: 4, ang: 150, dist: 8 
+pol: 4, ang: 150, dist: 9 
+pol: 4, ang: 150, dist: 10 
+pol: 4, ang: 160, dist: 1 
+pol: 4, ang: 160, dist: 2 
+pol: 4, ang: 160, dist: 3 
+pol: 4, ang: 160, dist: 4 
+pol: 4, ang: 160, dist: 5 
+pol: 4, ang: 160, dist: 6 
+pol: 4, ang: 160, dist: 7 
+pol: 4, ang: 160, dist: 8 
+pol: 4, ang: 160, dist: 9 
+pol: 4, ang: 160, dist: 10 
+pol: 4, ang: 170, dist: 1 
+Too many values
+pol: 4, ang: 170, dist: 2 
+Too many values
+pol: 4, ang: 170, dist: 3 
+min dist: 3 max angle: 170 valor medio por corr: 1.7419354838709677 jaccard: 0.7955961934980016 
+pol: 4, ang: 170, dist: 4 
+pol: 4, ang: 170, dist: 5 
+pol: 4, ang: 170, dist: 6 
+pol: 4, ang: 170, dist: 7 
+pol: 4, ang: 170, dist: 8 
+pol: 4, ang: 170, dist: 9 
+pol: 4, ang: 170, dist: 10 
+pol: 4, ang: 180, dist: 1 
+Too many values
+pol: 4, ang: 180, dist: 2 
+Too many values
+pol: 4, ang: 180, dist: 3 
+min dist: 3 max angle: 180 valor medio por corr: 1.4285714285714286 jaccard: 0.819962355467031 
+pol: 4, ang: 180, dist: 4 
+pol: 4, ang: 180, dist: 5 
+pol: 4, ang: 180, dist: 6 
+pol: 4, ang: 180, dist: 7 
+pol: 4, ang: 180, dist: 8 
+pol: 4, ang: 180, dist: 9 
+min dist: 9 max angle: 180 valor medio por corr: 1.5 jaccard: 0.8206777529027729 
+pol: 4, ang: 180, dist: 10 
+min dist: 10 max angle: 180 valor medio por corr: 1.5789473684210527 jaccard: 0.8457427116974283 
+values: [[1, 130], [6, 120], [7, 150], [10, 180], [10, 180]]
+--------------- NEW POLYGON ---------------
+pol: 5, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 14.75 jaccard: 0.35985334067934893 
+pol: 5, ang: 120, dist: 2 
+pol: 5, ang: 120, dist: 3 
+pol: 5, ang: 120, dist: 4 
+pol: 5, ang: 120, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 5, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 7.4 jaccard: 0.571939387212933 
+pol: 5, ang: 130, dist: 2 
+pol: 5, ang: 130, dist: 3 
+pol: 5, ang: 130, dist: 4 
+pol: 5, ang: 130, dist: 5 
+pol: 5, ang: 130, dist: 6 
+pol: 5, ang: 130, dist: 7 
+pol: 5, ang: 130, dist: 8 
+pol: 5, ang: 130, dist: 9 
+pol: 5, ang: 130, dist: 10 
+pol: 5, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 2.8 jaccard: 0.6426401014790313 
+pol: 5, ang: 140, dist: 2 
+pol: 5, ang: 140, dist: 3 
+pol: 5, ang: 140, dist: 4 
+pol: 5, ang: 140, dist: 5 
+min dist: 5 max angle: 140 valor medio por corr: 5.166666666666667 jaccard: 0.9137361516128621 
+pol: 5, ang: 140, dist: 6 
+pol: 5, ang: 140, dist: 7 
+pol: 5, ang: 140, dist: 8 
+pol: 5, ang: 140, dist: 9 
+pol: 5, ang: 140, dist: 10 
+pol: 5, ang: 150, dist: 1 
+pol: 5, ang: 150, dist: 2 
+pol: 5, ang: 150, dist: 3 
+pol: 5, ang: 150, dist: 4 
+pol: 5, ang: 150, dist: 5 
+pol: 5, ang: 150, dist: 6 
+pol: 5, ang: 150, dist: 7 
+pol: 5, ang: 150, dist: 8 
+pol: 5, ang: 150, dist: 9 
+pol: 5, ang: 150, dist: 10 
+pol: 5, ang: 160, dist: 1 
+min dist: 1 max angle: 160 valor medio por corr: 2.2758620689655173 jaccard: 0.9161081506125243 
+pol: 5, ang: 160, dist: 2 
+pol: 5, ang: 160, dist: 3 
+pol: 5, ang: 160, dist: 4 
+pol: 5, ang: 160, dist: 5 
+pol: 5, ang: 160, dist: 6 
+pol: 5, ang: 160, dist: 7 
+pol: 5, ang: 160, dist: 8 
+pol: 5, ang: 160, dist: 9 
+pol: 5, ang: 160, dist: 10 
+pol: 5, ang: 170, dist: 1 
+Too many values
+pol: 5, ang: 170, dist: 2 
+Too many values
+pol: 5, ang: 170, dist: 3 
+pol: 5, ang: 170, dist: 4 
+pol: 5, ang: 170, dist: 5 
+pol: 5, ang: 170, dist: 6 
+pol: 5, ang: 170, dist: 7 
+pol: 5, ang: 170, dist: 8 
+pol: 5, ang: 170, dist: 9 
+pol: 5, ang: 170, dist: 10 
+pol: 5, ang: 180, dist: 1 
+Too many values
+pol: 5, ang: 180, dist: 2 
+Too many values
+pol: 5, ang: 180, dist: 3 
+pol: 5, ang: 180, dist: 4 
+pol: 5, ang: 180, dist: 5 
+pol: 5, ang: 180, dist: 6 
+pol: 5, ang: 180, dist: 7 
+pol: 5, ang: 180, dist: 8 
+pol: 5, ang: 180, dist: 9 
+pol: 5, ang: 180, dist: 10 
+values: [[1, 130], [6, 120], [7, 150], [10, 180], [10, 180], [1, 160]]
+--------------- NEW POLYGON ---------------
+pol: 6, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 16.666666666666668 jaccard: 0.4959442603329738 
+pol: 6, ang: 120, dist: 2 
+pol: 6, ang: 120, dist: 3 
+pol: 6, ang: 120, dist: 4 
+pol: 6, ang: 120, dist: 5 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 6 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 7 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 1 
+min dist: 1 max angle: 130 valor medio por corr: 14.285714285714286 jaccard: 0.5157195063551311 
+pol: 6, ang: 130, dist: 2 
+pol: 6, ang: 130, dist: 3 
+pol: 6, ang: 130, dist: 4 
+pol: 6, ang: 130, dist: 5 
+pol: 6, ang: 130, dist: 6 
+pol: 6, ang: 130, dist: 7 
+pol: 6, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 1 
+min dist: 1 max angle: 140 valor medio por corr: 6.833333333333333 jaccard: 0.8795974380943415 
+pol: 6, ang: 140, dist: 2 
+pol: 6, ang: 140, dist: 3 
+pol: 6, ang: 140, dist: 4 
+pol: 6, ang: 140, dist: 5 
+pol: 6, ang: 140, dist: 6 
+pol: 6, ang: 140, dist: 7 
+pol: 6, ang: 140, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 140, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 6, ang: 150, dist: 1 
+pol: 6, ang: 150, dist: 2 
+pol: 6, ang: 150, dist: 3 
+pol: 6, ang: 150, dist: 4 
+pol: 6, ang: 150, dist: 5 
+pol: 6, ang: 150, dist: 6 
+pol: 6, ang: 150, dist: 7 
+pol: 6, ang: 150, dist: 8 
+pol: 6, ang: 150, dist: 9 
+pol: 6, ang: 150, dist: 10 
+pol: 6, ang: 160, dist: 1 
+pol: 6, ang: 160, dist: 2 
+pol: 6, ang: 160, dist: 3 
+pol: 6, ang: 160, dist: 4 
+pol: 6, ang: 160, dist: 5 
+pol: 6, ang: 160, dist: 6 
+pol: 6, ang: 160, dist: 7 
+pol: 6, ang: 160, dist: 8 
+min dist: 8 max angle: 160 valor medio por corr: 3.9 jaccard: 0.902642399318994 
+pol: 6, ang: 160, dist: 9 
+pol: 6, ang: 160, dist: 10 
+pol: 6, ang: 170, dist: 1 
+Too many values
+pol: 6, ang: 170, dist: 2 
+Too many values
+pol: 6, ang: 170, dist: 3 
+pol: 6, ang: 170, dist: 4 
+pol: 6, ang: 170, dist: 5 
+pol: 6, ang: 170, dist: 6 
+pol: 6, ang: 170, dist: 7 
+pol: 6, ang: 170, dist: 8 
+pol: 6, ang: 170, dist: 9 
+pol: 6, ang: 170, dist: 10 
+pol: 6, ang: 180, dist: 1 
+Too many values
+pol: 6, ang: 180, dist: 2 
+Too many values
+pol: 6, ang: 180, dist: 3 
+pol: 6, ang: 180, dist: 4 
+pol: 6, ang: 180, dist: 5 
+pol: 6, ang: 180, dist: 6 
+pol: 6, ang: 180, dist: 7 
+pol: 6, ang: 180, dist: 8 
+pol: 6, ang: 180, dist: 9 
+pol: 6, ang: 180, dist: 10 
+values: [[1, 130], [6, 120], [7, 150], [10, 180], [10, 180], [1, 160], [8, 160]]
+--------------- NEW POLYGON ---------------
+pol: 7, ang: 120, dist: 1 
+min dist: 1 max angle: 120 valor medio por corr: 6.526315789473684 jaccard: 0.7438390705500969 
+pol: 7, ang: 120, dist: 2 
+pol: 7, ang: 120, dist: 3 
+pol: 7, ang: 120, dist: 4 
+pol: 7, ang: 120, dist: 5 
+pol: 7, ang: 120, dist: 6 
+pol: 7, ang: 120, dist: 7 
+pol: 7, ang: 120, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 1 
+pol: 7, ang: 130, dist: 2 
+pol: 7, ang: 130, dist: 3 
+pol: 7, ang: 130, dist: 4 
+pol: 7, ang: 130, dist: 5 
+pol: 7, ang: 130, dist: 6 
+pol: 7, ang: 130, dist: 7 
+pol: 7, ang: 130, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 1 
+pol: 7, ang: 140, dist: 2 
+pol: 7, ang: 140, dist: 3 
+pol: 7, ang: 140, dist: 4 
+pol: 7, ang: 140, dist: 5 
+pol: 7, ang: 140, dist: 6 
+pol: 7, ang: 140, dist: 7 
+pol: 7, ang: 140, dist: 8 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 140, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 7, ang: 150, dist: 1 
+pol: 7, ang: 150, dist: 2 
+pol: 7, ang: 150, dist: 3 
+pol: 7, ang: 150, dist: 4 
+pol: 7, ang: 150, dist: 5 
+pol: 7, ang: 150, dist: 6 
+pol: 7, ang: 150, dist: 7 
+pol: 7, ang: 150, dist: 8 
+pol: 7, ang: 150, dist: 9 
+pol: 7, ang: 150, dist: 10 
+pol: 7, ang: 160, dist: 1 
+min dist: 1 max angle: 160 valor medio por corr: 2.55 jaccard: 0.7915696619726165 
+pol: 7, ang: 160, dist: 2 
+pol: 7, ang: 160, dist: 3 
+pol: 7, ang: 160, dist: 4 
+pol: 7, ang: 160, dist: 5 
+pol: 7, ang: 160, dist: 6 
+pol: 7, ang: 160, dist: 7 
+pol: 7, ang: 160, dist: 8 
+pol: 7, ang: 160, dist: 9 
+pol: 7, ang: 160, dist: 10 
+pol: 7, ang: 170, dist: 1 
+Too many values
+pol: 7, ang: 170, dist: 2 
+Too many values
+pol: 7, ang: 170, dist: 3 
+pol: 7, ang: 170, dist: 4 
+pol: 7, ang: 170, dist: 5 
+pol: 7, ang: 170, dist: 6 
+pol: 7, ang: 170, dist: 7 
+pol: 7, ang: 170, dist: 8 
+pol: 7, ang: 170, dist: 9 
+min dist: 9 max angle: 170 valor medio por corr: 2.8421052631578947 jaccard: 0.794777092064888 
+pol: 7, ang: 170, dist: 10 
+pol: 7, ang: 180, dist: 1 
+Too many values
+pol: 7, ang: 180, dist: 2 
+Too many values
+pol: 7, ang: 180, dist: 3 
+pol: 7, ang: 180, dist: 4 
+pol: 7, ang: 180, dist: 5 
+pol: 7, ang: 180, dist: 6 
+pol: 7, ang: 180, dist: 7 
+pol: 7, ang: 180, dist: 8 
+pol: 7, ang: 180, dist: 9 
+pol: 7, ang: 180, dist: 10 
+values: [[1, 130], [6, 120], [7, 150], [10, 180], [10, 180], [1, 160], [8, 160], [9, 170]]
+--------------- NEW POLYGON ---------------
