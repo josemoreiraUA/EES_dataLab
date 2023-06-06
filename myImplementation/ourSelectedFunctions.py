@@ -1,114 +1,76 @@
 import numpy as np
-from scipy.spatial import procrustes
-from shapely.geometry import Polygon, Point
-from shapely.affinity import affine_transform
-import geopandas as gpd
+import vtk
 
-############# SVD
-# Apply the same translation and rotation to all vertices of the source polygon
+from stl import mesh
 
-def svdAlignment(src, trg):
-    # Compute the centroids of the polygons
-    src_centroid = np.mean(src, axis=0)
-    trg_centroid = np.mean(trg, axis=0)
-
-    # Center the polygons by subtracting the centroids
-    src_centered = src - src_centroid
-    trg_centered = trg - trg_centroid
-
-    # Compute the covariance matrix
-    covariance_matrix = src_centered.T @ trg_centered
-
-    # Perform Singular Value Decomposition
-    U, W, Vt = np.linalg.svd(covariance_matrix)
-
-    # Calculate the rotation matrix
-    rotation_matrix = Vt.T @ U.T
-
-    # Calculate the translation vector
-    translation_vector = trg_centroid - src_centroid
-
-    # Compute the distances between the vertices in the source and target aligned (skew / deformation)
-    print("2.", src_centered)
-    print("1.", trg_centered)
-    print("3.", src_centered @ rotation_matrix)
-    skew_matrix = trg_centered - (src_centered @ rotation_matrix)
-
-    # The result
-    return translation_vector, rotation_matrix, skew_matrix
+def main(source_stl, target_stl, max_iteration=20):
+    """
+    input
+        source_stl:source surface data(.stl), target_stl:target surface data (.stl)
+        max_iteration : the max number of steps.
+    output
+        result_matrix (4x4 matrix for transformation）
+        the postICP- source file will be saved as -----postICP.stl
+    """
+    # stl data are changed into vtk.polyData for vtk (stl2vtkpoints is defined below)
+    source_vtk_data = stl2vtkpoints(source_stl)
+    target_vtk_data = stl2vtkpoints(target_stl)
 
 
-def interpolate_fixed(src, trg, t):
-    assert 0 <= t <= 1, 'parameter t \in [0, 1]'  
-    #assert type(source) == 'shapely.geometry.polygon.Polygon'
-    print("inside func: ", src.exterior.coords.xy)
-    
-    translation, rotation, _ = svdAlignment(np.array(src.exterior.coords.xy), np.array(trg.exterior.coords.xy))
+    # ============ run ICP ==============
+    icp = vtk.vtkIterativeClosestPointTransform()
+    #set input and output data
+    icp.SetSource(source_vtk_data)
+    icp.SetTarget(target_vtk_data)
+    # other setting commands
+    icp.GetLandmarkTransform().SetModeToRigidBody()
+    icp.DebugOn()
 
-    # Compute the centroids of the polygons
-    src_centroid = np.mean(np.array(src.exterior.coords.xy), axis=0)
- 
-    # Center the source by subtracting the centroid
-    src_centered = np.array(src.exterior.coords.xy) - src_centroid
-    
-    # Extract the cosine and sine values
-    cos_theta = rotation[0, 0]
-    sin_theta = rotation[1, 0]
+    icp.SetMaximumNumberOfIterations(max_iteration)
+    icp.StartByMatchingCentroidsOff()
+    icp.Modified()
+    icp.Update()
 
-    # Calculate the angle in radians
-    theta = np.arctan2(sin_theta, cos_theta)
+    #output 4x4 matrix from the icp result
+    icpTransformFilter = vtk.vtkTransformPolyDataFilter()
+    transform_matrix = icpTransformFilter.GetTransform().GetMatrix()
+    result_matrix = np.identity(4)
+    for i in range(4):
+        for j in range(4):
+            result_matrix[i][j] = transform_matrix.GetElement(i, j)
 
-    # Convert the angle to degrees
-    theta_deg_at_t = np.rad2deg(theta) * t
+    #transform the source surface using numpy-stl
+    source_mesh = mesh.Mesh.from_file(source_stl)
+    source_mesh.transform(result_matrix)
+    source_mesh.save(source_stl.replace('.stl','_postICP.stl'))
+    #saved as ---postICP.stl
 
-    # Convert angles from degrees to radians
-    angle_rad = np.deg2rad(theta_deg_at_t) 
-    
-    rotation_matrice = np.array([ [np.cos(angle_rad), -np.sin(angle_rad)], [np.sin(angle_rad), np.cos(angle_rad)] ])
+    return result_matrix
+    #return transformation matrix
 
-    #transformation = np.dot(np.array(source.exterior.coords),rotation_matrice.T) + translation * t
-    transformation = np.dot(src_centered,rotation_matrice.T) + translation * t + src_centroid
-    transformed_polygon = Polygon(transformation)    
-    
-    # alternative
-    #transformed_polygon = affine_transform(source, [np.cos(angle_rad), -np.sin(angle_rad), np.sin(angle_rad), np.cos(angle_rad), translation[0] * t, translation[1] * t])
+def stl2vtkpoints(stl_file):
+    # change stl data into vtk polydata
+    stl_data = mesh.Mesh.from_file(stl_file)
+    stl_points =stl_data.points.reshape([-1, 3])
 
-    return transformed_polygon
+    vtk_data = vtk.vtkPolyData()
+    vtk_data_points = vtk.vtkPoints()
+    vtk_data_vertices = vtk.vtkCellArray()
+    for point in stl_points:
+        id = vtk_data_points.InsertNextPoint(point)
+        vtk_data_vertices.InsertNextCell(1)
+        vtk_data_vertices.InsertCellPoint(id)
+    vtk_data.SetPoints(vtk_data_points)
+    vtk_data.SetVerts(vtk_data_vertices)
 
-def interpolate_deformable(src, trg, t):
-    assert 0 <= t <= 1, 'parameter t \in [0, 1]'  
-    #assert type(source) == 'shapely.geometry.polygon.Polygon'
+    return vtk_data
 
-    translation, rotation, deformation = svdAlignment(np.array(src.exterior.coords), np.array(trg.exterior.coords))
 
-    # Compute the centroids of the polygons
-    src_centroid = np.mean(np.array(src.exterior.coords), axis=0)
- 
-    # Center the source by subtracting the centroid
-    src_centered = np.array(src.exterior.coords) - src_centroid
-    
-    # Extract the cosine and sine values
-    cos_theta = rotation[0, 0]
-    sin_theta = rotation[1, 0]
+#-----------------------
 
-    # Calculate the angle in radians
-    theta = np.arctan2(sin_theta, cos_theta)
-
-    # Convert the angle to degrees
-    theta_deg_at_t = np.rad2deg(theta) * t
-    print("> theta_deg", theta_deg_at_t) 
-
-    # Convert angles from degrees to radians
-    angle_rad = np.deg2rad(theta_deg_at_t) 
-    
-    rotation_matrice = np.array([ [np.cos(angle_rad), -np.sin(angle_rad)], [np.sin(angle_rad), np.cos(angle_rad)] ])
-
-    #transformation = np.dot(np.array(source.exterior.coords),rotation_matrice.T) + translation * t
-    transformation = np.dot(src_centered + deformation * t,rotation_matrice.T) + (translation * t + src_centroid) #- deformation * t
-    transformed_polygon = Polygon(transformation)    
-    
-    # alternative
-    #transformed_polygon = affine_transform(source, [np.cos(angle_rad), -np.sin(angle_rad), np.sin(angle_rad), np.cos(angle_rad), translation[0] * t, translation[1] * t])
-
-    return transformed_polygon
-
+matrix = main('dog1.stl', 'dog2.stl')
+print(matrix)
+#[[ 0.9730126  -0.11119069 -0.20219573 -2.19660497]
+# [ 0.09364225  0.99112002 -0.09440468 -1.35194807]
+# [ 0.21089716  0.07292288  0.97478441  0.53585268]
+# [ 0.          0.          0.          1.        ]]

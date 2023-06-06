@@ -195,9 +195,9 @@ def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, 
     #print("SOURCE POINTS")
     #for point in polTrg.exterior.coords:
         #print(point)
-    print("PTS SRC", len(polSrc.exterior.coords))
-    print("PTS TRG", len(polTrg.exterior.coords))
-
+    #print("PTS SRC", len(polSrc.exterior.coords))
+    #print("PTS TRG", len(polTrg.exterior.coords))
+    #print("SRC POL", polSrc)
     s = ""
     for corr in arrCorrFP:
         s = s + str(corr) #para cada correspondencia, concatena na mesma string
@@ -229,7 +229,6 @@ def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, 
         #print(corr)
     #print(len(polSrc.exterior.coords))
     #print(len(polTrg.exterior.coords))
-
     arrCorrP = [] #array onde vao ficar as correspondencias entre pontos
     
     arrSrcPoints = polSrc.exterior.coords[:]
@@ -559,15 +558,18 @@ for pol in range(len(arrPolyWKT)-1):
     arrFPObjSource = [] #a cada poligono os feature points sao resetados
     arrFPObjTarget = []
     
-    transformed_polygo_src = our.interpolate_fixed(arrPolyWKT[pol], arrPolyWKT[pol+1], t=1)
-
+    #transformed_polygo_src = our.interpolate_fixed(arrPolyWKT[pol], arrPolyWKT[pol+1], t=1)
+    #point_cloud_src = our.polygon_to_point_cloud(arrPolyWKT[pol])
+    #point_cloud_trg = our.polygon_to_point_cloud(arrPolyWKT[pol+1])
+    #print("SRC: ", arrPolyWKT[pol])
+    transformed_polygo_src, _ = our.icp(arrPolyWKT[pol], arrPolyWKT[pol+1])
     featurePointsSource = getFeaturePoints(transformed_polygo_src, valuesIce2[pol][0], valuesIce2[pol][1]) #array de feature points do poligono origem (5,180) para poligonos grandes
     #featurePointsSource = getFeaturePoints(arrPolyWKT[pol], distancia, angulo)
-    print("FPS SRC", len(featurePointsSource))
+    #print("FPS SRC", len(featurePointsSource))
     #print(featurePointsSource)
     featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], valuesIce2[pol][0], valuesIce2[pol][1]) #array de feature points do poligono destino
     #featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], distancia, angulo)
-    print("FPS TRG", len(featurePointsTarget))
+    #print("FPS TRG", len(featurePointsTarget))
 
     maxi = 0
     mini = 123445612456
