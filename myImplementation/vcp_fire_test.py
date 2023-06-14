@@ -1,5 +1,5 @@
 import numpy as np
-from shapely.geometry import Polygon, LineString, Point
+from shapely.geometry import Polygon
 import shapely.geometry as sg
 from shapely.ops import unary_union
 import shapely.wkt
@@ -521,14 +521,15 @@ arrPontos = []
 #wktFiles = ["g20.wkt","g21.wkt","g22.wkt","g23.wkt","g24.wkt","g25.wkt","g26.wkt","g27.wkt","g28.wkt","g29.wkt"]
 #wktFiles = ["g0.wkt","g1.wkt","g2.wkt","g3.wkt","g4.wkt","g5.wkt","g6.wkt","g7.wkt","g8.wkt","g9.wkt"]
 #wktFiles = ["t1.wkt","t2.wkt","t3.wkt","t4.wkt","t5.wkt","t6.wkt","t7.wkt","t8.wkt","t9.wkt","t10.wkt","t11.wkt","t12.wkt"]
-wktFiles = ["t1.wkt","t2.wkt","t3.wkt","t4.wkt","t5.wkt","t6.wkt","t7.wkt","t8.wkt","t9.wkt","t10.wkt","t11.wkt","t12.wkt","t13.wkt"]
-#wktFiles = ["f_spt_dl0.wkt","f_spt_dl1.wkt","f_spt_dl2.wkt","f_spt_dl3.wkt","f_spt_dl4.wkt","f_spt_dl5.wkt","f_spt_dl6.wkt","f_spt_dl7.wkt","f_spt_dl8.wkt"] #sptdatalab
+#wktFiles = ["t1.wkt","t2.wkt","t3.wkt","t4.wkt","t5.wkt","t6.wkt","t7.wkt","t8.wkt","t9.wkt","t10.wkt","t11.wkt","t12.wkt","t13.wkt"]
+wktFiles = ["f_spt_dl0.wkt","f_spt_dl1.wkt","f_spt_dl2.wkt","f_spt_dl3.wkt","f_spt_dl4.wkt","f_spt_dl5.wkt","f_spt_dl6.wkt","f_spt_dl7.wkt","f_spt_dl8.wkt"] #sptdatalab
 #valuesIce1 = [[6, 170], [6, 150], [1, 140], [16, 180], [19, 180], [22, 180], [15, 170], [18, 160], [15, 130]]
 #valuesIce2 = [[13, 160], [5, 160], [1, 150], [11, 170], [9, 170], [18, 180], [4, 170], [10, 180], [7, 170]]
 #valuesTiago = [[10, 140], [10, 160], [7, 120], [5, 160], [9, 170], [8, 170], [2, 160], [10, 180], [10, 180], [10, 180], [10, 160]] #values dinamicos
-valuesTiago = [[8, 140], [10, 160], [5, 140], [5, 160], [5, 140], [7, 170], [2, 160], [10, 170], [10, 180], [10, 180], [10, 180],[1,120]]
+#valuesTiago = [[8, 140], [10, 160], [5, 140], [5, 160], [5, 140], [7, 170], [2, 160], [10, 170], [10, 180], [10, 180], [10, 180],[1,120]]
 #valuesSPTDL = [[1, 130], [32, 120], [13, 160], [14, 130], [43, 180], [29, 180], [11, 150], [47, 180]]
 #valuesSPTDL = [[1, 130], [6, 120], [7, 150], [10, 180], [10, 180], [1, 160], [8, 160], [9, 170]]
+valuesSimp = [[1, 130], [6, 120], [13, 160], [14, 130], [10, 180], [1, 160], [11, 150], [18, 170]] #values do simp
 arrRosSource = []
 arrRolSource = []
 arrRorSource = []
@@ -553,11 +554,8 @@ for pol in range(len(arrPolyWKT)-1):
     arrFPObjSource = [] #a cada poligono os feature points sao resetados
     arrFPObjTarget = []
 
-    featurePointsSource = getFeaturePoints(arrPolyWKT[pol], valuesTiago[pol][0], valuesTiago[pol][1]) #array de feature points do poligono origem (5,180) para poligonos grandes
-    #featurePointsSource = getFeaturePoints(arrPolyWKT[pol], distancia, angulo)
-    
-    featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], valuesTiago[pol][0], valuesTiago[pol][1]) #array de feature points do poligono destino
-    #featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], distancia, angulo)
+    featurePointsSource = getFeaturePoints(arrPolyWKT[pol], valuesSimp[pol][0], valuesSimp[pol][1]) #array de feature points do poligono origem (5,180) para poligonos grandes
+    featurePointsTarget = getFeaturePoints(arrPolyWKT[pol+1], valuesSimp[pol][0], valuesSimp[pol][1]) #array de feature points do poligono destino
 
     maxi = 0
     mini = 123445612456
@@ -629,13 +627,13 @@ for pol in range(len(arrPolyWKT)-1):
     for fp in arrFPObjSource: #calcula as features de cada FP do source
         fp.rolSizeNorm = (fp.rolSize-mini) / (maxi - mini)
         fp.rorSizeNorm = (fp.rorSize-mini) / (maxi - mini)
-        fp.getFeatures(fp.ros, arrPolyWKT[pol].length)
+        fp.getFeatures(fp.ros)
         #VAR [-1,1] SIDE [0,1] SIZE [,]
 
     for fp in arrFPObjTarget: #calcula as features de cada FP do target
         fp.rolSizeNorm = (fp.rolSize-miniTarget) / (maxiTarget - miniTarget)
         fp.rorSizeNorm = (fp.rorSize-miniTarget) / (maxiTarget - miniTarget)
-        fp.getFeatures(fp.ros, arrPolyWKT[pol+1].length)
+        fp.getFeatures(fp.ros)
         #print("VARIATION SIDE SIZE  TRG: ", fp.featVariation, fp.featSideVariation, fp.featSize)
 
     #calcula as correspondencias entre cada FP do poligono atual e do seguinte

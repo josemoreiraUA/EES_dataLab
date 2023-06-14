@@ -1,12 +1,3 @@
-import numpy as np
-from shapely.geometry import Polygon, LineString, Point
-import shapely.geometry as sg
-from shapely.ops import unary_union
-import shapely.wkt
-import geopandas as gpd
-import matplotlib.pyplot as plt
-import math
-from numpy.linalg import eig
 from ros import Ros
 
 class FeaturePoint:
@@ -18,7 +9,6 @@ class FeaturePoint:
         self.polygon = polygon
         self.prev = None
         self.next = None
-        #self.convex = None
         self.featVariation = 0
         self.featVariationL = 0
         self.featVariationR = 0
@@ -35,7 +25,7 @@ class FeaturePoint:
         self.maxSize = 0
         self.minSize = 0
     
-    def getFeatures(self, arrPointsInROS,polPerimeter):
+    def getFeatures(self, arrPointsInROS):
         rosObj = Ros(arrPointsInROS, self.point, self.polygon)
         self.normVal = rosObj.normalValue
         self.tangVal = rosObj.tangentValue
@@ -55,21 +45,17 @@ class FeaturePoint:
         self.featVariation = (ex*self.normVal)/(self.normVal+self.tangVal)
         #featSideVariation
         rol = Ros(arrPointsInROS[:2], self.point, self.polygon)
-        self.featVariationL = abs(rol.normalValue / (rol.normalValue+rol.tangentValue)) #abs martelado
+        self.featVariationL = abs(rol.normalValue / (rol.normalValue+rol.tangentValue))
         ror = Ros(arrPointsInROS[1:], self.point, self.polygon)
         self.featVariationR = abs(ror.normalValue / (ror.normalValue+ror.tangentValue))
         self.featSideVariation = (self.featVariationR + self.featVariationL) / 2
         #featSize
-        #self.featSizeL = math.dist(arrPointsInROS[0], arrPointsInROS[1])/polPerimeter #as vezes da 0
-        #self.featSizeR = math.dist(arrPointsInROS[1], arrPointsInROS[2])/polPerimeter 
-        #self.featSize = (self.featSizeL + self.featSizeR)/2
         self.featSize = ((self.rolSizeNorm + self.rorSizeNorm) / 2) #normalizacao
         
     def similarityCost(self, featPoint, wVariation, wSideVariation, wSizeVariation):
 
         deltaVariation = wVariation*abs(self.featVariation-featPoint.featVariation)
         deltaSideVariation = wSideVariation*((abs(self.featVariationL-featPoint.featVariationL))+(abs(self.featVariationR-featPoint.featVariationR)))/2
-        #deltaSize = wSizeVariation*((abs(self.featSizeL-featPoint.featSizeL))+(abs(self.featSizeR-featPoint.featSizeR)))/2
         deltaSize = wSizeVariation*((abs(self.featSize-featPoint.featSize)))/2
 
         if self.featSize > featPoint.featSize:
