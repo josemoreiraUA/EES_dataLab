@@ -1,9 +1,7 @@
-from shapely.geometry import Polygon
-import shapely.geometry as sg
+from shapely.geometry import Polygon, Point
 from shapely.ops import unary_union
 import shapely.wkt
 import geopandas as gpd
-import matplotlib.pyplot as plt
 import math
 from ros import Ros
 from featurepoint import FeaturePoint
@@ -157,7 +155,7 @@ def divide_line_segment_trg(start_point, end_point, num_parts, arrPts, arrC): #f
         
     return arrC
 
-def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, pontos pol trg, arr de correspondencias
+def readCorrespondenceObject(arrCorrFP): #funcao para transforma o objeto correspondencia num tuplo normal
     s = ""
     for corr in arrCorrFP:
         s = s + str(corr) #para cada correspondencia, concatena na mesma string
@@ -171,6 +169,11 @@ def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, 
         x = tuple(map(float, matches[i][1:-1].split(",")))
         y = tuple(map(float, matches[i+1][1:-1].split(",")))
         arrCorrFP.append([x,y]) #array no formato [[(x1s,y1s),(x1t,y1t)],[(x2s,y2s),(x2t,y2t)]] -> arrCorrFP
+
+    return arrCorrFP
+
+def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFPs): #pontos pol src, pontos pol trg, arr de correspondencias
+    arrCorrFP = readCorrespondenceObject(arrCorrFPs)
     
     arrCorrFPtmp = arrCorrFP.copy() #usamos um tmp so pra eliminar fp com mais que uma correspondencia
 
@@ -309,8 +312,25 @@ def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFP): #pontos pol src, 
 
     return arrCorrP    
 
+def getJaccardIndexSrcTrg(source,target,correspondences): #jaccard entre source e target
+    if(len(correspondences)==0): #se nao houver correspondencias acaba (para quando nao faz o catch do zerodivisionerror)
+       jaccardIndex = 0
+       return jaccardIndex
+
+    #para evitar erros de topologia nos poligonos mal formados
+    if(not source.is_valid):
+        source = source.buffer(0)
+    elif(not target.is_valid):
+        target = target.buffer(0)
+
+    #calculo do jaccard index do source para o target
+    intersection = source.intersection(target).area
+    union = unary_union([source, target]).area
+    jaccardIndexSrcTrg = intersection/union
+
+    return jaccardIndexSrcTrg
+
 def getJaccardIndex(source, target, correspondences):
-    
     middlePoints = [] #pontos do poligono medio
     jaccardIndex=0
     if(len(correspondences)==0): #se nao houver correspondencias acaba (para quando nao faz o catch do zerodivisionerror)
@@ -345,63 +365,16 @@ def getJaccardIndex(source, target, correspondences):
     jaccardIndexMT = intersectionMT/unionMT
     
     jaccardIndex = (jaccardIndexSM + jaccardIndexMT) / 2
-    print(jaccardIndex)
 
     return jaccardIndex
 
 arrPontos = []
-#wktFiles = ["dataset/fireSPTDatalab/f_spt_dl0.wkt","dataset/fireSPTDatalab/f_spt_dl1.wkt","dataset/fireSPTDatalab/f_spt_dl2.wkt","dataset/fireSPTDatalab/f_spt_dl3.wkt","dataset/fireSPTDatalab/f_spt_dl4.wkt","dataset/fireSPTDatalab/f_spt_dl5.wkt","dataset/fireSPTDatalab/f_spt_dl6.wkt","dataset/fireSPTDatalab/f_spt_dl7.wkt","dataset/fireSPTDatalab/f_spt_dl8.wkt"]
-#wktFiles = ["simp0 (1).wkt","simp0 (2).wkt","simp0 (3).wkt","simp0 (4).wkt","simp0 (5).wkt","simp0 (6).wkt","simp0 (7).wkt","simp0 (8).wkt","simp0 (9).wkt"]
-'''wktFiles = [
-    "tigas226/polygon_1.wkt", "tigas226/polygon_2.wkt", "tigas226/polygon_3.wkt", "tigas226/polygon_4.wkt", "tigas226/polygon_5.wkt", 
-    "tigas226/polygon_6.wkt", "tigas226/polygon_7.wkt", "tigas226/polygon_8.wkt", "tigas226/polygon_9.wkt", "tigas226/polygon_10.wkt", 
-    "tigas226/polygon_11.wkt", "tigas226/polygon_12.wkt", "tigas226/polygon_13.wkt", "tigas226/polygon_14.wkt", "tigas226/polygon_15.wkt", 
-    "tigas226/polygon_16.wkt", "tigas226/polygon_17.wkt", "tigas226/polygon_18.wkt", "tigas226/polygon_19.wkt", "tigas226/polygon_20.wkt", 
-    "tigas226/polygon_21.wkt", "tigas226/polygon_22.wkt", "tigas226/polygon_23.wkt", "tigas226/polygon_24.wkt", "tigas226/polygon_25.wkt", 
-    "tigas226/polygon_26.wkt", "tigas226/polygon_27.wkt", "tigas226/polygon_28.wkt", "tigas226/polygon_29.wkt", "tigas226/polygon_30.wkt", 
-    "tigas226/polygon_31.wkt", "tigas226/polygon_32.wkt", "tigas226/polygon_33.wkt", "tigas226/polygon_34.wkt", "tigas226/polygon_35.wkt", 
-    "tigas226/polygon_36.wkt", "tigas226/polygon_37.wkt", "tigas226/polygon_38.wkt", "tigas226/polygon_39.wkt", "tigas226/polygon_40.wkt", 
-    "tigas226/polygon_41.wkt", "tigas226/polygon_42.wkt", "tigas226/polygon_43.wkt", "tigas226/polygon_44.wkt", "tigas226/polygon_45.wkt", 
-    "tigas226/polygon_46.wkt", "tigas226/polygon_47.wkt", "tigas226/polygon_48.wkt", "tigas226/polygon_49.wkt", "tigas226/polygon_50.wkt", 
-    "tigas226/polygon_51.wkt", "tigas226/polygon_52.wkt", "tigas226/polygon_53.wkt", "tigas226/polygon_54.wkt", "tigas226/polygon_55.wkt", 
-    "tigas226/polygon_56.wkt", "tigas226/polygon_57.wkt", "tigas226/polygon_58.wkt", "tigas226/polygon_59.wkt", "tigas226/polygon_60.wkt", 
-    "tigas226/polygon_61.wkt", "tigas226/polygon_62.wkt", "tigas226/polygon_63.wkt", "tigas226/polygon_64.wkt", "tigas226/polygon_65.wkt", 
-    "tigas226/polygon_66.wkt", "tigas226/polygon_67.wkt", "tigas226/polygon_68.wkt", "tigas226/polygon_69.wkt", "tigas226/polygon_70.wkt", 
-    "tigas226/polygon_71.wkt", "tigas226/polygon_72.wkt", "tigas226/polygon_73.wkt", "tigas226/polygon_74.wkt", "tigas226/polygon_75.wkt", 
-    "tigas226/polygon_76.wkt", "tigas226/polygon_77.wkt", "tigas226/polygon_78.wkt", "tigas226/polygon_79.wkt", "tigas226/polygon_80.wkt", 
-    "tigas226/polygon_81.wkt", "tigas226/polygon_82.wkt", "tigas226/polygon_83.wkt", "tigas226/polygon_84.wkt", "tigas226/polygon_85.wkt", 
-    "tigas226/polygon_86.wkt", "tigas226/polygon_87.wkt", "tigas226/polygon_88.wkt", "tigas226/polygon_89.wkt", "tigas226/polygon_90.wkt", 
-    "tigas226/polygon_91.wkt", "tigas226/polygon_92.wkt", "tigas226/polygon_93.wkt", "tigas226/polygon_94.wkt", "tigas226/polygon_95.wkt", 
-    "tigas226/polygon_96.wkt", "tigas226/polygon_97.wkt", "tigas226/polygon_98.wkt", "tigas226/polygon_99.wkt", "tigas226/polygon_100.wkt", 
-    "tigas226/polygon_101.wkt", "tigas226/polygon_102.wkt", "tigas226/polygon_103.wkt", "tigas226/polygon_104.wkt", "tigas226/polygon_105.wkt", 
-    "tigas226/polygon_106.wkt", "tigas226/polygon_107.wkt", "tigas226/polygon_108.wkt", "tigas226/polygon_109.wkt", "tigas226/polygon_110.wkt", 
-    "tigas226/polygon_111.wkt", "tigas226/polygon_112.wkt", "tigas226/polygon_113.wkt", "tigas226/polygon_114.wkt", "tigas226/polygon_115.wkt", 
-    "tigas226/polygon_116.wkt", "tigas226/polygon_117.wkt", "tigas226/polygon_118.wkt", "tigas226/polygon_119.wkt", "tigas226/polygon_120.wkt", 
-    "tigas226/polygon_121.wkt", "tigas226/polygon_122.wkt", "tigas226/polygon_123.wkt", "tigas226/polygon_124.wkt", "tigas226/polygon_125.wkt", 
-    "tigas226/polygon_126.wkt", "tigas226/polygon_127.wkt", "tigas226/polygon_128.wkt", "tigas226/polygon_129.wkt", "tigas226/polygon_130.wkt", 
-    "tigas226/polygon_131.wkt", "tigas226/polygon_132.wkt", "tigas226/polygon_133.wkt", "tigas226/polygon_134.wkt", "tigas226/polygon_135.wkt", 
-    "tigas226/polygon_136.wkt", "tigas226/polygon_137.wkt", "tigas226/polygon_138.wkt", "tigas226/polygon_139.wkt", "tigas226/polygon_140.wkt", 
-    "tigas226/polygon_141.wkt", "tigas226/polygon_142.wkt", "tigas226/polygon_143.wkt", "tigas226/polygon_144.wkt", "tigas226/polygon_145.wkt", 
-    "tigas226/polygon_146.wkt", "tigas226/polygon_147.wkt", "tigas226/polygon_148.wkt", "tigas226/polygon_149.wkt", "tigas226/polygon_150.wkt", 
-    "tigas226/polygon_151.wkt", "tigas226/polygon_152.wkt", "tigas226/polygon_153.wkt", "tigas226/polygon_154.wkt", "tigas226/polygon_155.wkt", 
-    "tigas226/polygon_156.wkt", "tigas226/polygon_157.wkt", "tigas226/polygon_158.wkt", "tigas226/polygon_159.wkt", "tigas226/polygon_160.wkt", 
-    "tigas226/polygon_161.wkt", "tigas226/polygon_162.wkt", "tigas226/polygon_163.wkt", "tigas226/polygon_164.wkt", "tigas226/polygon_165.wkt", 
-    "tigas226/polygon_166.wkt", "tigas226/polygon_167.wkt", "tigas226/polygon_168.wkt", "tigas226/polygon_169.wkt", "tigas226/polygon_170.wkt", 
-    "tigas226/polygon_171.wkt", "tigas226/polygon_172.wkt", "tigas226/polygon_173.wkt", "tigas226/polygon_174.wkt", "tigas226/polygon_175.wkt", 
-    "tigas226/polygon_176.wkt", "tigas226/polygon_177.wkt", "tigas226/polygon_178.wkt", "tigas226/polygon_179.wkt", "tigas226/polygon_180.wkt", 
-    "tigas226/polygon_181.wkt", "tigas226/polygon_182.wkt", "tigas226/polygon_183.wkt", "tigas226/polygon_184.wkt", "tigas226/polygon_185.wkt", 
-    "tigas226/polygon_186.wkt", "tigas226/polygon_187.wkt", "tigas226/polygon_188.wkt", "tigas226/polygon_189.wkt", "tigas226/polygon_190.wkt", 
-    "tigas226/polygon_191.wkt", "tigas226/polygon_192.wkt", "tigas226/polygon_193.wkt", "tigas226/polygon_194.wkt", "tigas226/polygon_195.wkt", 
-    "tigas226/polygon_196.wkt", "tigas226/polygon_197.wkt", "tigas226/polygon_198.wkt", "tigas226/polygon_199.wkt", "tigas226/polygon_200.wkt", 
-    "tigas226/polygon_201.wkt", "tigas226/polygon_202.wkt", "tigas226/polygon_203.wkt", "tigas226/polygon_204.wkt", "tigas226/polygon_205.wkt", 
-    "tigas226/polygon_206.wkt", "tigas226/polygon_207.wkt", "tigas226/polygon_208.wkt", "tigas226/polygon_209.wkt", "tigas226/polygon_210.wkt", 
-    "tigas226/polygon_211.wkt", "tigas226/polygon_212.wkt", "tigas226/polygon_213.wkt", "tigas226/polygon_214.wkt", "tigas226/polygon_215.wkt", 
-    "tigas226/polygon_216.wkt", "tigas226/polygon_217.wkt", "tigas226/polygon_218.wkt", "tigas226/polygon_219.wkt", "tigas226/polygon_220.wkt", 
-    "tigas226/polygon_221.wkt", "tigas226/polygon_222.wkt", "tigas226/polygon_223.wkt", "tigas226/polygon_224.wkt", "tigas226/polygon_225.wkt", 
-    "tigas226/polygon_226.wkt"
-]'''
-wktFiles = ["dataset/wkt/test1.wkt", "dataset/wkt/test2.wkt", "dataset/wkt/test3.wkt"]
+
+#wktFiles = ["dataset/wkt/test1.wkt", "dataset/wkt/test2.wkt", "dataset/wkt/test3.wkt"]
+#wktFiles = ["dataset/tigas13/t1.wkt","dataset/tigas13/t2.wkt","dataset/tigas13/t3.wkt","dataset/tigas13/t4.wkt","dataset/tigas13/t5.wkt","dataset/tigas13/t6.wkt","dataset/tigas13/t7.wkt","dataset/tigas13/t8.wkt","dataset/tigas13/t9.wkt","dataset/tigas13/t10.wkt","dataset/tigas13/t11.wkt","dataset/tigas13/t12.wkt","dataset/tigas13/t13.wkt"]
+wktFiles = ["dataset/fireSPTDatalab/f_spt_dl0.wkt","dataset/fireSPTDatalab/f_spt_dl1.wkt","dataset/fireSPTDatalab/f_spt_dl2.wkt","dataset/fireSPTDatalab/f_spt_dl3.wkt","dataset/fireSPTDatalab/f_spt_dl4.wkt","dataset/fireSPTDatalab/f_spt_dl5.wkt","dataset/fireSPTDatalab/f_spt_dl6.wkt","dataset/fireSPTDatalab/f_spt_dl7.wkt","dataset/fireSPTDatalab/f_spt_dl8.wkt"]
 valuesTiago=[] #array onde sao armazenados os valores da solucao (distancia e angulo)
+valuesCorrespondences=[] #array onde sao armazenadas as correspondencias da solucao (usados no programa de teste)
 correspondences = []
 correspondencesBetweenAllPoints = [] #correspondencias entre todos os pontos, nao so feature points
 jaccard = 0 #jaccard index medio entre S->M e M->T
@@ -409,9 +382,16 @@ jaccard = 0 #jaccard index medio entre S->M e M->T
 for file in wktFiles:
     readWKT(file) #popula o array de poligonos (arrPolyWKT)
 
-f=open('testResults.txt', 'w') #nome do ficheiro onde vai ser guardada a solucao
+f=open('test.txt', 'w') #nome do ficheiro onde vai ser guardada a solucao
 for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
-    minJaccard = 0 
+
+    #inicializacao dos maxs e mins
+    maxJaccard = 0
+    maxJaccardSrcTrg = 0
+    minDistDivision = 0
+    minAvgDistBetweenFP = 0
+    maxJaccDivDist = 0
+    
     for angulo in range(120,181,10): #testa para valores de ang  
         for distancia in range(1,20): #e de dist
 
@@ -421,6 +401,7 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
                 arrFPObjSource = [] #a cada poligono os feature points sao resetados
                 arrFPObjTarget = []
                 correspondences = []
+                arrOfCorrBetweenFP = []
 
                 if((angulo==170 or angulo==180) and distancia<3): #para dist inferior a 3 so faz angulos menores que 170
                     f.write(f"Too many values\n")
@@ -515,9 +496,8 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
                     continue
 
                 #calcula as correspondencias entre cada FP do poligono atual e do seguinte
-                # compute correspondences
-                pc1 = PolygonCorrespondence(arrFPObjSource, arrFPObjTarget, .3, .3, .4, 1)
-                correspondencesBetweenAllPoints = getIntermediateCorrespondences(arrPolyWKT[pol], arrPolyWKT[pol+1], pc1.getFPCorrespondences(3))
+                pc1 = PolygonCorrespondence(arrFPObjSource, arrFPObjTarget, .3, .3, .4, 1) #correspondencias entre fp
+                correspondencesBetweenAllPoints = getIntermediateCorrespondences(arrPolyWKT[pol], arrPolyWKT[pol+1], pc1.getFPCorrespondences(3)) #correspondencias entre vertices e fps
                 correspondences.append(correspondencesBetweenAllPoints)
 
             except ZeroDivisionError:
@@ -527,39 +507,51 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
                 f.write(f"Not enough feature points. Skipping to next cycle.\n")
                 continue  # Skip to next cycle
 
-            totalDistEntrePols = 0 #dist entre correspondencias
-            numCorr=0 #numero de correspondencias
-            minNumCorr= 1234567890 #minimo numero de correspondencias
-           
             try:
-                numFP = (len(arrFPObjSource) + len(arrFPObjTarget))/2 #num medio de fp's
-                jaccard = getJaccardIndex(arrPolyWKT[pol], arrPolyWKT[pol+1], correspondences[0])
-                for j in range(len(correspondences[0])): #soma das correspondencias entre os 2 poligonos atuais
-                    numCorr=numCorr+1
-                    totalDistEntrePols = totalDistEntrePols+math.dist(correspondences[0][j][0], correspondences[0][j][1])
+                totalDistEntrePolsFP = 0 #dist entre correspondencias de todos os fp's
+                numCorr=0 #numero de correspondencias
+                maxDistBetweenPointPoly = 0
+                distDivision = 0
 
-                if jaccard > minJaccard: #se o jaccard for menor que o minimo jaccard anterior
-                    if (jaccard-minJaccard < 0.1): #se a diferença for ao nível das centesimas, entao verifica o numCorr
-                        if numCorr/numFP < minNumCorr: #se o valor por correspondencia deste jaccard for menor que o anterior
-                            minJaccard=jaccard #o jaccard passa a ser o novo minimo
-                            minNumCorr = numCorr/numFP
-                            distFinal=distancia
-                            angFinal=angulo
-                        else: 
-                            minJaccard=minJaccard #o minimo jaccard anterior continua a ser o minimo
-                            
-                    else:
-                        minJaccard = jaccard #o jaccard passa a ser o novo minimo
-                        minNumCorr = numCorr/numFP #o valor medio por correspondencia passa a ser o novo minimo
-                        distFinal=distancia
-                        angFinal=angulo
-
-                    f.write(f"min dist: {distancia} max angle: {angulo} valor medio por corr: {minNumCorr} jaccard: {minJaccard} \n")#so escreve isto se for um minimo
+                #jaccard entre s->m e m->t
+                jaccard = getJaccardIndex(arrPolyWKT[pol], arrPolyWKT[pol+1], correspondences[0]) #jaccard e' calculado entre todos os vertices
                 
+                #jaccard entre s->t
+                jaccardSrcTrg = getJaccardIndexSrcTrg(arrPolyWKT[pol], arrPolyWKT[pol+1], correspondences[0]) #jaccard entre source e target (todos os vertices)
+
+                #distancia media entre correspondencias de fp's
+                #usar este array (em vez do correspondences) para fazer so para feature points
+                #arrOfCorrBetweenFP = readCorrespondenceObject(pc1.getFPCorrespondences(3)) #obtem correspondencias entre fps. e' preciso chamar esta funcao para obter as correspondencias apenas entre fp's
+                
+                numCorr = len(correspondences[0]) #total de correspondencias
+                for corr in correspondences[0]: #soma das correspondencias entre os 2 poligonos atuais
+                    distFP = math.dist(corr[0], corr[1]) #distancia entre fps e fpt
+                    totalDistEntrePolsFP += distFP
+                    distBetweenPointSrcPolyTrg = arrPolyWKT[pol + 1].exterior.distance(Point(*corr[0])) #distancia entre o fp source e o poligono target
+                    distBetweenPointTrgPolySrc = arrPolyWKT[pol].exterior.distance(Point(*corr[1])) #distancia entre o fp target e o poligono source
+                    maxDist = max(distBetweenPointSrcPolyTrg,distBetweenPointTrgPolySrc) #ve qual dos dois e' maior
+                    distDivision += (maxDist) / (distFP) #e divide a distancia entre o fps e o fpt pelo max (sempre entre [0,1])
+                    distDivision = distDivision / numCorr #divide o valor pelo numero de correspondencias
+
+                avgDistBetweenFP = numCorr / totalDistEntrePolsFP #distancia media entre fp's
+                
+                jaccDistDiv = jaccard * distDivision**(1.0/5)
+                if (jaccDistDiv > maxJaccDivDist):
+                    maxJaccDivDist = jaccDistDiv
+                    distFinal=distancia
+                    angFinal=angulo
+                    correspondencesFinal=correspondences[0] #as correspondencias entre source e target sao guardadas
+                    f.write(f"min dist: {distancia} max angle: {angulo} | jaccard: {jaccard} | jaccardSrcTrg: {jaccardSrcTrg} | valor medio por corr: {avgDistBetweenFP} | divisao pela distancia: {distDivision} \n") #so escreve isto se for um minimo
+                    
                 f.flush()
+
             except ZeroDivisionError:
                 f.write(f"Not enough correspondences. Skipping to next cycle. \n")
 
-    valuesTiago.append([distFinal,angFinal])
+    valuesCorrespondences.append(correspondencesFinal) #acrescenta as correspondencias entre source e target ao array de correspondencias                   
+    valuesTiago.append([distFinal,angFinal]) 
+    f.write(f"jaccard: {maxJaccard} | jaccardSrcTrg: {maxJaccardSrcTrg} | valor medio por corr: {minAvgDistBetweenFP} | divisao pela distancia: {minDistDivision} \n")
     f.write(f"values: {valuesTiago}\n")
     f.write(f"--------------- NEW POLYGON ---------------\n")
+
+f.write(f"correspondences: {valuesCorrespondences}")
