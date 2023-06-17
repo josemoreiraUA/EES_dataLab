@@ -382,7 +382,8 @@ jaccard = 0 #jaccard index medio entre S->M e M->T
 for file in wktFiles:
     readWKT(file) #popula o array de poligonos (arrPolyWKT)
 
-f=open('test.txt', 'w') #nome do ficheiro onde vai ser guardada a solucao
+fileName = 'test.txt'#nome do ficheiro onde vai ser guardada a solucao
+f=open(fileName, 'w') 
 for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
 
     #inicializacao dos maxs e mins
