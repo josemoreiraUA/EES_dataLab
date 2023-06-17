@@ -312,24 +312,6 @@ def getIntermediateCorrespondences(polSrc, polTrg, arrCorrFPs): #pontos pol src,
 
     return arrCorrP    
 
-def getJaccardIndexSrcTrg(source,target,correspondences): #jaccard entre source e target
-    if(len(correspondences)==0): #se nao houver correspondencias acaba (para quando nao faz o catch do zerodivisionerror)
-       jaccardIndex = 0
-       return jaccardIndex
-
-    #para evitar erros de topologia nos poligonos mal formados
-    if(not source.is_valid):
-        source = source.buffer(0)
-    elif(not target.is_valid):
-        target = target.buffer(0)
-
-    #calculo do jaccard index do source para o target
-    intersection = source.intersection(target).area
-    union = unary_union([source, target]).area
-    jaccardIndexSrcTrg = intersection/union
-
-    return jaccardIndexSrcTrg
-
 def getJaccardIndex(source, target, correspondences):
     middlePoints = [] #pontos do poligono medio
     jaccardIndex=0
@@ -371,27 +353,27 @@ def getJaccardIndex(source, target, correspondences):
 arrPontos = []
 
 #wktFiles = ["dataset/wkt/test1.wkt", "dataset/wkt/test2.wkt", "dataset/wkt/test3.wkt"]
-#wktFiles = ["dataset/tigas13/t1.wkt","dataset/tigas13/t2.wkt","dataset/tigas13/t3.wkt","dataset/tigas13/t4.wkt","dataset/tigas13/t5.wkt","dataset/tigas13/t6.wkt","dataset/tigas13/t7.wkt","dataset/tigas13/t8.wkt","dataset/tigas13/t9.wkt","dataset/tigas13/t10.wkt","dataset/tigas13/t11.wkt","dataset/tigas13/t12.wkt","dataset/tigas13/t13.wkt"]
-wktFiles = ["dataset/fireSPTDatalab/f_spt_dl0.wkt","dataset/fireSPTDatalab/f_spt_dl1.wkt","dataset/fireSPTDatalab/f_spt_dl2.wkt","dataset/fireSPTDatalab/f_spt_dl3.wkt","dataset/fireSPTDatalab/f_spt_dl4.wkt","dataset/fireSPTDatalab/f_spt_dl5.wkt","dataset/fireSPTDatalab/f_spt_dl6.wkt","dataset/fireSPTDatalab/f_spt_dl7.wkt","dataset/fireSPTDatalab/f_spt_dl8.wkt"]
+wktFiles = ["dataset/tigas13/t1.wkt","dataset/tigas13/t2.wkt","dataset/tigas13/t3.wkt","dataset/tigas13/t4.wkt","dataset/tigas13/t5.wkt","dataset/tigas13/t6.wkt","dataset/tigas13/t7.wkt","dataset/tigas13/t8.wkt","dataset/tigas13/t9.wkt","dataset/tigas13/t10.wkt","dataset/tigas13/t11.wkt"]
+#wktFiles = ["dataset/fireSPTDatalab/f_spt_dl0.wkt","dataset/fireSPTDatalab/f_spt_dl1.wkt","dataset/fireSPTDatalab/f_spt_dl2.wkt","dataset/fireSPTDatalab/f_spt_dl3.wkt","dataset/fireSPTDatalab/f_spt_dl4.wkt","dataset/fireSPTDatalab/f_spt_dl5.wkt","dataset/fireSPTDatalab/f_spt_dl6.wkt","dataset/fireSPTDatalab/f_spt_dl7.wkt","dataset/fireSPTDatalab/f_spt_dl8.wkt"]
 valuesTiago=[] #array onde sao armazenados os valores da solucao (distancia e angulo)
 valuesCorrespondences=[] #array onde sao armazenadas as correspondencias da solucao (usados no programa de teste)
 correspondences = []
 correspondencesBetweenAllPoints = [] #correspondencias entre todos os pontos, nao so feature points
-jaccard = 0 #jaccard index medio entre S->M e M->T
 
 for file in wktFiles:
     readWKT(file) #popula o array de poligonos (arrPolyWKT)
 
-fileName = 'test.txt'#nome do ficheiro onde vai ser guardada a solucao
+fileName = 'tigas13_JaccardAndDistDiv.txt'#nome do ficheiro onde vai ser guardada a solucao
 f=open(fileName, 'w') 
 for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
 
-    #inicializacao dos maxs e mins
+    #inicializacao das variaveis a cada novo poligono
     maxJaccard = 0
-    maxJaccardSrcTrg = 0
     minDistDivision = 0
-    minAvgDistBetweenFP = 0
     maxJaccDivDist = 0
+    distFinal = 0
+    angFinal = 0
+    correspondencesFinal = []
     
     for angulo in range(120,181,10): #testa para valores de ang  
         for distancia in range(1,20): #e de dist
@@ -399,10 +381,9 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
             f.write(f"pol: {pol}, ang: {angulo}, dist: {distancia} \n")
 
             try:
-                arrFPObjSource = [] #a cada poligono os feature points sao resetados
+                arrFPObjSource = [] #a cada par de dist ang para o poligono os feature points sao resetados
                 arrFPObjTarget = []
                 correspondences = []
-                arrOfCorrBetweenFP = []
 
                 if((angulo==170 or angulo==180) and distancia<3): #para dist inferior a 3 so faz angulos menores que 170
                     f.write(f"Too many values\n")
@@ -509,49 +490,41 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
                 continue  # Skip to next cycle
 
             try:
-                totalDistEntrePolsFP = 0 #dist entre correspondencias de todos os fp's
-                numCorr=0 #numero de correspondencias
-                maxDistBetweenPointPoly = 0
                 distDivision = 0
 
-                #jaccard entre s->m e m->t
                 jaccard = getJaccardIndex(arrPolyWKT[pol], arrPolyWKT[pol+1], correspondences[0]) #jaccard e' calculado entre todos os vertices
-                
-                #jaccard entre s->t
-                jaccardSrcTrg = getJaccardIndexSrcTrg(arrPolyWKT[pol], arrPolyWKT[pol+1], correspondences[0]) #jaccard entre source e target (todos os vertices)
 
-                #distancia media entre correspondencias de fp's
-                #usar este array (em vez do correspondences) para fazer so para feature points
-                #arrOfCorrBetweenFP = readCorrespondenceObject(pc1.getFPCorrespondences(3)) #obtem correspondencias entre fps. e' preciso chamar esta funcao para obter as correspondencias apenas entre fp's
-                
                 numCorr = len(correspondences[0]) #total de correspondencias
                 for corr in correspondences[0]: #soma das correspondencias entre os 2 poligonos atuais
-                    distFP = math.dist(corr[0], corr[1]) #distancia entre fps e fpt
-                    totalDistEntrePolsFP += distFP
-                    distBetweenPointSrcPolyTrg = arrPolyWKT[pol + 1].exterior.distance(Point(*corr[0])) #distancia entre o fp source e o poligono target
-                    distBetweenPointTrgPolySrc = arrPolyWKT[pol].exterior.distance(Point(*corr[1])) #distancia entre o fp target e o poligono source
+                    distFP = math.dist(corr[0], corr[1]) #distancia entre ponto source e ponto target
+                    distBetweenPointSrcPolyTrg = arrPolyWKT[pol + 1].exterior.distance(Point(*corr[0])) #distancia entre o point source e o poligono target
+                    distBetweenPointTrgPolySrc = arrPolyWKT[pol].exterior.distance(Point(*corr[1])) #distancia entre o point target e o poligono source
                     maxDist = max(distBetweenPointSrcPolyTrg,distBetweenPointTrgPolySrc) #ve qual dos dois e' maior
-                    distDivision += (maxDist) / (distFP) #e divide a distancia entre o fps e o fpt pelo max (sempre entre [0,1])
+                    distDivision += (maxDist) / (distFP) #e divide a distancia entre o point source e o point target pelo max (sempre entre [0,1])
                     distDivision = distDivision / numCorr #divide o valor pelo numero de correspondencias
 
-                avgDistBetweenFP = numCorr / totalDistEntrePolsFP #distancia media entre fp's
-                
-                jaccDistDiv = jaccard * distDivision**(1.0/5)
-                if (jaccDistDiv > maxJaccDivDist):
+                if(jaccard > maxJaccard): #guarda o maior valor de jaccard
+                    maxJaccard = jaccard
+
+                if(distDivision > minDistDivision): #guarda o maior valor de distancia
+                    minDistDivision = distDivision
+
+                jaccDistDiv = jaccard * distDivision**(1.0/5) #multiplica o indice de jaccard pelo dist division
+                if (jaccDistDiv > maxJaccDivDist): #verifica se e' maximo (usado para ver se a correspondencia e' melhor)
                     maxJaccDivDist = jaccDistDiv
                     distFinal=distancia
                     angFinal=angulo
                     correspondencesFinal=correspondences[0] #as correspondencias entre source e target sao guardadas
-                    f.write(f"min dist: {distancia} max angle: {angulo} | jaccard: {jaccard} | jaccardSrcTrg: {jaccardSrcTrg} | valor medio por corr: {avgDistBetweenFP} | divisao pela distancia: {distDivision} \n") #so escreve isto se for um minimo
+                    f.write(f"min dist: {distancia} max angle: {angulo} | jaccard: {jaccard} | divisao pela distancia: {distDivision} | jaccard*distDiv: {maxJaccDivDist} \n") #so escreve isto se for um minimo
                     
                 f.flush()
 
             except ZeroDivisionError:
                 f.write(f"Not enough correspondences. Skipping to next cycle. \n")
 
-    valuesCorrespondences.append(correspondencesFinal) #acrescenta as correspondencias entre source e target ao array de correspondencias                   
-    valuesTiago.append([distFinal,angFinal]) 
-    f.write(f"jaccard: {maxJaccard} | jaccardSrcTrg: {maxJaccardSrcTrg} | valor medio por corr: {minAvgDistBetweenFP} | divisao pela distancia: {minDistDivision} \n")
+    valuesCorrespondences.append(correspondencesFinal) #acrescenta as correspondencias entre source e target ao array de correspondencias
+    valuesTiago.append([distFinal,angFinal])
+    f.write(f"jaccard: {maxJaccard} | divisao pela distancia: {minDistDivision} \n")
     f.write(f"values: {valuesTiago}\n")
     f.write(f"--------------- NEW POLYGON ---------------\n")
 
