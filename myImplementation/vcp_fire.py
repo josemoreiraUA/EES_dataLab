@@ -26,11 +26,11 @@ def readWKT(wktFile): #le os ficheiros wkt e guarda os poligonos num array
 def getFeaturePoints(polygon, dmin, amax): #obtem os featurePoints do poligono
 
     arrFeaturePoints = []
-    arestas = []
+    #arestas = []
     dmax = 0 #distancia maxima e' considerada a maior aresta do poligono
 
     for j in range(len(polygon.exterior.coords)-1): #para cada ponto no poligono, em ordem a calcular tamanho medio das arestas (para o dmin e dmax)
-        arestas.append(math.dist(polygon.exterior.coords[j], polygon.exterior.coords[j+1])) #distancia entre os 2 pontos
+        #arestas.append(math.dist(polygon.exterior.coords[j], polygon.exterior.coords[j+1])) #distancia entre os 2 pontos
         if math.dist(polygon.exterior.coords[j], polygon.exterior.coords[j+1]) > dmax:
             dmax = math.dist(polygon.exterior.coords[j], polygon.exterior.coords[j+1]) #dmax e a maior aresta do poligono
 
@@ -328,7 +328,6 @@ def getJaccardIndex(source, target, correspondences):
     midPoly = Polygon([p[0], p[1]] for p in middlePoints)
 
     #para evitar erros de topologia nos poligonos mal formados
-    #se calhar devia fazer-se um try except a passar estes a' frente
     if(not source.is_valid):
         source = source.buffer(0)
     elif(not target.is_valid):
@@ -352,9 +351,7 @@ def getJaccardIndex(source, target, correspondences):
 
 arrPontos = []
 
-#wktFiles = ["dataset/wkt/test1.wkt", "dataset/wkt/test2.wkt", "dataset/wkt/test3.wkt"]
 wktFiles = ["dataset/tigas13/t1.wkt","dataset/tigas13/t2.wkt","dataset/tigas13/t3.wkt","dataset/tigas13/t4.wkt","dataset/tigas13/t5.wkt","dataset/tigas13/t6.wkt","dataset/tigas13/t7.wkt","dataset/tigas13/t8.wkt","dataset/tigas13/t9.wkt","dataset/tigas13/t10.wkt","dataset/tigas13/t11.wkt"]
-#wktFiles = ["dataset/fireSPTDatalab/f_spt_dl0.wkt","dataset/fireSPTDatalab/f_spt_dl1.wkt","dataset/fireSPTDatalab/f_spt_dl2.wkt","dataset/fireSPTDatalab/f_spt_dl3.wkt","dataset/fireSPTDatalab/f_spt_dl4.wkt","dataset/fireSPTDatalab/f_spt_dl5.wkt","dataset/fireSPTDatalab/f_spt_dl6.wkt","dataset/fireSPTDatalab/f_spt_dl7.wkt","dataset/fireSPTDatalab/f_spt_dl8.wkt"]
 valuesTiago=[] #array onde sao armazenados os valores da solucao (distancia e angulo)
 valuesCorrespondences=[] #array onde sao armazenadas as correspondencias da solucao (usados no programa de teste)
 correspondences = []
@@ -363,7 +360,7 @@ correspondencesBetweenAllPoints = [] #correspondencias entre todos os pontos, na
 for file in wktFiles:
     readWKT(file) #popula o array de poligonos (arrPolyWKT)
 
-fileName = 'tigas13_JaccardAndDistDiv.txt'#nome do ficheiro onde vai ser guardada a solucao
+fileName = '1_6JaccardDistDiv.txt'#nome do ficheiro onde vai ser guardada a solucao
 f=open(fileName, 'w') 
 for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
 
@@ -402,7 +399,7 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
 
                 for i in range(len(featurePointsSource)):
                     ros, rol, ror = getROS(featurePointsSource, i) #calcula as regions do ponto
-                    regOfSupport = Ros(ros, featurePointsSource[i],arrPolyWKT[pol]) #cria um objeto ROS
+                    #regOfSupport = Ros(ros, featurePointsSource[i],arrPolyWKT[pol]) #cria um objeto ROS
                     featPoint = FeaturePoint(featurePointsSource[i],arrPolyWKT[pol], ros, rol, ror) #cria um objeto FP
 
                     if i == len(featurePointsSource)-1:
@@ -435,7 +432,7 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
 
                 for i in range(len(featurePointsTarget)):
                     ros, rol, ror = getROS(featurePointsTarget, i)
-                    regOfSupport = Ros(ros, featurePointsTarget[i],arrPolyWKT[pol+1])
+                    #regOfSupport = Ros(ros, featurePointsTarget[i],arrPolyWKT[pol+1])
                     featPoint = FeaturePoint(featurePointsTarget[i],arrPolyWKT[pol+1], ros, rol, ror)
 
                     if i == len(featurePointsTarget)-1:
@@ -510,11 +507,12 @@ for pol in range(len(arrPolyWKT)-1): #para cada par de poligonos
                     minDistDivision = distDivision
 
                 jaccDistDiv = jaccard * distDivision**(1.0/5) #multiplica o indice de jaccard pelo dist division
+                #jaccDistDiv = jaccard
                 if (jaccDistDiv > maxJaccDivDist): #verifica se e' maximo (usado para ver se a correspondencia e' melhor)
                     maxJaccDivDist = jaccDistDiv
                     distFinal=distancia
                     angFinal=angulo
-                    correspondencesFinal=correspondences[0] #as correspondencias entre source e target sao guardadas
+                    correspondencesFinal=correspondences[0] #as correspondencias entre source e target sao guardadas  
                     f.write(f"min dist: {distancia} max angle: {angulo} | jaccard: {jaccard} | divisao pela distancia: {distDivision} | jaccard*distDiv: {maxJaccDivDist} \n") #so escreve isto se for um minimo
                     
                 f.flush()

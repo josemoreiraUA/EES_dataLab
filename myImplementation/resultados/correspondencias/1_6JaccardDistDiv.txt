@@ -1,0 +1,185 @@
+pol: 0, ang: 120, dist: 1 
+min dist: 1 max angle: 120 | jaccard: 0.8987274278246518 | divisao pela distancia: 0.0056379252743755355 | jaccard*distDiv: 0.31904493839746506 
+pol: 0, ang: 120, dist: 2 
+pol: 0, ang: 120, dist: 3 
+pol: 0, ang: 120, dist: 4 
+pol: 0, ang: 120, dist: 5 
+pol: 0, ang: 120, dist: 6 
+pol: 0, ang: 120, dist: 7 
+pol: 0, ang: 120, dist: 8 
+pol: 0, ang: 120, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 120, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 1 
+min dist: 1 max angle: 130 | jaccard: 0.9255958139187924 | divisao pela distancia: 0.007206324039946671 | jaccard*distDiv: 0.34511524108693564 
+pol: 0, ang: 130, dist: 2 
+pol: 0, ang: 130, dist: 3 
+pol: 0, ang: 130, dist: 4 
+pol: 0, ang: 130, dist: 5 
+pol: 0, ang: 130, dist: 6 
+pol: 0, ang: 130, dist: 7 
+pol: 0, ang: 130, dist: 8 
+pol: 0, ang: 130, dist: 9 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 130, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 1 
+pol: 0, ang: 140, dist: 2 
+pol: 0, ang: 140, dist: 3 
+pol: 0, ang: 140, dist: 4 
+pol: 0, ang: 140, dist: 5 
+pol: 0, ang: 140, dist: 6 
+pol: 0, ang: 140, dist: 7 
+pol: 0, ang: 140, dist: 8 
+pol: 0, ang: 140, dist: 9 
+pol: 0, ang: 140, dist: 10 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 11 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 12 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 13 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 14 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 15 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 16 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 140, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 1 
+pol: 0, ang: 150, dist: 2 
+pol: 0, ang: 150, dist: 3 
+pol: 0, ang: 150, dist: 4 
+pol: 0, ang: 150, dist: 5 
+pol: 0, ang: 150, dist: 6 
+pol: 0, ang: 150, dist: 7 
+pol: 0, ang: 150, dist: 8 
+pol: 0, ang: 150, dist: 9 
+min dist: 9 max angle: 150 | jaccard: 0.9190018196916647 | divisao pela distancia: 0.007497039006495483 | jaccard*distDiv: 0.345377725738793 
+pol: 0, ang: 150, dist: 10 
+Not enough correspondences. Skipping to next cycle. 
+pol: 0, ang: 150, dist: 11 
+Not enough correspondences. Skipping to next cycle. 
+pol: 0, ang: 150, dist: 12 
+pol: 0, ang: 150, dist: 13 
+pol: 0, ang: 150, dist: 14 
+pol: 0, ang: 150, dist: 15 
+pol: 0, ang: 150, dist: 16 
+pol: 0, ang: 150, dist: 17 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 18 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 150, dist: 19 
+Not enough feature points. Skipping to next cycle.
+pol: 0, ang: 160, dist: 1 
+pol: 0, ang: 160, dist: 2 
+pol: 0, ang: 160, dist: 3 
+pol: 0, ang: 160, dist: 4 
+pol: 0, ang: 160, dist: 5 
+pol: 0, ang: 160, dist: 6 
+pol: 0, ang: 160, dist: 7 
+pol: 0, ang: 160, dist: 8 
+pol: 0, ang: 160, dist: 9 
+pol: 0, ang: 160, dist: 10 
+pol: 0, ang: 160, dist: 11 
+pol: 0, ang: 160, dist: 12 
+pol: 0, ang: 160, dist: 13 
+pol: 0, ang: 160, dist: 14 
+pol: 0, ang: 160, dist: 15 
+pol: 0, ang: 160, dist: 16 
+pol: 0, ang: 160, dist: 17 
+pol: 0, ang: 160, dist: 18 
+pol: 0, ang: 160, dist: 19 
+pol: 0, ang: 170, dist: 1 
+Too many values
+pol: 0, ang: 170, dist: 2 
+Too many values
+pol: 0, ang: 170, dist: 3 
+min dist: 3 max angle: 170 | jaccard: 0.9348249544655708 | divisao pela distancia: 0.0073857464359945585 | jaccard*distDiv: 0.35027502743702205 
+pol: 0, ang: 170, dist: 4 
+pol: 0, ang: 170, dist: 5 
+pol: 0, ang: 170, dist: 6 
+pol: 0, ang: 170, dist: 7 
+pol: 0, ang: 170, dist: 8 
+pol: 0, ang: 170, dist: 9 
+pol: 0, ang: 170, dist: 10 
+pol: 0, ang: 170, dist: 11 
+pol: 0, ang: 170, dist: 12 
+pol: 0, ang: 170, dist: 13 
+pol: 0, ang: 170, dist: 14 
+pol: 0, ang: 170, dist: 15 
+pol: 0, ang: 170, dist: 16 
+pol: 0, ang: 170, dist: 17 
+pol: 0, ang: 170, dist: 18 
+pol: 0, ang: 170, dist: 19 
+pol: 0, ang: 180, dist: 1 
+Too many values
+pol: 0, ang: 180, dist: 2 
+Too many values
+pol: 0, ang: 180, dist: 3 
+pol: 0, ang: 180, dist: 4 
+min dist: 4 max angle: 180 | jaccard: 0.9302844131465149 | divisao pela distancia: 0.008462112278526774 | jaccard*distDiv: 0.358188386882766 
+pol: 0, ang: 180, dist: 5 
+min dist: 5 max angle: 180 | jaccard: 0.9459033705897211 | divisao pela distancia: 0.008539890979058617 | jaccard*distDiv: 0.3648692284420079 
+pol: 0, ang: 180, dist: 6 
+min dist: 6 max angle: 180 | jaccard: 0.9536581130983579 | divisao pela distancia: 0.008462112278526562 | jaccard*distDiv: 0.3671879871801776 
+pol: 0, ang: 180, dist: 7 
+pol: 0, ang: 180, dist: 8 
+pol: 0, ang: 180, dist: 9 
+pol: 0, ang: 180, dist: 10 
+pol: 0, ang: 180, dist: 11 
+pol: 0, ang: 180, dist: 12 
+pol: 0, ang: 180, dist: 13 
+pol: 0, ang: 180, dist: 14 
+pol: 0, ang: 180, dist: 15 
+pol: 0, ang: 180, dist: 16 
+pol: 0, ang: 180, dist: 17 
+pol: 0, ang: 180, dist: 18 
+pol: 0, ang: 180, dist: 19 
+jaccard: 0.9549610356658935 | divisao pela distancia: 0.008539890979058617 
+values: [[6, 180]]
+--------------- NEW POLYGON ---------------
+correspondences: [[[(2.0, 195.0), (0.0, 184.0)], [(10.0, 190.0), (0.0, 184.0)], [(20.0, 186.0), (14.0, 186.0)], [(33.0, 187.0), (24.0, 191.0)], [(36.0, 192.0), (24.0, 191.0)], [(47.0, 195.0), (24.0, 191.0)], [(51.0, 189.0), (24.0, 191.0)], [(56.0, 182.0), (24.0, 191.0)], [(69.0, 182.0), (31.0, 191.0)], [(80.0, 182.0), (46.0, 188.0)], [(92.0, 182.0), (62.0, 188.0)], [(101.0, 180.0), (73.0, 186.0)], [(103.0, 183.0), (73.0, 186.0)], [(104.0, 190.0), (86.0, 177.0)], [(114.0, 189.0), (93.0, 179.0)], [(119.0, 181.0), (99.0, 185.0)], [(127.0, 181.0), (106.0, 180.0)], [(141.0, 183.0), (117.0, 180.0)], [(145.0, 189.0), (117.0, 180.0)], [(156.0, 194.0), (128.0, 184.0)], [(173.0, 199.0), (142.0, 186.0)], [(200.0, 197.0), (166.0, 187.0)], [(224.0, 199.0), (203.0, 190.0)], [(241.0, 194.0), (203.0, 190.0)], [(250.0, 196.0), (218.0, 191.5)], [(260.0, 193.0), (233.0, 193.0)], [(281.0, 193.0), (265.0, 192.0)], [(290.0, 188.0), (265.0, 192.0)], [(305.0, 187.0), (294.0, 190.0)], [(323.0, 188.0), (294.0, 190.0)], [(331.0, 192.0), (303.3333333333333, 191.0)], [(342.0, 198.0), (312.6666666666667, 192.0)], [(363.0, 206.0), (322.0, 193.0)], [(396.0, 207.0), (353.0, 196.0)], [(420.0, 202.0), (394.0, 193.0)], [(436.0, 194.0), (463.0, 199.0)], [(449.0, 188.0), (463.0, 199.0)], [(462.0, 185.0), (478.6666666666667, 198.66666666666666)], [(472.0, 184.0), (494.3333333333333, 198.33333333333334)], [(491.0, 191.0), (510.0, 198.0)], [(506.0, 198.0), (510.0, 198.0)], [(530.0, 205.0), (536.5, 197.5)], [(561.0, 205.0), (563.0, 197.0)], [(610.0, 199.0), (615.0, 187.0)], [(653.0, 191.0), (655.0, 185.0)], [(679.0, 186.0), (683.0, 179.0)], [(699.0, 183.0), (709.0, 175.0)], [(721.0, 181.0), (727.0, 170.0)], [(725.0, 184.0), (727.0, 170.0)], [(726.0, 193.0), (745.0, 170.0)], [(726.0, 193.0), (753.0, 170.0)], [(720.0, 196.66666666666666), (753.0, 175.0)], [(714.0, 200.33333333333334), (741.0, 180.0)], [(708.0, 204.0), (729.0, 185.0)], [(672.0, 218.0), (717.0, 188.0)], [(658.0, 231.0), (698.0, 187.0)], [(642.0, 245.0), (682.0, 189.0)], [(633.0, 247.0), (682.0, 189.0)], [(623.0, 253.0), (679.5, 196.5)], [(617.0, 257.0), (677.0, 204.0)], [(619.0, 269.0), (677.0, 215.0)], [(623.0, 277.0), (677.0, 215.0)], [(612.0, 284.0), (672.5, 224.5)], [(595.0, 294.0), (668.0, 234.0)], [(571.0, 296.0), (648.0, 246.0)], [(564.0, 305.0), (641.0, 257.0)], [(562.0, 320.0), (634.0, 270.0)], [(547.0, 332.0), (618.0, 278.0)], [(538.0, 336.0), (604.0, 293.0)], [(532.0, 334.0), (604.0, 293.0)], [(525.0, 329.0), (588.0, 295.0)], [(525.0, 329.0), (570.0, 292.0)], [(513.5, 326.0), (571.0, 296.0)], [(502.0, 323.0), (566.0, 316.0)], [(482.0, 321.0), (551.0, 324.0)], [(482.0, 321.0), (526.0, 330.0)], [(476.3333333333333, 322.6666666666667), (511.0, 332.0)], [(470.6666666666667, 324.3333333333333), (485.0, 325.0)], [(465.0, 326.0), (467.0, 323.0)], [(461.0, 332.0), (470.0, 332.0)], [(467.0, 352.0), (471.0, 349.0)], [(464.0, 359.0), (464.0, 356.0)], [(449.0, 364.0), (454.0, 361.0)], [(432.0, 366.0), (426.0, 369.0)], [(408.0, 378.0), (396.0, 389.0)], [(394.0, 392.0), (379.0, 394.0)], [(366.0, 402.0), (360.0, 397.0)], [(353.0, 414.0), (360.0, 397.0)], [(338.0, 408.0), (342.0, 409.0)], [(327.0, 409.0), (342.0, 409.0)], [(319.0, 419.0), (331.0, 412.5)], [(304.0, 425.0), (320.0, 416.0)], [(287.0, 425.0), (297.0, 426.0)], [(263.0, 427.0), (261.0, 429.0)], [(234.0, 424.0), (242.0, 431.0)], [(222.0, 429.0), (220.0, 436.0)], [(202.0, 432.0), (205.0, 435.0)], [(167.0, 431.0), (185.0, 431.0)], [(149.0, 439.0), (168.0, 434.0)], [(111.0, 442.0), (149.0, 436.0)], [(77.0, 451.0), (126.0, 438.0)], [(43.0, 453.0), (106.0, 444.0)], [(15.0, 457.0), (83.0, 453.0)], [(15.0, 457.0), (60.0, 453.0)], [(0.0, 469.0), (19.0, 455.0)], [(0.0, 469.0), (2.0, 454.0)], [(0.3333333333333333, 381.3333333333333), (0.0, 451.0)], [(0.6666666666666666, 293.66666666666663), (0.0, 290.0)], [(1.0, 206.0), (0.0, 194.0)], [(2.0, 195.0), (0.0, 184.0)]]]
