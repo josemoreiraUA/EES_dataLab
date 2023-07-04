@@ -16,7 +16,9 @@ Run the project as a developer (still no User Interface available):
 
 -> Run vcp_test.py and the correspondences and polygon interpolation will be rendered
 
+
 File Organization:
+
 -> The solutions for the 195 polygons are in the folders myImplementation/results/tigas195_Jaccard_FullCorr and myImplementation/results/tigas195_JaccardDivDist_FullCorr
 -> The solutions for the 11 polygons are in the folders myImplementation/results/tigas13_Jaccard and myImplementation/results/tigas13_JaccardAndDistDiv
 -> All the wkt files (datasets) are in the folder myImplementation/dataset/tigas13 (for the 11 polygons) and myImplementation/dataset/tigas226 (for the 195 polygons)
